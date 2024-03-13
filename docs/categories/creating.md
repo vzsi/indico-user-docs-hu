@@ -1,9 +1,9 @@
-# Creating a Category
+# Kategória létrehozása
 
-You can create a new category by clicking on *New category*.
+Új kategóriát a *Új kategória* gombra kattintva hozhat létre.
 
 ![](../assets/category_creation.png)
 
-You will be given fields to complete that describe and define your category. See some of them here, they contain explanatory subtitles.
+Megkapod a kitöltendő mezőket, amelyek leírják és meghatározzák a kategóriádat. Nézz meg néhányat közülük itt, ezek magyarázó feliratokat tartalmaznak.
 
 ![](../assets/category_def_fields.png)

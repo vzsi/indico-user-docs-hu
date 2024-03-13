@@ -1,24 +1,24 @@
-# Submitting an Abstract
+# Absztrakt benyújtása
 
-This short video shows you how to submit your candidate Abstract for a conference in Indico:
+Ez a rövid videó bemutatja, hogyan kell benyújtani a jelölt absztraktját egy konferenciára az Indico-ban:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275344?showTitle=true" allowfullscreen></iframe>
 
-In more detail:
+Részletesebben:
 
-Acting as an Abstract **Submitter** click on _Submit new abstract_.
+Absztrakt **Elküldőként** az _Új absztrakt elküldése_ gombra kattintva.
 
 ![](../assets/conference_abstract_submit.png)
 
-Enter a _Title_ and the content of your abstract.
+Adjon meg egy _Címet_ és az absztrakt tartalmát.
 
-Select its _Type_, e.g. _Poster_, and add the _Author_ of the abstract. They can be more than one.
-Click on _Speaker_ for at least one of your Authors.
-Choose the _Track_ your abstract belongs to and answer the questions present there, if any.
+Válassza ki a _Típust_, pl. _Poster_, és adja meg az absztrakt _Author_ nevét. Ők akár többen is lehetnek.
+Kattintson a _Speaker_ gombra legalább az egyik szerzője esetében.
+Válassza ki, hogy az absztraktja melyik _Track_-hez tartozik, és válaszoljon az ott található kérdésekre, ha vannak ilyenek.
 
-Click on _Submit_.
+Kattintson a _Submit_ gombra.
 
 ![](../assets/conference_abstract_submit_details.png)
 
-If the notification options in the Call for Abstracts have been enabled, you, as the abstract submitter, should receive an email  on successful abstract submission.
-By clicking on the Abstract name, the Submitter can see if Reviewers (normally more than one) left a positive or negative review, and if the Abstract has been accepted by a Judge.
+Ha az absztraktfelhívásban az értesítési lehetőségek engedélyezve vannak, akkor Önnek, mint az absztrakt benyújtójának, e-mailt kell kapnia az absztrakt sikeres benyújtásáról.
+Az absztrakt nevére kattintva a benyújtó láthatja, hogy a bírálók (általában több bíráló) pozitív vagy negatív bírálatot hagytak-e, és hogy az absztraktot elfogadta-e egy bíráló.

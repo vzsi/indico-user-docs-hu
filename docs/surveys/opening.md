@@ -1,30 +1,30 @@
-# Opening/Closing a Survey
+# Felmérés megnyitása/befejezése
 
-**As a manager**, once you’ve finished creating the sections of the questionnaire, you are ready to open it!
-Click on _Surveys_ to the left.
-Now, click on _Manage_, you will be able to decide when the survey can be submitted and when it will be open.
+**Vezetőként**, miután befejezte a kérdőív szakaszainak létrehozását, megnyithatja a kérdőívet!
+Kattintson a bal oldali _Felmérések_ gombra.
+Most kattintson a _Felügyelet_ gombra, itt tudja eldönteni, hogy a kérdőív mikor küldhető be, és mikor lesz nyitva.
 
-On this page, click on _Schedule_, and select the date and hour of the day when your survey can be submitted, and when it will close.
+Ezen az oldalon kattintson a _Szervezés_ gombra, és válassza ki a napnak azt a napját és óráját, amikor a kérdőívet be lehet küldeni, és amikor zárva lesz.
 
-Alternatively, you can simply Click on _Open now_, so that anybody will be able to fill out the survey right away.
+Alternatív megoldásként egyszerűen kattintson a _Megnyitni most_ gombra, így bárki azonnal ki tudja majd tölteni a felmérést.
 
 ![](../assets/survey_schedule.png)
 
-Click on _Switch to display view_, and then on _Fill out_ on the right, to access the survey.
+Kattintson a _Megjelenítési nézetre váltás_, majd a jobb oldalon a _Kitöltés_ gombra, hogy hozzáférjen a felméréshez.
 
 ![](../assets/survey_fillout.png)
 
-**As a user,** you can fill out the survey and submit your answers.
+**Használóként ** kitöltheti a felmérést, és elküldheti válaszait.
 
-### To close:
+### A bezáráshoz:
 
-As an event manager, once some users have filled out the survey, you can check the results of the survey.
+Eseménykezelőként, miután néhány felhasználó kitöltötte a felmérést, ellenőrizheti a felmérés eredményeit.
 
-To do this, click at the pencil at the top of your screen to return to the management page of your event. Then click on _Surveys_, and then on _Manage_.
+Ehhez kattintson a képernyő tetején lévő ceruzára, és térjen vissza az esemény kezelőoldalára. Ezután kattintson a _Felmérések_, majd a _Felmérések kezelése_ gombra.
 
 ![](../assets/survey_results.png)
 
-At the bottom of the page you can see the users who already filled out the survey.
-You can export the data in various formats by clicking on _Export_. You can also click on _Results_ to show the graphs that illustrate the percentage of the users' answers for each item.
+Az oldal alján láthatja azokat a felhasználókat, akik már kitöltötték a felmérést.
+Az adatokat különböző formátumokban exportálhatja, ha az _Export_ gombra kattint. Az _Eredmények_ gombra kattintva megjelenítheti azokat a grafikonokat is, amelyek a felhasználók válaszainak százalékos arányát szemléltetik az egyes tételeknél.
 
 ![](../assets/survey_results_display.png)

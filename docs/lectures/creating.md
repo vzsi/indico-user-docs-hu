@@ -1,39 +1,39 @@
 # Creating a Lecture
 
-Make sure that you are on the Indico page and that you are logged in.
-Click on the tab _Create event_, and click on _Create lecture_.
+Győződjön meg róla, hogy az Indico oldalon van, és hogy be van jelentkezve.
+Kattintson az Esemény létrehozása_ fülre, majd az Előadás létrehozása_ gombra.
 
 ![](../assets/lecture_create_1.png)
 
-Click on _Choose Category_ to select the category that you want. You can type in the one that you are looking for and click on _Select_ once you have found it.
+Kattintson a _Choose Category_ gombra, és válassza ki a kívánt kategóriát. Beírhatja a keresett kategóriát, és ha megtalálta, kattintson a _Kiválasztás_ gombra.
 
 ![](../assets/lecture_category_select.png)
 
-Then, type in the _Title_ for your lecture and choose the _Date_ of your event. By clicking on _Add occurrence_ you can add more dates of the same lecture series. Do the same for the hour of the day and the duration of your event. You can learn more about event series [here](../event_series.md).
+Ezután írja be az előadás _Címét_, és válassza ki az esemény _Dátumát_. Az _Add occurrence_ gombra kattintva ugyanannak az előadássorozatnak több dátumát is hozzáadhatja. Ugyanígy járjon el a nap órájával és az esemény időtartamával is. Az eseménysorozatokról [itt] tudhat meg többet(../event_series.md).
 
 ![](../assets/lecture_occurrence.png)
 
-Adjust, if needed, the timezone to reflect the region your lecture takes place.
-You may choose the _Location_ of your event. If you are offered a  meeting rooms’ list to choose from, please **remember** that room reservation has to be done separately.
+Szükség esetén állítsa be az időzónát, hogy az tükrözze az előadásának régióját.
+Kiválaszthatja az esemény _helyszínét_. Ha felajánlunk Önnek egy tárgyalótermi listát, amelyből választhat, kérjük **emlékezzen** arra, hogy a teremfoglalásnak külön kell történnie.
 
 
-After having chosen the location of your lecture, you will have to select your _Speakers_.
-These may be existing users, so you find them by typing their name. Click on _Search_, and if the user exists, you can select his/her name and add it.
-Otherwise, you can manually insert users you want to include, by typing in their name and email address. **The email is mandatory**.
+Miután kiválasztotta az előadás helyszínét, ki kell választania az _előadók_ nevét.
+Ezek lehetnek már létező felhasználók, így a nevük beírásával találja meg őket. Kattintson a _Keresés_ gombra, és ha a felhasználó létezik, akkor kiválaszthatja a nevét, és hozzáadhatja.
+Ellenkező esetben manuálisan is beillesztheti a felvenni kívánt felhasználókat, a nevük és az e-mail címük beírásával. **Az e-mail cím megadása kötelező**.
 
-By default, all speakers are marked as _Submitters_, which
-means that they can upload their presentation to Indico themselves.
+Alapértelmezés szerint minden felszólaló _Submitter_-ként van megjelölve, amely
+ami azt jelenti, hogy ők maguk tölthetik fel előadásukat az Indico-ra.
 
 ![](../assets/lecture_submitter_manual.png)
 
-Then, you will have to select your _Protection mode_. By default, the protection mode is set to _Inheriting_, that means that you will inherit the rights from the category your Lecture belongs to. In this example figure it is _Public_, so that everyone can see it, but if you choose another category and you want your event to be public regardless of its category restrictions, you can make the change by clicking on _Public_. Otherwise, you can select _Protected_ if you want the lecture to be visible to a selected few only, e.g. the category managers and the users you will give access to.
+Ezután ki kell választania a _Védelmi módot_. Alapértelmezés szerint a védelmi mód _Öröklés_, ami azt jelenti, hogy a jogokat attól a kategóriától fogja örökölni, amelyhez az előadása tartozik. Ezen a példa ábrán ez _Szakmai_, így mindenki láthatja, de ha más kategóriát választ, és azt szeretné, hogy az eseménye nyilvános legyen, függetlenül a kategóriára vonatkozó korlátozásoktól, akkor a _Szakmai_-ra kattintva elvégezheti a módosítást. Ellenkező esetben választhatja a _Védett_ lehetőséget, ha azt szeretné, hogy az előadás csak néhány kiválasztott számára legyen látható, pl. a kategória vezetői és azok a felhasználók, akiknek hozzáférést biztosít.
 
-Once you’re finished, click on _Create Event_.
-In this page, you will be able to see the details of your lecture, and you can change them by clicking on the pencil on your right.
-For example, to add a description. After every change, click on _Save_ to confirm.
+Ha végzett, kattintson az _Előadás létrehozása_ gombra.
+Ezen az oldalon láthatja az előadás részleteit, amelyeket a jobb oldali ceruzára kattintva módosíthat.
+Például egy leírás hozzáadásához. Minden módosítás után a _Mentés_ gombra kattintva erősítse meg a módosítást.
 
-Click on _Switch to display view_ and check if all the details of your lecture are correct.
+Kattintson a _Váltás a megjelenített nézetre_ gombra, és ellenőrizze, hogy az előadásának minden részlete helyes-e.
 
-## More event actions
+## További eseményműveletek
 
-From the event management page, click on the **gear** icon on the top right to see how to move, lock, delete or change the type of your event.
+Az eseménykezelő oldalon kattintson a jobb felső sarokban található **fogaskerék** ikonra, hogy megnézze, hogyan mozgathatja, zárolhatja, törölheti vagy módosíthatja az esemény típusát.

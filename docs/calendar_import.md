@@ -1,18 +1,16 @@
-# Import into Calendaring Tools
+# Importálás a naptárkészítő eszközökbe
 
-On the event display view, click on the calendar icon at the top left of the page.
+Az eseménymegjelenítő nézetben kattintson a naptár ikonra az oldal bal felső részén.
 
-On the window that appears, you can download a file that you can open with your calendaring tools.
+A megjelenő ablakban letölthet egy fájlt, amelyet megnyithat a naptárkészítő eszközökkel.
 
-Alternatively, you have two URLs, the first for the information that is only publicly available, and the second one that contains protected information as well.
-Copy one of the URLs to import into your calendaring tool.
+Alternatívaként két URL-cím áll rendelkezésére, az első a csak nyilvánosan elérhető információkhoz, a második pedig védett információkat is tartalmaz. Másolja ki az egyik URL-címet, hogy importálja a naptárkészítő eszközébe.
 
 ![](assets/calendar_entry.png)
 
-In your preferred calendaring tool, enter the new calendar subscription by pasting the URL you just copied and clicking on _Subscribe_.
+Az Ön által preferált naptárkezelő eszközben adja meg az új naptár-előfizetést az imént másolt URL beillesztésével és a _Subscribe_ gombra kattintva.
 
 ![](assets/calendar_import.png)
 
 
-Importing the event in your calendaring tools using this URL, as opposed to the downloadable file, will make sure that any subsequent changes to your event will be periodically updated.
-
+Ha az eseményt a naptárkezelő eszközeiben ezzel az URL-címmel importálja, nem pedig a letölthető fájl segítségével, akkor biztosítja, hogy az esemény későbbi módosításai rendszeresen frissüljenek.

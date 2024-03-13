@@ -1,24 +1,24 @@
 # Paper Reviewing
 
-In addition to the [Call for Abstracts](../cfa.md) module, Indico offers two modules to support paper reviewing workflows:
+A [Call for Abstracts](../cfa.md) modulon kívül az Indico két modult kínál a papírok bírálati munkafolyamatainak támogatására:
 
 - [Peer Reviewing](./peer_reviewing.md)
-- [Editing](./editing.md)
+- [Szerkesztés](./editing.md)
 
-Each of the modules allows you to submit, review and publish accepted papers.
-The two modules can be used separately or together depending on your needs.
+Mindegyik modul lehetővé teszi az elfogadott dolgozatok benyújtását, bírálatát és közzétételét.
+A két modul igényeitől függően külön-külön vagy együtt is használható.
 
-**Peer reviewing** is concerned about the content and scientific correctness of a paper, whereas **editing** is intended to focus on the material layout, review comments and editor suggestions.
-In the Peer Reviewing module, multiple reviewers (peers) can review a paper. On the contrary, in the Editing module, each paper is assigned to a single editor for a review.
-The Editing module also allows authors to submit multiple types of materials — that is, besides papers, authors may also submit posters and slides as well (these together are called _editables_).
-Moreover, the Editing module gives you more control over the type of files that can be submitted.
+A **Peer reviewing** a dolgozat tartalmával és tudományos helyességével foglalkozik, míg a **editing** az anyag elrendezésére, a bírálati megjegyzésekre és a szerkesztői javaslatokra összpontosít.
+A Peer Reviewing modulban egy dolgozatot több bíráló (peer) is véleményezhet. Ezzel szemben a Szerkesztés modulban minden egyes dolgozatot egyetlen szerkesztőhöz rendelnek felülvizsgálatra.
+A Szerkesztési modul azt is lehetővé teszi, hogy a szerzők többféle anyagot nyújtsanak be - azaz a dolgozatok mellett a szerzők posztereket és diákat is benyújthatnak (ezeket együttesen _editables_-nek nevezzük).
+A Szerkesztési modul továbbá nagyobb ellenőrzést biztosít a beküldhető fájlok típusát illetően.
 
-!!! note
-    If this is your first time organizing a conference or your paper workflow is not overly complex, we suggest starting with the **Peer Reviewing module**.
+!!! Megjegyzés
+    Ha Ön először szervez konferenciát, vagy a papírmunkamenete nem túl bonyolult, javasoljuk, hogy a **Peer Reviewing modullal** kezdje.
 
-These two modules can be used in conjunction for complex conference workflows where multiple review steps are required.
-When both modules are enabled, peer reviewing takes place first. Once peer reviewing is finished, the paper can be passed to the editing module.
+Ez a két modul együttesen is használható összetett konferencia-munkafolyamatok esetén, ahol több felülvizsgálati lépésre van szükség.
+Ha mindkét modul engedélyezve van, akkor a szakértői értékelés történik először. Ha a szakértői értékelés befejeződött, a dokumentum átadható a szerkesztési modulnak.
 
-The following diagram shows the workflows for different configurations of the modules. Actions in red are carried out by the paper authors, actions in blue by reviewers, judges and editors, and green actions are performed automatically by Indico.
+Az alábbi ábra a modulok különböző konfigurációi esetén alkalmazott munkafolyamatokat mutatja be. A pirossal jelölt műveleteket a dolgozat szerzői, a kékkel jelölt műveleteket a bírálók, a bírálók és a szerkesztők, a zölddel jelölt műveleteket pedig az Indico automatikusan végzi.
 
 ![](../../assets/papers/reviewing_editing.png)

@@ -1,11 +1,11 @@
 # Moderation
 
-*Moderation* is a workflow which allows event managers to request moving an event to a category. Only once a category manager approves this request, the event is actually moved.
+A *Moderálás* egy olyan munkafolyamat, amely lehetővé teszi az eseménykezelők számára, hogy kérjék egy esemény áthelyezését egy kategóriába. Csak akkor kerül az esemény ténylegesen áthelyezésre, ha a kategória menedzsere jóváhagyja a kérelmet.
 
-To enable Moderation, open the *Protection* tab and set *Event creation mode* to *Moderated unless authorized*. When you enable moderation in a category, only users with creation rights will be able to create events in it. Other users who want to move events into that category require approval from the category managers.
+A Moderálás engedélyezéséhez nyissa meg a *Védelem* lapot, és állítsa az *Esemény létrehozásának módját* *Moderált, hacsak nem engedélyezett* értékre. Ha engedélyezi a moderálást egy kategóriában, akkor csak a létrehozási jogokkal rendelkező felhasználók hozhatnak létre eseményeket a kategóriában. Más felhasználóknak, akik eseményeket szeretnének áthelyezni az adott kategóriába, a kategória kezelőinek jóváhagyására van szükségük.
 
 ![](../assets/category_moderation_event_move.png)
 
-Category moderators are presented with a list of requests and they can approve or reject them one by one or in batches, optionally providing a reason for rejection.
+A kategóriamoderátorok elé kerül a kérelmek listája, és egyenként vagy csoportosan jóváhagyhatják vagy elutasíthatják azokat, opcionálisan megadva az elutasítás okát.
 
 ![](../assets/category_moderation.png)

@@ -1,5 +1,5 @@
-# Logging
+# Naplózás
 
-The log shows any changes to the protection settings of a category, as well as event move requests and approvals/rejections.
+A napló mutatja a kategória védelmi beállításainak minden változását, valamint az esemény áthelyezési kérelmeket és jóváhagyásokat/elutasításokat.
 
 ![](../assets/category_logging.png)

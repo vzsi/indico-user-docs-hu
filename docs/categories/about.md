@@ -1,23 +1,23 @@
-# Category
+# Kategória
 
-## What is an Indico category
+## Mi az Indico kategória
 
-A Category is a means of grouping your events or other Categories together. In Indico, *Home* is the top level category from where you start.
+A kategória az események vagy más kategóriák csoportosításának eszköze. Az Indico-ban a *Home* a legfelső szintű kategória, ahonnan indul.
 
 ![](../assets/home_with_categories.png)
 
-Inside a category you can:
+Egy kategórián belül a következőkre van lehetőséged:
 
--   add/delete events or other sub-categories,
--   set access rights to say who can access or modify,
--   re-allocate the sub-categories,
--   remove the sub-categories,
--   delete the current category and everything inside it,
--   and also insert a logo and a description in your own category.
+- események vagy más alkategóriák hozzáadása/törlése,
+- hozzáférési jogokat állíthat be, hogy ki férhet hozzá vagy módosíthatja,
+- az alkategóriák újrakiosztása,
+- eltávolíthatja az alkategóriákat,
+- törölheti az aktuális kategóriát és mindent, ami benne van,
+- valamint logót és leírást is beilleszthet a saját kategóriájába.
 
-You cannot have a category that contains both sub-categories and events. You will have to use the "split" functionality (the button with a "bifurcated" arrow) to move the contents of the category to one or more sub-categories.
+Nem lehet olyan kategóriája, amely alkategóriákat és eseményeket is tartalmaz. A kategória tartalmának egy vagy több alkategóriába való áthelyezéséhez az "osztás" funkciót kell használnia (a "kettévágott" nyíllal ellátott gomb).
 
-These features are accessible through the category management menu (you must be logged in and with management rights in the category in order to see it), that you can find to the right of your own category title. After clicking on the pencil to manage the category you will be accessing its Management area.
+Ezek a funkciók a kategória kezelési menüjén keresztül érhetők el (ehhez be kell jelentkeznie és kezelési jogokkal kell rendelkeznie a kategóriában), amelyet a saját kategóriája címétől jobbra talál. A kategória kezeléséhez a ceruzára kattintás után a kategória kezelési területére lép.
 
 ![](../assets/category_edit_button.png)
 

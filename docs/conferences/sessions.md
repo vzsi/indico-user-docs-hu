@@ -1,91 +1,91 @@
-This page explains the purpose of _Sessions_ in Indico and how to use them.
+Ez az oldal elmagyarázza a _Sessions_ célját az Indicóban, és azt, hogyan használjuk őket.
 
-Put simply, sessions are a way to group related contributions when creating a timetable.
-As an example, a conference could be split into a welcome session, a session dedicated to talks, workshop sessions etc.
+Egyszerűen fogalmazva, az ülések egy módja annak, hogy csoportosítsuk az egymáshoz kapcsolódó hozzájárulásokat, amikor egy órarendet készítünk.
+Például egy konferenciát fel lehet osztani egy üdvözlő ülésre, egy előadásoknak szentelt ülésre, műhelyülésekre stb.
 
-In this part, we will cover how to create and manage sessions from the organizers' point of view. If you want to learn how sessions are used when creating a timetable, see [this page](./timetable.md).
+Ebben a részben a szervezők szemszögéből vizsgáljuk meg, hogyan hozhatók létre és kezelhetők az ülések. Ha szeretné megtanulni, hogyan használjuk az üléseket az órarend létrehozásakor, akkor tekintse meg [ezt az oldalt](./timetable.md).
 
-### Creating a session type
+### Üléstípus létrehozása
 
-Before creating a session, we will first create a session type. Session types can help you better organize your sessions but they are not required unless you want to use poster sessions (see the [timetable page](./timetable.md) for more details).
+Mielőtt létrehoznánk egy munkamenetet, először létrehozunk egy munkamenet típust. A munkamenet-típusok segíthetnek a munkamenetek jobb szervezésében, de nem szükségesek, hacsak nem akarunk poszter munkameneteket használni (további részletekért lásd a [menetrend oldal](./timetable.md)).
 
-To create a new session type, navigate to the management area of an event and select _Sessions_ under _Organisation_.
+Új ülésszak-típus létrehozásához navigáljon egy esemény kezelési területére, és válassza a _Organizáció_ alatt az _Sessions_ menüpontot.
 
 ![](../assets/conferences/sessions/sessions_management.png)
 
-At the top, click on _Settings_ and select _Session types_ from the dropdown.
+Kattintson felül a _Settings_ (Beállítások) gombra, és válassza ki a legördülő menüből a _Session types_ (Üléstípusok) menüpontot.
 
 ![](../assets/conferences/sessions/session_settings.png)
 
-In the new dialogue, click on _New session type_ and select a name.
+Az új párbeszédpanelben kattintson az _Új munkamenet típus_ gombra, és válasszon ki egy nevet.
 
 ![](../assets/conferences/sessions/add_session_type.png)
 
-If you toggle _Poster_, any session with this session type will become a poster session. When creating a timetable for a poster session, all contributions in a session block are automatically scheduled in parallel with the same start time and duration. See the [timetable page](./timetable.md) to learn more about session blocks and poster sessions.
+Ha bekapcsolja a _Poster_ kapcsolót, akkor minden ülés, amelynek ez az ülés típusa szerepel, poszter üléssé válik. Amikor egy poszterülés ütemtervét hozza létre, az ülésblokkban lévő összes hozzászólás automatikusan párhuzamosan, azonos kezdési időponttal és időtartammal kerül ütemezésre. A [menetrend oldal](./timetable.md) oldalon többet megtudhat az ülésblokkokról és a poszterülésekről.
 
-### Creating a session
+### Ülés létrehozása
 
-To create a session, navigate to the management area of an event and select _Sessions_ under _Organisation_. This page shows the list of all your sessions. To create a new session, click on _Add new session_ in the top menu.
+Ülés létrehozásához navigáljon egy esemény kezelési területére, és válassza az _Organizáció_ alatt az _Ülések_ lehetőséget. Ezen az oldalon megjelenik az összes üléseinek listája. Új ülés létrehozásához kattintson a felső menüben az _Új ülés hozzáadása_ gombra.
 
 ![](../assets/conferences/sessions/create_session.png)
 
-In the dialogue window, fill in the title and optionally the remaining fields. You can select the session type from the dropdown in the _Type_ field. These are the session types we created previously. The _Default contribution duration_ field controls the default duration of contributions you schedule in this session.
-You may also choose a default location for session blocks in this session. The available locations come from the [Room booking module](../room_booking/about.md). If you don't select any location, the location of the event is used as a default instead. Once you have filled in the dialogue, click on _Save_ to create the session.
+A párbeszédablakban töltse ki a címet és opcionálisan a többi mezőt. A _Típus_ mezőben található legördülő listából kiválaszthatja a munkamenet típusát. Ezek a korábban létrehozott munkamenet-típusok. Az _Default contribution duration_ mező szabályozza az ebben a munkamenetben beütemezett hozzájárulások alapértelmezett időtartamát.
+Ebben a munkamenetben a munkamenetblokkok alapértelmezett helyét is kiválaszthatja. A rendelkezésre álló helyszínek a [Szobafoglalás modul] (../room_booking/about.md) modulból származnak. Ha nem választ ki semmilyen helyszínt, akkor helyette az esemény helyszíne lesz alapértelmezettként használva. Miután kitöltötte a párbeszédpanelt, kattintson a _Mentés_ gombra a munkamenet létrehozásához.
 
 ![](../assets/conferences/sessions/create_session_2.png)
 
-You can always edit the session later by clicking on the pencil icon on the right of the session:
+A munkamenetet később bármikor szerkesztheti, ha a munkamenet jobb oldalán lévő ceruza ikonra kattint:
 
 ![](../assets/conferences/sessions/edit_session.png)
 
-### Managing a session
+### A munkamenet kezelése
 
-Once a session is created, you will see it added to the list of sessions. 
-From the list, you can quickly change the session type. To remove a session type completely, simply click on the type again, which will unselect it.
+Miután létrehoztunk egy munkamenetet, azt a munkamenetek listájához adjuk hozzá. 
+A listából gyorsan megváltoztathatja a munkamenet típusát. Ha teljesen el szeretne távolítani egy munkamenet típust, egyszerűen kattintson újra a típusra, ami megvonja a kijelölést.
 
 ![](../assets/conferences/sessions/set_session_type.png)
 
-You can see the scheduled session blocks in each session in the column _Blocks_. To upload material to the session, click on the link in the column named _Material_. This will bring up a dialogue window where you can upload files to the session. Note that this adds the files to the whole session, not to a session block.
+Az egyes munkamenetekben a _Blocks_ oszlopban láthatja az ütemezett munkamenetblokkokat. Ha anyagot szeretne feltölteni az üléshez, kattintson a _Material_ nevű oszlopban található linkre. Ekkor megjelenik egy párbeszédablak, ahol fájlokat tölthet fel a munkamenetbe. Vegye figyelembe, hogy ez a fájlokat az egész munkamenethez, nem pedig egy munkamenetblokkhoz adja hozzá.
 
 ![](../assets/conferences/sessions/blocks_material.png)
 
-The uploaded files will be visible in the event timetable in every session block belonging to that session. The files are also available in the session details under _Presentation materials_.
+A feltöltött fájlok láthatóak lesznek az eseménynaptárban az adott üléshez tartozó minden ülésblokkban. A fájlok az ülés részleteiben is elérhetők a _Prezentációs anyagok_ alatt.
 
 ![](../assets/conferences/sessions/material.png)
 
-To view the timetable for a specific session, click on the clock icon on the right:
+Egy adott ülésszak menetrendjének megtekintéséhez kattintson a jobb oldali óra ikonra:
 
 ![](../assets/conferences/sessions/session_timetable.png)
 
-To delete a session, click on the bin icon. Beware that deleting a session will delete all its session blocks and unschedule all contributions within them.
+Egy ülés törléséhez kattintson a kuka ikonra. Vigyázzon, hogy egy munkamenet törlése törli az összes munkamenetblokkját, és az azokban szereplő összes hozzászólás ütemezését.
 
 ![](../assets/conferences/sessions/delete_session.png)
 
-By default, event managers can manage all aspects of a session - edit the data and manage session blocks and contributions. If you want additional users to be able to manage a session, click on the shield icon:
+Alapértelmezés szerint az eseménykezelők a munkamenet minden aspektusát kezelhetik - szerkeszthetik az adatokat, valamint kezelhetik a munkamenetblokkokat és a hozzájárulásokat. Ha azt szeretné, hogy további felhasználók is kezelhessenek egy munkamenetet, kattintson a pajzs ikonra:
 
 ![](../assets/conferences/sessions/protection.png)
 
-In the new dialogue window, you can choose who else can manage the session. You can either select full management rights, which will give total control over the session, or grant only _Coordination_ rights.
+Az új párbeszédablakban kiválaszthatja, hogy kik kezelhetik még a munkamenetet. Kiválaszthatja a teljes körű kezelési jogokat, amely teljes ellenőrzést biztosít a munkamenet felett, vagy csak _Coordination_ jogokat adhat.
 
 ![](../assets/conferences/sessions/coordinate.png)
 
-The so-called session coordinators can by default view the session data, schedule contributions and create breaks. Session coordinators can also be given additional rights from the main _Protection_ page of the event under _Session coordinator rights_.
+Az úgynevezett munkamenet-koordinátorok alapértelmezés szerint megtekinthetik a munkamenet adatait, beoszthatják a hozzászólásokat és szüneteket hozhatnak létre. Az üléskoordinátorok további jogokat is kaphatnak az esemény _Védelem_ főoldalán az _Üléskoordinátori jogok_ alatt.
 
 ![](../assets/conferences/sessions/coordination_rights.png)
 
-By toggling _Contributions_, session coordinators will also be able to modify contributions in their sessions. By toggling _Session blocks_ as well, session coordinators will be able to manage session blocks, including creating new ones.
+A _Contributions_ bekapcsolásával az üléskoordinátorok is módosíthatják az üléseken szereplő hozzájárulásokat. A _Session blocks_ bekapcsolásával az üléskoordinátorok is képesek lesznek az ülésblokkok kezelésére, beleértve az újak létrehozását is.
 
-Any person who is explicitly assigned as a manager or a coordinator of at least one session will be able to manage their sessions from the main event page under _My sessions_:
+Bármely személy, akit kifejezetten legalább egy munkamenet menedzsereként vagy koordinátoraként jelöltek ki, a rendezvény főoldalán a _Mi munkameneteim_ alatt tudja majd kezelni a munkameneteit:
 
 ![](../assets/conferences/sessions/my_sessions.png)
 
-### Distinction between session coordinators and conveners
+### Az ülésszak-koordinátorok és az összehívók megkülönböztetése
 
-Both coordinators and conveners are related to sessions, however there is a difference between the two.
-Session coordinators are a role which comes with extra rights. They can manage their sessions and the extent of their rights depends on _Session coordinator rights_ explained previously.
+Mind a koordinátorok, mind az összehívók az ülésekhez kapcsolódnak, azonban van különbség a kettő között.
+Az ülésszak-koordinátorok olyan szerepkör, amely extra jogokkal jár. Ők kezelhetik az üléseiket, és jogaik terjedelme a korábban ismertetett _Üléskoordinátori jogok_tól függ.
 
-On the other hand, session conveners are more similar to contribution speakers in that they do not gain any extra rights over the session. Session conveners are merely the people displayed in the timetable in the top right of each session block:
+Ezzel szemben az ülésszak összehívói inkább a hozzászólás előadóihoz hasonlítanak, mivel nem kapnak extra jogokat az ülésszak felett. Az ülésszakok összehívói csupán az egyes ülésblokkok jobb felső sarkában lévő órarendben megjelenő személyek:
 
 ![](../assets/conferences/sessions/conveners.png)
 
-See the [timetable page](./timetable.md) to learn how to assign conveners to session blocks.
+A [menetrend oldal](./timetable.md) segítségével megtudhatja, hogyan rendelheti az összehívókat az ülésblokkokhoz.

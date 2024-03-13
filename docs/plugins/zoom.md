@@ -1,78 +1,78 @@
-# Zoom Integration
+# Zoom integráció
 
-!!! warning
-    This feature is only available in servers where the
-    [Zoom Plugin](https://pypi.org/project/indico-plugin-vc-zoom/) is installed.
+!!!! figyelmeztetés
+    Ez a funkció csak azokon a szervereken érhető el, ahol a
+    [Zoom Plugin](https://pypi.org/project/indico-plugin-vc-zoom/) telepítve van.
 
-Indico allows meeting organisers to create a Zoom meeting and manage it directly from the management area of their
-event. Once created, the connection information of the Zoom meeting is displayed to the participants of the meeting,
-and additional buttons are added to the interface letting participants to easily connect to the Zoom meeting, and
-organisers to connect their physical meeting room to the Zoom meeting.
+Az Indico lehetővé teszi a találkozószervezők számára, hogy létrehozzanak egy Zoom találkozót, és azt közvetlenül a kezelőterületükről kezeljék a
+eseményükből. A létrehozás után a Zoom megbeszélés kapcsolati információi megjelennek a megbeszélés résztvevői számára,
+és további gombok kerülnek a felületre, amelyek segítségével a résztvevők könnyen csatlakozhatnak a Zoom-értekezlethez, és
+a szervezők a fizikai tárgyalótermüket a Zoom-értekezlethez csatlakoztatni.
 
-## Managing Zoom Meetings
+## Zoom értekezletek kezelése
 
-On the management page of your Indico event click on _Videoconference_ under the tab _Services_ on the left banner.
+Indico eseményének kezelési oldalán kattintson a _Videokonferencia_ gombra a bal oldali banner _Szolgáltatások_ fülén.
 
 ![](../assets/plugins/zoom/videoconf_menu.png)
 
-Here you can **create** a new Zoom meeting or **add** an existing one to your event.
+Itt **elkészíthet** egy új Zoom megbeszélést, vagy **adhat** egy már meglévőt az eseményéhez.
 
 ![](../assets/plugins/zoom/videoconf_list.png)
 
-Simply click on one option then select the Zoom videoconference service.
+Egyszerűen kattintson az egyik lehetőségre, majd válassza ki a Zoom videokonferencia szolgáltatást.
 
 ![](../assets/plugins/zoom/videoconf_choice.png)
 
-### Adding an existing Zoom meeting
+### Meglévő Zoom megbeszélés hozzáadása
 
-If you just need to **Add an existing room**, start typing the name of the meeting. A list of existing Zoom meetings
-will be suggested. **Select** the one you need and click on **Save**. Please note, only Zoom meetings created from
-this Indico server will be suggested.
+Ha csak **Egy meglévő terem hozzáadására** van szüksége, kezdje el begépelni a megbeszélés nevét. A meglévő Zoom értekezletek listája
+listája fog megjelenni. **Válassza ki** a kívántat, és kattintson a **Mentés** gombra. Felhívjuk figyelmét, hogy csak a Zoom-értekezleteket hozhatja létre
+Indico-kiszolgálón létrehozott találkozókat fog javasolni.
 
-Going back to the _Event display view_ you will see that the meeting is now attached to your event.
+Ha visszatér az _Esemény megjelenítése nézetre_, látni fogja, hogy az értekezlet most már az eseményéhez van csatolva.
 
-You have the possibility to assign a Zoom meeting only to a *part* of your event, by linking it to specific
-contributions or sessions only.
+Lehetősége van arra, hogy a Zoom megbeszélést csak az esemény egy *részéhez* rendelje hozzá, azáltal, hogy összekapcsolja azt bizonyos
+hozzászólásokhoz vagy ülésekhez.
 
-### Creating a new Zoom meeting
+### Új Zoom megbeszélés létrehozása
 
-If you choose **Create a new room**, you'll see the name of your event is copied, by default, to the Zoom meeting's
-name. You can change it to something more generic, for instance to re-use in the future, if you want.
+Ha a **Új terem létrehozása** lehetőséget választja, látni fogja, hogy az esemény neve alapértelmezés szerint átmásolódik a Zoom értekezlet nevébe.
+nevébe. Ha szeretné, megváltoztathatja azt valami általánosabbra, például a jövőbeni újrafelhasználás érdekében.
 
-The other fields may be left as they are, but you may be interested in tuning some of them:
+A többi mezőt úgy hagyhatja, ahogy van, de néhányat érdemes lehet beállítani:
 
-* You can use the **Description** field to write something helpful for your users who will be joining in the
-   future;
+* A **Description** mezőbe írhat valami hasznosat a felhasználók számára, akik csatlakozni fognak az értekezlethez.
+   a jövőben csatlakozni fognak;
 
-* The default **Host** of the Zoom meeting is you, but you can **choose** someone else, who will become the host of
-  the meeting.
+* A Zoom megbeszélés alapértelmezett **Host**-ja Ön, de **választhat** valaki mást is, aki a megbeszélés házigazdája lesz.
+  a találkozó házigazdája lesz.
 
-!!! warning
-    Please remember that in Zoom the same host cannot start several meetings in parallel!
+!!!! figyelmeztetés
+    Kérjük, ne feledje, hogy a Zoomban ugyanaz a házigazda nem indíthat több értekezletet párhuzamosan!
 
-* You may also assign a **Passcode** to your meeting, if you wish. Only people who have the passcode will be able
-  to join your meeting. You can decide whether the passcode should be displayed **in the clear** on the Indico page
-  for everyone or only for **logged-in users (recommended)**, or for **no one at all** (e.g. you're sending the
-  passcode via e-mail).
+* Ha kívánja, **Passcode**-t is rendelhet az értekezlethez. Csak azok a személyek, akik rendelkeznek a jelszavával, lesznek képesek
+  csatlakozhatnak a megbeszéléshez. Ön döntheti el, hogy a jelszó **tisztán** jelenjen-e meg az Indico oldalon.
+  mindenki számára, vagy csak a **bejelentkezett felhasználók számára (ajánlott)**, vagy **egyáltalán senki számára** (pl. elküldi a
+  jelszót e-mailben).
 
-* The **Advanced Settings** allow you to choose if the Zoom meeting should be displayed on the event page, as well
-  as various **mute** options which will be applied when someone joins it.
+* A **Hosszabb beállítások** segítségével kiválaszthatja, hogy a Zoom megbeszélés megjelenjen-e az eseményoldalon, valamint hogy
+  különböző **némítási** beállításokat, amelyek akkor lesznek alkalmazva, ha valaki csatlakozik hozzá.
 
-Click on **Save**.
+Kattintson a **Mentés** gombra.
 
 ![](../assets/plugins/zoom/create_room_modal.png)
 
-Check your videoconference room list, see how you can **Edit** your room, **Detach** it from the event or **Join**
-it with a single click:
+Ellenőrizze a videokonferenciaterem listáját, és nézze meg, hogyan tudja **szerkeszteni** a termet, **leválasztani** az eseményről vagy **csatlakozni**.
+egyetlen kattintással:
 
 ![](../assets/plugins/zoom/videoconf_list_final.png)
 
-Click on **Join** and you will be directed to a Zoom meeting page. You will then have the choice to join using the
-desktop Zoom client or its web-based version.
+Kattintson a **Join** gombra, és a Zoom megbeszélés oldalára kerül. Ezután választhat, hogy a csatlakozást a
+asztali Zoom klienssel vagy annak webes verziójával csatlakozhat.
 
-### Adding oneself as alternative host
+### Saját magunk hozzáadása alternatív házigazdaként
 
-If you are a manager of an Indico event and are entitled to use the Zoom service, you will have the option to add
-yourself as alternative host to any Zoom meeting linked with that Indico event.
+Ha Ön egy Indico esemény vezetője, és jogosult a Zoom szolgáltatás használatára, lehetősége van arra, hogy hozzáadjon
+magát alternatív házigazdaként az adott Indico eseményhez kapcsolódó bármely Zoom megbeszéléshez.
 
 ![](../assets/plugins/zoom/videoconf_alternative_host.png)

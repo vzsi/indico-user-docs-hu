@@ -1,98 +1,98 @@
 # Privacy
 
-Indico includes a number of privacy features to help you manage your participants' registration data and to keep the participants informed about how their personal data is handled.
+Az Indico számos adatvédelmi funkciót tartalmaz, amelyek segítenek a résztvevők regisztrációs adatainak kezelésében, és tájékoztatják a résztvevőket személyes adataik kezeléséről.
 
-### Managing event privacy settings
-The event privacy settings are accessible from the management area in a separate tab called _Privacy_.
-From here, you can manage all privacy related settings of your event.
+### Az esemény adatvédelmi beállításainak kezelése
+Az esemény adatvédelmi beállításai a kezelési területről egy külön fülön, a _Privátus_ nevű lapon érhetők el.
+Innen kezelheti az eseménye összes adatvédelmi vonatkozású beállítását.
 
-![Privacy dashboard](assets/privacy/privacy_dashboard.png)
+![Adatvédelmi műszerfal](assets/privacy/privacy_dashboard.png)
 
-#### Data controller
-The first section of the privacy dashboard specifies the _Data controller_.
+#### Adatkezelő
+Az adatvédelmi műszerfal első szakasza az _Adatok vezérlőjét_ határozza meg.
 
-If in your event you collect personal data and are subject to GDPR or a similar data privacy legislature,
-you may specify the name and contact information
-of your designated Data controller here.
+Ha az Ön rendezvényén személyes adatokat gyűjt, és a GDPR vagy egy hasonló adatvédelmi jogszabály hatálya alá tartozik,
+megadhatja a nevet és az elérhetőséget
+kijelölt adatkezelőjének adatait itt.
 
-![Data controller](assets/privacy/data_controller.png)
+![Adatkezelő](assets/privacy/data_controller.png)
 
-#### Privacy notice
-In the following section, you can set a privacy notice for your event.
-You may choose between linking to an external page containing the privacy notice or
-entering a privacy notice in the text field.
+#### Adatvédelmi tájékoztató
+A következő szakaszban beállíthatja az eseményére vonatkozó adatvédelmi nyilatkozatot.
+Választhat, hogy az adatvédelmi nyilatkozatot tartalmazó külső oldalra hivatkozik-e, vagy
+vagy beírja az adatvédelmi nyilatkozatot a szövegmezőbe.
 
-If needed, you can also specify multiple
-external notices by clicking the *Add* button and adding a title and the external url.
+Szükség esetén többszörös
+külső értesítést a *Add* gombra kattintva, és hozzáadva a címet és a külső url-t.
 
-![Privacy notice](assets/privacy/privacy_notice.png)
+![Adatvédelmi közlemény](assets/privacy/privacy_notice.png)
 
-The privacy information is accessible to participants in both meetings and conferences.
-For meetings, the privacy information is available from a popup in the top right corner of the event header, while for conferences there is a new menu entry with a separate page.
+Az adatvédelmi tájékoztató mind az értekezletek, mind a konferenciák résztvevői számára elérhető.
+Az értekezletek esetében az adatvédelmi információk az esemény fejlécének jobb felső sarkában található felugró ablakból érhetők el, míg a konferenciák esetében egy új menüpont külön oldalt tartalmaz.
 
-![Privacy notice meetings](assets/privacy/privacy_meeting.png)
-![Privacy notice conferences](assets/privacy/privacy_conference.png)
+![Adatvédelmi tájékoztató értekezletek](assets/privacy/privacy_meeting.png)
+![Adatvédelmi tájékoztató konferenciák](assets/privacy/privacy_conference.png)
 
-### Participant visibility
-By default, Indico displays all registered participants on the event page.
-However, some participants may prefer that this information not be visible to everyone.
+### Résztvevők láthatósága
+Az Indico alapértelmezés szerint az esemény oldalán az összes regisztrált résztvevőt megjeleníti.
+Néhány résztvevő azonban jobban szeretné, ha ez az információ nem lenne mindenki számára látható.
 
-To this end, Indico allows you to set the participant visibility settings for every registration form in your event.
-The visibility settings can be adjusted separately for registered participants and the general public.
+Ebből a célból az Indico lehetővé teszi, hogy az esemény minden egyes regisztrációs űrlapjánál beállítsa a résztvevők láthatóságának beállításait.
+A láthatósági beállításokat külön-külön lehet beállítani a regisztrált résztvevők és a nagyközönség számára.
 
-The visibility options are:
+A láthatósági beállítások a következők:
 
-- Hidden
+- Rejtett
 
-- Visible if the participant gives consent
+- Látható, ha a résztvevő beleegyezését adja
 
-- Always visible regardless of consent
+- Mindig látható a hozzájárulástól függetlenül
 
-When registering, participants are presented with an option to agree to being shown in the participant list. This corresponds to the second option from the list above.
+A regisztráció során a résztvevőknek lehetőségük van arra, hogy hozzájáruljanak ahhoz, hogy a résztvevők listáján megjelenjenek. Ez a fenti listából a második lehetőségnek felel meg.
 
-The last option which makes the participant always visible is discouraged and should not be used unless there is a legitimate interest to have the participant list visible. Moreover, this option can only be selected as long as there are no registered participants.
+Az utolsó lehetőség, amely a résztvevőt mindig láthatóvá teszi, nem javasolt, és nem szabad használni, kivéve, ha jogos érdeke fűződik a résztvevők listájának láthatóságához. Ráadásul ez az opció csak addig választható, amíg nincsenek regisztrált résztvevők.
 
-The last section of the privacy dashboard shows the current visibility settings for all registration forms in the given event.
+Az adatvédelmi műszerfal utolsó szakasza az adott esemény összes regisztrációs űrlapjának aktuális láthatósági beállításait mutatja.
 
-![Data controller](assets/privacy/participant_visibility.png)
+![Adatkezelő](assets/privacy/participant_visibility.png)
 
-The visibility settings can be managed by clicking on the cog icon corresponding to the registration form
-you wish to update. This opens the registration privacy settings which can also be reached by going to the registration form settings and selecting _Privacy settings_.
+A láthatósági beállítások a regisztrációs űrlaphoz tartozó fogaskerék ikonra kattintva kezelhetők.
+amelyet frissíteni kíván. Ez megnyitja a regisztráció adatvédelmi beállításait, amelyek szintén elérhetők a regisztrációs űrlap beállításai és a _Adatvédelmi beállítások_ menüpont kiválasztásával.
 
-![Data controller](assets/privacy/privacy_settings.png)
+![Adatkezelő](assets/privacy/privacy_settings.png)
 
-On this page you can change the participant visibility settings and the visibility duration, which when set
-will automatically hide the participant list after a given number of months. 
+Ezen az oldalon módosíthatja a résztvevők láthatóságának beállításait és a láthatóság időtartamát, amely beállítása esetén
+a résztvevők listáját egy megadott számú hónap után automatikusan elrejti. 
 
-![Data controller](assets/privacy/visibility_settings.png)
+![Adatkezelő](assets/privacy/visibility_settings.png)
 
 
-### Data retention period
-Indico allows you to automatically delete registration data after a set amount of time by setting a retention period.
+### Adatmegőrzési időtartam
+Az Indico lehetővé teszi a regisztrációs adatok automatikus törlését egy meghatározott idő elteltével a megőrzési időszak beállításával.
 
-A retention period can be set registration-wide which then applies to the whole registration form. Once this period expires, 
-all registrations are automatically deleted along with any data, including the participant list.
+A megőrzési időszak beállítható a regisztráció egészére vonatkozóan, ami az egész regisztrációs űrlapra vonatkozik. Ha ez az időszak lejár, 
+az összes regisztráció automatikusan törlődik az adatokkal együtt, beleértve a résztvevők listáját is.
 
-In conjunction, it is also possible to set a retention period for individual registration fields. This granularity is useful in case some fields need to be kept while others can be deleted. Once the retention period expires, only the data of the field where the retention period was set is deleted.
+Ezzel együtt az egyes regisztrációs mezőkre is beállítható megőrzési időszak. Ez a részletesség hasznos abban az esetben, ha egyes mezőket meg kell tartani, míg másokat törölni lehet. A megőrzési időszak lejárta után csak annak a mezőnek az adatai törlődnek, ahol a megőrzési időszakot beállítottuk.
 
-The retention period is counted relative to the end date of the event.
+A megőrzési időszakot az esemény befejezési dátumához viszonyítva kell számolni.
 
-The registration-wide retention period can be set on the registration privacy settings page just under the visibility settings:
+A regisztráció egészére vonatkozó megőrzési időszakot a regisztráció adatvédelmi beállítások oldalán lehet beállítani, közvetlenül a láthatósági beállítások alatt:
 
-![Data controller](assets/privacy/visibility_settings_retention.png)
+![Adatkezelő](assets/privacy/visibility_settings_retention.png)
 
-To set a retention period on a registration field, first open the registration form designer by going to _Registration_ -> _Manage_ -> _Registration Form_.
+A regisztrációs mezőn való megőrzési időszak beállításához először nyissa meg a regisztrációs űrlap tervezőjét a _Regisztráció_ -> _Kezelés_ -> _Regisztrációs űrlap_ menüpontban.
 
-![Data controller](assets/privacy/regform_designer.png)
+![Adatkezelő](assets/privacy/regform_designer.png)
 
-Then, open the field settings by clicking on the cog icon next to the field you want to edit.
+Ezután nyissa meg a mező beállításait a szerkeszteni kívánt mező melletti fogaskerék ikonra kattintva.
 
-![Data controller](assets/privacy/retention_period_field.png)
+![Adatkezelő](assets/privacy/retention_period_field.png)
 
-You can set the retention period at the bottom of the settings dialog:
+A megőrzési időszakot a beállítások párbeszédpanel alján állíthatja be:
 
 ![Data controller](assets/privacy/retention_period_settings.png)
 
-Additionally, fields which have a retention period will display a clock icon next to their name.
+Ezenkívül a megőrzési időszakkal rendelkező mezők neve mellett egy óra ikon jelenik meg.
 
 ![Data controller](assets/privacy/retention_period_icon.png)

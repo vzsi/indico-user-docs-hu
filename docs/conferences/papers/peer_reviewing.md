@@ -1,294 +1,294 @@
 # Paper Peer Reviewing
 
-### Introduction
+### Bevezetés
 
-This short video explains the Peer Review process and the reviewer's and judge's role in Indico:
+Ez a rövid videó elmagyarázza a szakmai bírálati folyamatot, valamint a bíráló és a bíráló szerepét az Indicóban:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2728255?showTitle=true" allowfullscreen></iframe>
 
-The Peer Reviewing module allows you to
+A szakértői értékelés modul lehetővé teszi, hogy
 
-- submit papers for accepted [abstracts](../cfa.md),
-- set up reviewing and judging teams and assign them to papers,
-- review and judge papers and
-- publish accepted papers.
+- Elfogadott [absztraktok] (../cfa.md) benyújtását,
+- bíráló- és bírálócsoportok felállítását, valamint a dolgozatokhoz való hozzárendelésüket,
+- a dolgozatok bírálatát és elbírálását, valamint
+- az elfogadott dolgozatok közzétételét.
 
-!!! note
-    If you're not sure which module to use, check the [introduction](./introduction.md) for a higher level description of the Peer Reviewing and Editing modules.
+!!! Megjegyzés
+    Ha nem biztos benne, hogy melyik modult kell használnia, nézze meg a [introduction](./introduction.md) a Peer Reviewing és Editing modulok magasabb szintű leírását.
 
-Here is a flowchart showing an overview of the peer reviewing workflow:
+Itt egy folyamatábra, amely a szakértői bírálati munkafolyamat áttekintését mutatja be:
 
 ![](../../assets/papers/peer_reviewing/review_diagram.png)
 
-The following sections explain how to use the Peer Reviewing module from the point of view of organizers, authors, paper reviewers and judges.
+A következő szakaszok a Peer Reviewing modul használatát ismertetik a szervezők, a szerzők, a dolgozat bírálók és a bírálók szemszögéből.
 
-### Setting up peer reviewing as a conference manager/organizer
+### A szakértői bírálat beállítása konferenciamenedzserként/szervezőként
 
-#### Enabling the module
+#### A modul engedélyezése
 
-In order to start using the Peer Reviewing module, you need to first enable it.
-From the event management page, click on the _Peer Reviewing_ tab in the left menu, under _Workflows_.
-Finally, Click _Enable module_ to enable the Peer Reviewing module.
+Ahhoz, hogy elkezdhesse használni a Peer Reviewing modult, először engedélyeznie kell azt.
+Az eseménykezelő oldalon kattintson a bal oldali menüben a _Munkafolyamatok_ alatt található _Peer Reviewing_ fülre.
+Végül kattintson a _Modul engedélyezése_ gombra a Peer Reviewing modul engedélyezéséhez.
 
 ![](../../assets/papers/peer_reviewing/reviewing_enable_module.png)
 
-The module can be disabled at any time from the _Features_ tab under _Advanced options_.
+A modul bármikor letiltható a _Features_ fülön a _Advanced options_ alatt.
 
 ![](../../assets/papers/peer_reviewing/reviewing_disable_module.png)
 
-Once the module is enabled, you will see new tabs appear in the conference's menu when switching
-to the display area.
+Ha a modul engedélyezve van, a konferencia menüjében új lapok jelennek meg a váltáskor
+a megjelenítési területre.
 
 ![](../../assets/papers/peer_reviewing/enabled_display_area.png)
 
-#### Uploading a paper template
+#### Papírsablon feltöltése
 
-If your conference requires papers to have a specific style or layout, you can help paper authors by uploading a paper template.
-Authors will then be able to download this template from the _Paper Peer Reviewing_ tab of the conference.
+Ha a konferenciája megköveteli, hogy a dolgozatoknak meghatározott stílusúak vagy elrendezésűek legyenek, akkor egy papírsablon feltöltésével segítheti a papírok szerzőit.
+A szerzők ezt követően letölthetik ezt a sablont a konferencia _Paper Peer Reviewing_ lapjáról.
 
-To upload a template, select the _Peer Reviewing_ tab in the management area. Then, click on _Manage_ next to _Paper templates_.
-Here, you can upload your template, give it a name and optionally a description. You can also upload more than one template if you wish.
+A sablon feltöltéséhez válassza a kezelési területen a _Peer Reviewing_ lapot. Ezután kattintson a _Papírsablonok_ mellett található _Manage_ gombra.
+Itt feltöltheti a sablonját, nevet és opcionálisan leírást adhat neki. Ha szeretné, több sablont is feltölthet.
 
 ![](../../assets/papers/peer_reviewing/template_manage.png)
 
-The template becomes visible in the display area of the conference:
+A sablon láthatóvá válik a konferencia megjelenítési területén:
 
 ![](../../assets/papers/peer_reviewing/template_uploaded.png)
 
-#### Setting up content & layout reviewing
+#### Tartalom és elrendezés áttekintésének beállítása
 
-The peer reviewing module allows reviewers to review the content and the layout of a paper separately.
-You can enable one or both of these processes from the _Paper Peer Reviewing_ tab. By default, only the content reviewing
-process is enabled.
+A szakértői bírálat modul lehetővé teszi, hogy a bírálók külön-külön bírálják el a dolgozat tartalmát és elrendezését.
+A _Paper Peer Reviewing_ fülön engedélyezheti az egyik vagy mindkét folyamatot. Alapértelmezés szerint csak a tartalmi bírálat
+folyamat van engedélyezve.
 
 ![](../../assets/papers/peer_reviewing/reviewing_processes.png)
 
-In addition, it is possible to set a reviewing deadline for both content and layout reviewing. If a deadline is set, an information box will appear in the reviewing area
-informing reviewers about the deadline. The deadline can also be enforced, which will also prevent reviewing after the specified date.
+Ezen kívül lehetőség van a tartalmi és az elrendezési bírálatra is felülvizsgálati határidőt beállítani. Ha határidő van beállítva, akkor egy információs mező jelenik meg az átnézési területen
+amely tájékoztatja a bírálókat a határidőről. A határidő érvényesíthető is, ami szintén megakadályozza a megadott dátum utáni felülvizsgálatot.
 
-To set a reviewing deadline, click on the _Deadline_ button next to the reviewing process for which you want to set the deadline:
+A felülvizsgálati határidő beállításához kattintson a _Határidő_ gombra azon felülvizsgálati folyamat mellett, amelyre vonatkozóan a határidőt be szeretné állítani:
 
 ![](../../assets/papers/peer_reviewing/reviewing_deadline_set.png)
 
-This is what reviewers see when the deadline is set:
+Ezt látják a bírálók a határidő beállításakor:
 
 ![](../../assets/papers/peer_reviewing/reviewing_deadline_display.png)
 
-Reviewers can also be presented with custom questions when leaving a review on a paper.
-This can be useful when extra information besides accepting/rejecting a paper is needed from a reviewer.
-There are the three types of questions that can be used:
+A bírálóknak egyéni kérdéseket is megjeleníthetnek, amikor egy dolgozatról véleményt hagynak.
+Ez akkor lehet hasznos, ha a dolgozat elfogadásán/elutasításán kívül további információkra is szükség van a bírálótól.
+A kérdések három típusa használható:
 
-- A rating
-- A yes/no question
-- A free text
+- A minősítés
+- Igen/nem kérdés
+- Szabad szöveg
 
-Each question has a name, description and additional settings depending on the question type. Each question can also be configured as required
-meaning, the reviewer is required to answer the question before leaving a review.
+Minden kérdésnek van neve, leírása és további beállításai a kérdés típusától függően. Minden kérdés szükség szerint konfigurálható
+ami azt jelenti, hogy a véleményezőnek válaszolnia kell a kérdésre, mielőtt véleményt hagyna.
 
-You can add reviewing questions by clicking the _Questions_ button next to the corresponding reviewing process.
+A megfelelő értékelési folyamat melletti _Kérdések_ gombra kattintva adhat hozzá értékelő kérdéseket.
 
 ![](../../assets/papers/peer_reviewing/questions.png)
 
-This is what the various questions look like from a reviewer's point of view:
+Így néznek ki a különböző kérdések a bíráló szemszögéből:
 
 ![](../../assets/papers/peer_reviewing/questions_display.png)
 
-The scale of the rating questions (the minimum and maximum value) is the same for every question and can be configured in the reviewing settings:
+Az értékelő kérdések skálája (a minimális és maximális érték) minden kérdésnél ugyanaz, és az értékelő beállításoknál beállítható:
 
 ![](../../assets/papers/peer_reviewing/rating_scale.png)
 ![](../../assets/papers/peer_reviewing/rating_scale_set.png)
 
-!!! note
-    Changing the minimum and maximum value of the ratings will scale all the existing answers proportionally.
+!!! megjegyzés
+    A minősítések minimális és maximális értékének megváltoztatása arányosan skálázza az összes meglévő választ.
 
-#### Setting up paper judging
+#### A dolgozatok bírálatának beállítása
 
-The only setting available specifically for judges is the judging deadline, which works the same way as the reviewing deadlines explained previously.
-Once the deadline is set, an information box will appear in the judging area of the conference. If the deadline is enforced, judges won't be able to judge
-papers after the deadline.
+Az egyetlen kifejezetten a bírálók számára elérhető beállítás a bírálati határidő, amely ugyanúgy működik, mint a korábban ismertetett bírálati határidők.
+A határidő beállítása után egy információs doboz jelenik meg a konferencia bírálati területén. Ha a határidő érvényben van, a bírálók nem tudnak bírálni
+dolgozatokat a határidő lejárta után.
 
 ![](../../assets/papers/peer_reviewing/judge_deadline_set.png)
 ![](../../assets/papers/peer_reviewing/judge_deadline_display.png)
 
-#### Reviewing settings
+#### Felülvizsgálati beállítások
 
-The reviewing settings let you configure an announcement, set the scale for rating questions (explained in previous sections) and manage email notifications.
-The announcement can be used to display a message on the peer reviewing page for reviewers to see.
+A bírálati beállítások segítségével konfigurálhatja a bejelentést, beállíthatja a kérdések értékelésének skáláját (az előző szakaszokban ismertetve), és kezelheti az e-mailes értesítéseket.
+A bejelentés segítségével egy üzenetet jeleníthet meg a bírálók számára a szakértői értékelés oldalon.
 
-Email notifications lets you configure who and under which circumstances
-should receive an email — for example, whether you want a judge to be notified when a paper is reviewed. The most common notifications are turned on by default, but you can fine tune them as you need. We will cover how to designate reviewers and judges and how to assign them to papers in the following sections.
+Az e-mail értesítésekkel beállíthatja, hogy ki és milyen körülmények között
+kapjon e-mailt - például, hogy szeretné-e, ha egy bíráló értesítést kapna egy dolgozat bírálatáról. A leggyakoribb értesítések alapértelmezés szerint be vannak kapcsolva, de igény szerint finomhangolhatja őket. A bírálók és bírálók kijelölésével és a dolgozatokhoz való hozzárendelésükkel a következő szakaszokban foglalkozunk.
 
-To open the reviewing settings, click on the _Settings_ button next to _Reviewing settings_.
+A bírálati beállítások megnyitásához kattintson a _Elbírálati beállítások_ mellett található _Settings_ gombra.
 
 ![](../../assets/papers/peer_reviewing/settings.png)
 
-!!! note
-    The content and layout reviewer columns in the email notification settings are only visible if the corresponding process is enabled.
+!!! Megjegyzés
+    Az e-mailes értesítés beállításaiban a tartalmi és elrendezési bíráló oszlopok csak akkor láthatók, ha a megfelelő folyamat engedélyezve van.
 
-Here is a screenshot of what an announcement may look like.
-The announcement editor supports basic styles via Markdown. You can also embed images using a link.
+Íme egy képernyőkép arról, hogyan nézhet ki egy bejelentés.
+A bejelentésszerkesztő támogatja az alapvető stílusokat Markdownon keresztül. Képeket is beágyazhat link segítségével.
 
 ![](../../assets/papers/peer_reviewing/announcement.png)
 
-#### Setting up reviewing teams
+#### Értékelő csoportok felállítása
 
-Before you can assign papers to reviewers and judges, it is necessary to set up reviewing teams.
-These designate who has the right to review and/or judge a paper.
+Mielőtt a dolgozatokat kioszthatná a bírálókhoz és a bírálókhoz, szükséges a bírálócsoportok felállítása.
+Ezek kijelölik, hogy ki jogosult egy dolgozatot bírálni és/vagy bírálni.
 
-To get started, click on the _Teams_ button next to _Reviewing teams_.
+A kezdéshez kattintson a _Teams_ gombra a _Revíziós csapatok_ mellett.
 
 ![](../../assets/papers/peer_reviewing/teams.png)
 
-From the dialog window, you can add paper managers, judges and content and layout reviewers. Paper managers have rights to manage the settings of the Peer Reviewing module.
-You can also manage paper managers from the _Protection_ tab of the event by adding the _Paper manager_ permission.
+A párbeszédablakban hozzáadhat dolgozatmenedzsereket, bírálókat, valamint tartalmi és elrendezési bírálókat. A lapmenedzserek rendelkeznek a Peer Reviewing modul beállításainak kezeléséhez szükséges jogokkal.
+A papírmenedzsereket az esemény _Védelem_ lapjáról is kezelheti a _Papírmenedzser_ jogosultság hozzáadásával.
 
 ![](../../assets/papers/peer_reviewing/teams_setup.png)
 ![](../../assets/papers/peer_reviewing/paper_manager.png)
 
-Once the teams are set up, you may also wish to add _competences_ to your reviewers and judges.
-Competences are keywords you can add that describe the person's area of expertise.
-These keywords can aid paper managers in matching the right reviewer and/or judge to a paper.
+Ha a csapatok felállítása megtörtént, érdemes _kompetenciákat_ is hozzáadni a bírálókhoz és a bírálókhoz.
+A kompetenciák olyan kulcsszavak, amelyeket hozzáadhatsz, és amelyek leírják az adott személy szakterületét.
+Ezek a kulcsszavak segíthetnek a lapkezelőknek abban, hogy a megfelelő bírálót és/vagy bírót illesszék a laphoz.
 
-You can manage competences by clicking on the _Competences_ button next to _Reviewing teams_.
+A kompetenciákat a _Revíziós csoportok_ mellett található _Kompetenciák_ gombra kattintva tudja kezelni.
 
 ![](../../assets/papers/peer_reviewing/competences.png)
 ![](../../assets/papers/peer_reviewing/competences_add.png)
 
-The reviewing teams are also a handy to way to contact your reviewers and judges via email.
-Simply click on the _Contact_ button and select the intended recipients.
+A bírálókkal és a bírálókkal való kapcsolatfelvételhez e-mailben is praktikusak a bírálók és a bírálók.
+Egyszerűen kattintson a Kapcsolat_ gombra, és válassza ki a kívánt címzetteket.
 
 ![](../../assets/papers/peer_reviewing/contact.png)
 
-Clicking on _Send emails_ will open a dialog window where you can write your email.
+Az _Emailek küldése_ gombra kattintva megnyílik egy párbeszédablak, ahol megírhatja az e-mailt.
 
-#### Enabling call for papers
+#### A felhívás engedélyezése
 
-If you've followed the documentation up to this point, you should now be ready to open the call for papers.
-That is, allow authors to submit papers for a review.
+Ha eddig a pontig követte a dokumentációt, akkor most már készen kell állnia a call for papers megnyitásához.
+Azaz, engedélyezze a szerzők számára, hogy dolgozatokat nyújtsanak be bírálatra.
 
-To open the call for papers, you can either click _Start now_ which will open the call immediately or you can click on _Schedule_
-and select the start and end date of the call instead.
+A felhívás megnyitásához vagy a _Start now_ gombra kattintva azonnal megnyitja a felhívást, vagy a _Schedul_ gombra kattintva.
+és válassza ki a felhívás kezdő és befejező dátumát.
 
 ![](../../assets/papers/peer_reviewing/cfp_open.png)
 
-Once the call for papers is open, you will also have the option to close or reschedule it from the same place.
+Ha a pályázati felhívás nyitva van, ugyanitt lehetőség van annak lezárására vagy átütemezésére is.
 
-#### Paper assignment
+#### Papírfeladat kiosztása
 
-With the call for papers open and papers being submitted, it is the paper manager's job to assign reviewers and judges to the submitted papers.
-Reviewers and judges can only work on papers that have been explicitly assigned to them.
+Miután a felhívás megnyílt és a dolgozatok benyújtásra kerültek, a lapkezelő feladata, hogy a benyújtott dolgozatokhoz bírálókat és bírálókat rendeljen.
+A bírálók és bírálók csak olyan dolgozatokon dolgozhatnak, amelyeket kifejezetten hozzájuk rendeltek.
 
-To open the paper assignment page, click on _Assign papers_ next to _Paper assignment_.
+A dolgozatkiosztás oldal megnyitásához kattintson a _Papírok kiosztása_ mellett a _Papírkiosztás_ gombra.
 
 ![](../../assets/papers/peer_reviewing/assign.png)
 ![](../../assets/papers/peer_reviewing/list_of_papers.png)
 
-This page serves as an overview of all the papers that have been submitted and their state. To assign a person to a paper, first select the paper and click on
-_Assign_ in the top menu. Select the desired role from the dropdown menu and from the opened dialog select the people to should be assigned this role. Here, you will also see the competences of each
-person specified previously.
+Ez az oldal a beadott dolgozatok és azok állapotának áttekintésére szolgál. Ha egy személyt szeretne hozzárendelni egy dolgozathoz, először válassza ki a dolgozatot, és kattintson a
+_Assign_ a felső menüben. Válassza ki a kívánt szerepet a legördülő menüből, majd a megnyíló párbeszédpanelen válassza ki azokat a személyeket, akiknek ezt a szerepet ki kell osztani. Itt láthatja az egyes személyek kompetenciáit is.
+személy korábban megadott kompetenciáit.
 
 ![](../../assets/papers/peer_reviewing/assign_judges.png)
 
-It is also possible to assign people to multiple papers at once. To do that, simply select several papers and follow the same procedure.
+Lehetőség van arra is, hogy egyszerre több dolgozathoz is hozzárendeljünk személyeket. Ehhez egyszerűen válasszon ki több dolgozatot, és kövesse ugyanazt az eljárást.
 
-To remove a person from a paper,
-select the paper and click _Unassign_ in the top menu and select the role to remove from the dropdown menu. In the newly opened dialog select the person to remove and confirm your selection by clicking _Unassign_.
+Egy személy eltávolítása egy dolgozatból,
+válassza ki a dolgozatot, majd kattintson a felső menüben a _Unassign_ (Hozzárendelés megszüntetése) gombra, és válassza ki az eltávolítandó szerepet a legördülő menüből. Az újonnan megnyíló párbeszédpanelen válassza ki az eltávolítandó személyt, és erősítse meg a választást a _Unassign_ (Hozzárendelés megszüntetése) gombra kattintva.
 
 ![](../../assets/papers/peer_reviewing/unassign_judges.png)
 
-#### Permissions
+#### Jogosultságok
 
-The peer reviewing module establishes new roles that Indico users may have. Here, we provide a list of what permissions are required in order to perform
-the most common actions related to the Peer Reviewing module.
+A szakértői bírálat modul új szerepköröket hoz létre, amelyekkel az Indico felhasználói rendelkezhetnek. Itt adunk egy listát arról, hogy milyen jogosultságok szükségesek ahhoz, hogy elvégezhessék
+a Peer Reviewing modulhoz kapcsolódó leggyakoribb műveletek elvégzéséhez.
 
-| Action                            | Permissions required                                                 |
+| Művelet | Szükséges engedélyek |
 | --------------------------------- | -------------------------------------------------------------------- |
-| Submit a paper                    | Abstract or contribution submitters                                  |
-| Review a paper                    | Paper reviewers and event managers (reviewers must be assigned)      |
-| Judge a paper                     | Paper judges and event managers (judges must be assigned)            |
-| Assign papers and manage settings | Paper and event managers                                             |
+| Dolgozat beküldése | Absztrakt vagy hozzászólás beküldői |
+| Dolgozat bírálata | Dolgozat bírálók és eseménykezelők (a bírálókat ki kell jelölni) |
+| Dolgozat elbírálása | Dolgozatbírálók és rendezvénymenedzserek (a bírálókat ki kell jelölni) |
+| Dolgozatok hozzárendelése és beállítások kezelése | Dolgozat- és rendezvénymenedzserek |
 
-### Peer reviewing as a paper author
+### Előadás szerzőjeként történő bírálat
 
-In a typical conference workflow, the first thing to do before uploading a paper is to submit an abstract. Once the abstract is accepted by the organizers, a new contribution is automatically created. You can see all your contributions on the _My contributions_ page.
+Egy tipikus konferencia munkafolyamatában a dolgozat feltöltése előtt az első teendő az absztrakt beküldése. Amint az absztraktot a szervezők elfogadják, automatikusan létrejön egy új hozzászólás. Az összes hozzászólását a _My contributions_ oldalon láthatja.
 
 ![](../../assets/papers/peer_reviewing/contributions.png)
 
-Once the abstract has been accepted, you will be able to submit a paper, provided the call for papers is open. You can submit a paper from the _Paper Peer reviewing_ page by clicking on _Submit paper_. If you have multiple contributions for which you can submit a paper, you will be asked to choose one.
+Amint az absztraktot elfogadták, beadhat egy dolgozatot, feltéve, hogy a pályázati felhívás nyitva van. A dolgozatot a _Paper Peer reviewing_ oldalon a _Submit paper_ gombra kattintva küldheti be. Ha több olyan hozzászólása is van, amelyhez papírt nyújthat be, akkor megkérjük, hogy válasszon egyet.
 
 ![](../../assets/papers/peer_reviewing/submit.png)
 ![](../../assets/papers/peer_reviewing/submit_select.png)
 
-You can also submit a paper directly from the contribution page.
+Közvetlenül a hozzájárulási oldalról is beküldhet egy dolgozatot.
 
 ![](../../assets/papers/peer_reviewing/submit_from_contrib.png)
 
-Once you have submitted your paper, you will be able to track its progress from the _Paper Peer reviewing_ page under _My papers_.
+Miután beküldte a dolgozatát, a _Paper Peer reviewing_ oldalon, a _My papers_ alatt nyomon követheti annak előrehaladását.
 
 ![](../../assets/papers/peer_reviewing/my_papers.png)
 
-At this point, reviewers may leave reviews on your paper with suggestions and propose to accept, reject or correct your paper. As the author, you will be notified of all activity concerning you via email. A paper judge may also request corrections to your paper, in which case you will be able to upload a new version of your paper.
+Ezen a ponton a bírálók véleményt hagyhatnak a dolgozatáról javaslatokkal, és javaslatot tehetnek a dolgozat elfogadására, elutasítására vagy javítására. Szerzőként Önt e-mailben értesítjük minden Önt érintő tevékenységről. A dolgozat bírálója kérheti a dolgozatának javítását is, ebben az esetben Ön feltöltheti dolgozatának új változatát.
 
 ![](../../assets/papers/peer_reviewing/review.png)
 
-Once the paper is accepted, it will be published in the corresponding contribution.
+Amint a dolgozatot elfogadták, az a megfelelő hozzájárulásban fog megjelenni.
 
 ![](../../assets/papers/peer_reviewing/accepted_papers.png)
 
-### Peer reviewing as a reviewer
+### Szakmai bírálat bírálóként
 
-As a reviewer, your job is to review the submitted papers and to propose an action - to _accept_, _reject_ or _correct_ the paper. Paper judges will take your feedback into account when deciding what to do.
+Bírálóként az Ön feladata, hogy átnézze a benyújtott dolgozatokat, és javaslatot tegyen egy intézkedésre - a dolgozat _elfogadására_, _elutasítására_ vagy _javítására_. A dolgozatok bírálói figyelembe veszik az Ön visszajelzéseit, amikor arról döntenek, hogy mit tegyenek.
 
-You can only review papers that have been assigned to you specifically.
-You can see the papers in the _Reviewing area_ of the event under _Papers to review_. The papers that you have already reviewed will appear under _Reviewed papers_.
+Csak olyan dolgozatokat bírálhat el, amelyeket kifejezetten Önhöz rendeltek.
+Ezeket a dolgozatokat az esemény _Kritika területén_ a _Kritizálandó dolgozatok_ alatt láthatja. Az Ön által már felülvizsgált dolgozatok a _Reviewed papers_ alatt jelennek meg.
 
 ![](../../assets/papers/peer_reviewing/papers_to_review.png)
 
-You may be requested to leave a content review, a layout review, or both. The exact definition of these will depend on the specific event and the organizers, but in general, a content review is concerned with the text and its correctness and completeness while a layout review judges the style and appearance of the paper and whether it complies with the guidelines of the given conference.
+Felkérhetik, hogy hagyjon egy tartalmi, egy layout reviewt, vagy mindkettőt. Ezek pontos meghatározása az adott rendezvénytől és a szervezőktől függ, de általánosságban elmondható, hogy a tartalmi bírálat a szöveggel, annak helyességével és teljességével foglalkozik, míg az elrendezési bírálat a dolgozat stílusát és megjelenését értékeli, valamint azt, hogy az megfelel-e az adott konferencia irányelveinek.
 
-To review a paper, first select one paper from the list of papers to open the paper timeline. At the top of timeline page, 
-you can download the latest version of the submitted paper. Once you have read the paper and are ready to add a review, click on _Review_.
+Egy dolgozat véleményezéséhez először válasszon ki egy dolgozatot a dolgozatok listájából, hogy megnyissa a dolgozat idővonalát. Az idővonal oldal tetején, 
+letöltheti a benyújtott dolgozat legfrissebb változatát. Ha elolvasta a dolgozatot, és készen áll a bírálat hozzáadására, kattintson a _Review_ gombra.
 
 ![](../../assets/papers/peer_reviewing/make_a_review.png)
 
-If you have been requested to review both the content and layout, you will see a dropdown where you have to choose which type of review you want to add.
+Ha a tartalom és az elrendezés felülvizsgálatára is felkérték, akkor megjelenik egy legördülő ablak, ahol ki kell választania, hogy melyik típusú felülvizsgálatot szeretné hozzáadni.
 
 ![](../../assets/papers/peer_reviewing/choose_review_type.png)
 
-Once selected, you need to choose a proposed action - to _accept_ or _reject_ the paper or to _request corrections_.
-If the organizer added extra reviewing questions you may be required to answer them in order to add a review.
+A kiválasztás után ki kell választania a javasolt műveletet - a dolgozat _elfogadása_ vagy _elutasítása_, illetve _korrekciók kérése_.
+Ha a szervező extra bírálati kérdéseket adott hozzá, előfordulhat, hogy a bírálat hozzáadásához meg kell válaszolnia ezeket.
 
 ![](../../assets/papers/peer_reviewing/propose_action.png)
 
-You can edit your review later as long as there is no judgement yet. This can be done by clicking the edit icon on your review.
+A bírálatot később is szerkesztheti, amennyiben még nincs bírálat. Ezt az értékelésedben a szerkesztés ikonra kattintva teheted meg.
 
 ![](../../assets/papers/peer_reviewing/edit_review.png)
 
-You may also comment on a paper without leaving a review. You can set the comment visibility so that it is only visible to, e.g. judges. This is useful for discussing sensitive topics without the author seeing.
+Egy dolgozathoz véleményezés nélkül is hozzá lehet szólni anélkül, hogy véleményt hagyna. A hozzászólás láthatóságát beállíthatja úgy, hogy az csak pl. a bírálók számára legyen látható. Ez hasznos, ha kényes témákat vitat meg anélkül, hogy a szerző látná.
 
 ![](../../assets/papers/peer_reviewing/comment.png)
 
-If a judge requests corrections, reviewers will be able to review the corrected paper.
+Ha egy bíró javításokat kér, a bírálók megtekinthetik a javított dolgozatot.
 
-### Peer reviewing as a judge
+### Bírálóként történő bírálat
 
-The workflow of a paper judge is largely similar to that of a reviewer. Judges can only judge papers assigned to them by paper managers.
-The list of papers that you can judge is available in the _Judging area_.
+A dolgozatbíráló munkafolyamata nagyban hasonlít a bírálókéhoz. A bírálók csak olyan dolgozatokat bírálhatnak el, amelyeket a dolgozatmenedzserek osztottak ki számukra.
+A bírálható dolgozatok listája a _Bírálati terület_ alatt érhető el.
 
 ![](../../assets/papers/peer_reviewing/judging_area.png)
 
-Paper judges have the final say when it comes to accepting a paper. They can either accept or reject a paper or request corrections. If corrections are requested,
-the author of the paper will be able to submit a new version which needs to be judged again.
-Note that a paper can only be judged by one judge.
+A dolgozatok bírálói mondják ki a végső szót, amikor egy dolgozat elfogadásáról van szó. Elfogadhatják vagy elutasíthatják a dolgozatot, illetve kérhetnek javításokat. Ha javításokat kérnek,
+a dolgozat szerzője új változatot nyújthat be, amelyet újra bírálni kell.
+Ne feledje, hogy egy dolgozatot csak egy bíráló bírálhat el.
 
-Before adding a judgment, make sure that reviewers have had the chance to review the paper. You can see the assigned content and layout reviewers in the _Judging area_.
+A bírálat hozzáadása előtt győződjön meg arról, hogy a bírálóknak volt lehetőségük átnézni a dolgozatot. A kijelölt tartalmi és elrendezési bírálókat a _Bírálati terület_ alatt láthatja.
 
-Judgments can be reset by clicking on the _Reset judgment_ icon in the judgment box:
+A bírálatok a bírálati mezőben található _Rezess judgment_ ikonra kattintva visszaállíthatók:
 
 ![](../../assets/papers/peer_reviewing/reset_judgment.png)
 
-As a judge, you can also leave comments on a paper before adding a judgment.
+Bírálóként az ítélet hozzáadása előtt megjegyzéseket is hagyhat egy dolgozathoz.
 
-!!! note
-    Both reviewing and judging might have a set deadline, after which it is not possible to review or judge papers. If a deadline is set, you will see it in the Reviewing and Judging areas.
+!!! Megjegyzés
+    Mind a bírálatnak, mind a bírálatnak lehet egy meghatározott határideje, amely után már nem lehet dolgozatokat bírálni vagy bírálni. Ha van határidő, akkor azt a bírálat és a bírálat területén láthatja.
     ![](../../assets/papers/peer_reviewing/reviewing_deadline_display.png)

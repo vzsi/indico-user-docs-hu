@@ -1,7 +1,7 @@
-# Managing a Category
+# Egy kategória kezelése
 
-You can move sub-categories or events by selecting them using the checkboxes and clicking on the horizontal arrows on your right. You are then prompted to choose the new location of the events/sub-categories.
+Az alkategóriákat vagy eseményeket a jelölőnégyzetek kiválasztásával és a jobb oldali vízszintes nyilakra kattintva mozgathatja. Ezután a rendszer felkéri, hogy válassza ki az események/alkategóriák új helyét.
 
 ![](../assets/category_move.png)
 
-To delete a sub-category and anything it contains or an event, select it and click on the bin. Categories cannot be deleted if they are not empty.
+Egy alkategóriát és mindent, amit tartalmaz, vagy egy eseményt törölhet, ha kijelöli azt, és a szemetesre kattint. A kategóriák nem törölhetők, ha nem üresek.

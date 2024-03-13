@@ -1,30 +1,30 @@
-# Viewing your Bookings and all the bookings
+# A foglalások és az összes foglalás megtekintése
 
-## Your Bookings
+## A foglalásaid
 
-![My bookings](../assets/room_booking/my_bookings_3.png)
+![Foglalásaim](../assets/room_booking/my_bookings_3.png)
 
-You can view the bookings or pre-bookings that you made by going under the *My bookings* section of the Room Booking side menu.
+A szobafoglalás oldalmenü *Foglalásaim* menüpontja alatt megtekintheti az Ön által készített foglalásokat vagy előfoglalásokat.
 
-## All the bookings
+## Az összes foglalás
 
-You can view all the bookings made by everybody for all the rooms clicking in *Bookings* in the horizontal menu.
+A vízszintes menüben a *Foglalások* menüpontra kattintva megtekintheti az összes szoba összes foglalását, amelyet mindenki készített.
 
-![Bookings](../assets/room_booking/bookings.png)
+![Foglalások](../assets/room_booking/bookings.png)
 
 
 
-At the top of the page, there are some criteria you can select to filter the rooms:
+Az oldal tetején van néhány kritérium, amelyet kiválasztva szűrheted a szobákat:
 
 ![Bookings filters](../assets/room_booking/bookings_filters.png)
 
-Choose the building you want and the number of seats you want the room to have. Then select the criteria that you want from the extensive list of equipment. Every time you select a criteria do not forget to click on *apply* or your criteria will not be taken into consideration.
+Válassza ki a kívánt épületet és a helyiségek számát. Ezután válassza ki a kívánt kritériumokat a felszerelések széles listájából. Minden alkalommal, amikor kiválaszt egy kritériumot, ne felejtsen el az *alkalmazás* gombra kattintani, különben a kritériumai nem lesznek figyelembe véve.
 
-If you want to see only the rooms you are authorised to book or your favourite click on *Show only* and select your criteria.
+Ha csak az Ön által lefoglalni engedélyezett termeket vagy a kedvenceit szeretné látni, kattintson a *Kizárólag megjelenítése* gombra, és válassza ki a kritériumokat.
 
 
-Once you have finished, the next page will show you the list of rooms that match your criteria.
+Ha ezt befejezte, a következő oldalon megjelenik a kritériumoknak megfelelő szobák listája.
 
-This option can help you to do a last minute room booking or to solve a booking conflict. You can see easily the name of the colleagues who booked the rooms and email them to try to find a solution for the conflict if you really need this room and no one else can correspond to your criteria.
+Ez a lehetőség segíthet Önnek abban, hogy az utolsó pillanatban foglaljon szobát, vagy megoldja a foglalási konfliktust. Könnyedén láthatja a szobát foglaló kollégák nevét, és e-mailt küldhet nekik, hogy megpróbáljon megoldást találni a konfliktusra, ha valóban szüksége van erre a szobára, és senki más nem tud megfelelni az Ön kritériumainak.
 
 ---

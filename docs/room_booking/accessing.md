@@ -1,52 +1,52 @@
-# Accessing the module
+# Hozzáférés a modulhoz
 
-## Getting into Room Booking Module
+## Szobafoglalás modulba való belépés
 
-Just click on _Room Booking_ in the Indico home page, in the top dark bar. You will be asked to sign in. Use your Indico login.
+Kattintson az Indico kezdőlapján, a felső sötét sávban a _Romafoglalás_ gombra. A rendszer megkéri, hogy jelentkezzen be. Használja az Indico bejelentkezési adatait.
 
 ![](../assets/room_booking/main_room.png)
 
 
-### The First Page
+### Az első oldal
 
-The Room Booking first page shows a booking area, a side menu and a horizontal menu.
+A Szobafoglalás első oldalán egy foglalási terület, egy oldalmenü és egy vízszintes menü látható.
 
-![Book a room](../assets/room_booking/first_page.png)
-
-
-#### The booking area
-
-![Booking area](../assets/room_booking/booking_area.png)
+![Szobafoglalás](../assets/room_booking/first_page.png)
 
 
-#### The horizontal menu
+#### A foglalási terület
 
-![Horizontal menu](../assets/room_booking/horizontal_menu.png)
-
-
-##### Book a Room
-
-This is the main page of Indico Room Booking and the page to go if you want to book a room easily.
-
-![Book a room](../assets/room_booking/first_page.png)
+![Foglalás területe](../assets/room_booking/booking_area.png)
 
 
-##### List of Rooms
+#### A vízszintes menü
 
-This page shows you all the rooms available at CERN for your conference, meeting or lecture. You also have a map if you want to find a room in a specific area of CERN.
+![Vízszintes menü](../assets/room_booking/horizontal_menu.png)
+
+
+##### Szobafoglalás
+
+Ez az Indico szobafoglalás főoldala, és az az oldal, ahová akkor kell menni, ha egyszerűen szeretne szobát foglalni.
+
+![Szobafoglalás](../assets/room_booking/first_page.png)
+
+
+##### Szobák listája
+
+Ezen az oldalon a CERN összes rendelkezésre álló termét megtalálja az Ön konferenciájához, megbeszéléséhez vagy előadásához. Egy térképet is talál, ha a CERN egy adott területén szeretne termet találni.
 
 ![List of rooms](../assets/room_booking/list_of_rooms.png)
 
 
-##### Bookings
+##### Foglalások
 
-This page shows you the bookings for all the rooms by day, by week and by month.
+Ezen az oldalon az összes szoba foglalásait láthatja napra, hétre és hónapra lebontva.
 
-![Bookings](../assets/room_booking/bookings.png)
+![Foglalások](../assets/room_booking/bookings.png)
 
 
-#### The side menu
+#### Az oldalmenü
 
-![Side menu](../assets/room_booking/side_menu.png)
+![Oldalmenü](../assets/room_booking/side_menu.png)
 
 ---

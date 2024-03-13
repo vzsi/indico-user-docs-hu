@@ -1,5 +1,6 @@
-site_name: Learning Indico
+site_name: Indico tanulása
 theme:
+    language: hu
     name: material
     font: false
     features:
@@ -24,73 +25,73 @@ theme:
           toggle:
               icon: material/brightness-4
               name: Switch to light mode
-repo_name: 'indico/indico-user-docs'
-repo_url: 'https://github.com/indico/indico-user-docs'
+repo_name: 'vzsi/indico-user-docs-hu'
+repo_url: 'https://github.com/vzsi/indico-user-docs-hu'
 markdown_extensions:
     - admonition
 extra_css:
     - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
-    - Introduction: index.md
-    - Categories:
-        - Introduction: categories/about.md
-        - Creating a Category: categories/creating.md
-        - Having an Overview: categories/overview.md
-        - Managing a Category:
-            - Introduction: categories/managing.md
-            - Protection: categories/protection.md
-            - Moderation: categories/moderation.md
-            - Logging: categories/logging.md
-    - Event Management:
-        - Introduction to Events: events.md
-        - Lectures:
-            - Introduction: lectures/about.md
-            - Creating a Lecture: lectures/creating.md
-            - Adding Material to a Lecture: lectures/material.md
-        - Meetings:
-            - Introduction: meetings/about.md
-            - Creating a Meeting: meetings/creating.md
-            - Making a Timetable: meetings/timetable.md
-            - Adding minutes to a Meeting: meetings/minutes.md
-            - Adding material to a Meeting: meetings/material.md
-        - Conferences:
-            - Introduction: conferences/about.md
-            - Defining the Programme: conferences/programme.md
-            - Call for Abstracts: conferences/cfa.md
-            - Submitting an Abstract: conferences/submitting.md
-            - Reviewing Abstracts: conferences/reviewing.md
-            - Session management: conferences/sessions.md
-            - Making a Timetable: conferences/timetable.md
-            - Configuring the Registration Process: conferences/registration_config.md
-            - Registering at a Conference: conferences/registration.md
-            - Customizing the Conference Menu: conferences/custom_menu.md
-            - Customizing the Conference Page Layout: conferences/custom_layout.md
-            - Paper reviewing:
-                - Introduction: conferences/papers/introduction.md
-                - Paper Peer Reviewing: conferences/papers/peer_reviewing.md
-                - Editing: conferences/papers/editing.md
-            - Programme Codes: conferences/programme_codes.md
-            - People management: conferences/people.md
-        - Privacy: privacy.md
-        - Event Series: event_series.md
-    - Room Booking:
-        - Introduction: room_booking/about.md
-        - Accessing the Module: room_booking/accessing.md
-        - Booking a Room: room_booking/booking.md
-        - Searching and Booking: room_booking/search_and_book.md
-        - Viewing your Bookings: room_booking/viewing_bookings.md
-        - Blocking Rooms: room_booking/blocking.md
-        - Summary of Feature Set: room_booking/features.md
-        - Glossary: room_booking/glossary.md
-    - Event Surveys:
-        - Introduction: surveys/about.md
-        - Setting up a Survey: surveys/setup.md
-        - Opening/Closing a Survey: surveys/opening.md
-    - Other features:
-        - Reminders: reminders.md
-        - Importing into Calendaring tools: calendar_import.md
-        - Using custom roles: custom_roles.md
-    - Plugins:
+    - Bevezetés: index.md
+    - Kategóriák:
+        - Bevezetés: categories/about.md
+        - Kategória létrehozása: categories/creating.md
+        - Áttekintés: categories/overview.md
+        - Egy kategória kezelése:
+            - Bevezetés: categories/managing.md
+            - Védelem: categories/protection.md
+            - Moderálás: categories/moderation.md
+            - Naplózás: categories/logging.md
+    - Események kezelése:
+        - Bevezetés az eseményekbe: events.md
+        - Előadások:
+            - Bevezetés: lectures/about.md
+            - Előadás létrehozása: lectures/creating.md
+            - Anyag hozzáadása egy előadáshoz: lectures/material.md
+        - Találkozók:
+            - Bevezetés: meetings/about.md
+            - Megbeszélés létrehozása: meetings/creating.md
+            - Ütemterv készítése: meetings/timetable.md
+            - Jegyzőkönyv hozzáadása egy értekezlethez: meetings/minutes.md
+            - Anyag hozzáadása egy értekezlethez: meetings/material.md
+        - Konferenciák:
+            - Bevezetés: conferences/about.md
+            - A program meghatározása: conferences/programme.md
+            - Absztraktfelhívás: conferences/cfa.md
+            - Absztrakt benyújtása: conferences/submitting.md
+            - Absztraktok elbírálása: conferences/reviewing.md
+            - Az ülések kezelése: conferences/sessions.md
+            - Ütemterv készítése: conferences/timetable.md
+            - A regisztrációs folyamat konfigurálása: conferences/registration_config.md
+            - Regisztráció a konferencián: conferences/registration.md
+            - A konferencia menüjének testreszabása: conferences/custom_menu.md
+            - A konferenciaoldal elrendezésének testreszabása: conferences/custom_layout.md
+            - Előadások áttekintése:
+                - Bevezetés: conferences/papers/introduction.md
+                - Papírok szakértői értékelése: conferences/papers/peer_reviewing.md
+                - Szerkesztés: conferences/papers/editing.md
+            - Programkódok: conferences/programme_codes.md
+            - Emberek kezelése: conferences/people.md
+        - Adatvédelem: privacy.md
+        - Eseménysorozatok: event_series.md
+    - Helyiségfoglalás:
+        - Bevezetés: room_booking/about.md
+        - A modul elérése: room_booking/accessing.md
+        - Szobafoglalás: room_booking/booking.md
+        - Keresés és foglalás: room_booking/search_and_book.md
+        - A foglalások megtekintése: room_booking/viewing_bookings.md
+        - Szobák blokkolása: room_booking/blocking.md
+        - A funkciókészlet összefoglalása: room_booking/features.md
+        - Fogalomtár: room_booking/glossary.md
+    - Eseményfelmérések:
+        - Bevezetés: surveys/about.md
+        - Felmérés beállítása: surveys/setup.md
+        - Felmérés megnyitása/zárása: surveys/opening.md
+    - Egyéb funkciók:
+        - Emlékeztetők: reminders.md
+        - Importálás a naptárkészítő eszközökbe: calendar_import.md
+        - Egyéni szerepek használata: custom_roles.md
+    - Pluginok:
         - Zoom: plugins/zoom.md
-    - FAQ: faq.md
+    - GYIK: faq.md

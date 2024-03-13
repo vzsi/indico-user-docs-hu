@@ -1,32 +1,32 @@
-This part will quick-start you on creating your first meeting timetable. We will cover the most basic actions and settings in order to get a basic meeting timetable up and running. If you want to learn about all the possible options and features, we suggest going through a more comprehensive tutorial that can be found in the section about conferences [here](../conferences/timetable.md).
+Ez a rész gyors útmutatót nyújt az első találkozó menetrendjének elkészítéséhez. A legalapvetőbb műveletekkel és beállításokkal foglalkozunk annak érdekében, hogy egy alapvető tárgyalási menetrendet létrehozhasson és működtethessen. Ha meg szeretné ismerni az összes lehetséges opciót és funkciót, javasoljuk, hogy nézzen végig egy átfogóbb oktatóanyagot, amely a konferenciákról szóló részben [itt] található (../conferences/timetable.md).
 
-### A basic meeting timetable
+### Egy alapvető tárgyalási menetrend
 
-A typical meeting timetable might look something like this:
+Egy tipikus értekezlet-menetrend valahogy így nézhet ki:
 
 ![](../assets/meetings/timetable/finished_timetable.png)
 
-Each one of the timetable entries is a so-called contribution. A contribution is the most basic element of a timetable. It can be thought of as a talk or a discussion item with one or more speakers. Even though meetings are often made up of only contributions, it is possible to add other entries like breaks and session blocks (covered in detail [here](../conferences/timetable.md)).
+Az ütemterv minden egyes bejegyzése egy úgynevezett hozzájárulás. A hozzájárulás a menetrend legalapvetőbb eleme. Úgy is felfogható, mint egy előadás vagy egy vitaelem egy vagy több előadóval. Bár az ülések gyakran csak hozzászólásokból állnak, lehetséges más bejegyzéseket is hozzáadni, mint például szüneteket és ülésblokkokat (részletesen [itt](../conferences/timetable.md)).
 
-### Contributions
+### Hozzászólások
 
-To schedule a contribution, first navigate to _Timetable_ in the management area of your event. This opens the top-level view of the timetable, which is currently empty:
+Hozzászólás ütemezéséhez először navigáljon az esemény kezelési területén a _Testrend_ menüpontra. Ez megnyitja az órarend felső szintű nézetét, amely jelenleg üres:
 
 ![](../assets/meetings/timetable/timetable_open.png)
 
-To create a new contribution, click on _Add new_ in the top right corner and select _Contribution_ from the dropdown menu.
+Új hozzászólás létrehozásához kattintson a jobb felső sarokban található _Add new_ gombra, és válassza a legördülő menüből a __Contribution_ lehetőséget.
 
 ![](../assets/meetings/timetable/contribution_select.png)
 
-A new dialogue window will open where you must fill at least the title, start time and the duration of the contribution. You can add speakers in the _People_ field. Speakers will be displayed under the contribution in the timetable.
+Megnyílik egy új párbeszédablak, ahol ki kell töltenie legalább a hozzájárulás címét, kezdési időpontját és időtartamát. A _People_ mezőben hozzáadhat előadókat. Az előadók a hozzászólás alatt jelennek meg az órarendben.
 
 ![](../assets/meetings/timetable/contribution_create.png)
 
-If you want to allow the speakers to [add minutes](./minutes.md) or [upload files](./material.md), make sure the _Submitter_ permission is switched on:
+Ha engedélyezni szeretné, hogy az előadók [jegyzőkönyveket adjanak hozzá](./minutes.md) vagy [fájlokat töltsenek fel](./material.md), győződjön meg róla, hogy a _Submitter_ engedély be van kapcsolva:
 
 ![](../assets/meetings/timetable/submitter.png)
 
-When you are done filling in the data, click _Save_ to schedule the contribution. Once created, you can drag the contribution up down in the timetable to change its start time.
+Ha végzett az adatok kitöltésével, kattintson a _Mentés_ gombra a hozzájárulás ütemezéséhez. Miután létrehozta, felfelé lefelé húzhatja a hozzájárulást az ütemtervben, hogy megváltoztassa a kezdési időpontját.
 
-You can repeat this step to create a contribution for every discussion item in your meeting. To learn more about the timetable, you can continue reading [here](../conferences/timetable.md).
+Ezt a lépést megismételheti, ha a megbeszélés minden egyes vitapontjához hozzászólást szeretne létrehozni. Ha többet szeretne megtudni az ütemtervről, akkor folytassa az olvasást [itt](../conferences/timetable.md).
 

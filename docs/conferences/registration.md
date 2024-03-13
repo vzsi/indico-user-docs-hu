@@ -1,38 +1,38 @@
-# Registering at a Conference
+# Regisztráció egy konferencián
 
-This short video explains how you can register/apply and pay for your participation in a Conference using Indico:
+Ez a rövid videó elmagyarázza, hogyan regisztrálhat/jelentkezhet és fizethet egy konferencián való részvételért az Indico segítségével:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275654?showTitle=true" allowfullscreen></iframe>
 
-Follow these steps in detail here:
+Kövesse ezeket a lépéseket részletesen itt:
 
-### Register/Apply & pay as a candidate participant
+### Regisztráljon/jelentkezzen és fizessen, mint résztvevőjelölt.
 
-As a user, candidate Conference participant, you can place a Registration or an Application, if the event is moderated.
+Felhasználóként, konferencia résztvevőjelöltként Regisztrációt vagy Jelentkezést adhat le, ha az esemény moderált.
 
-On the event overview page, click on _Apply now_.
+Az esemény áttekintő oldalán kattintson a _Feljelentkezés most_ gombra.
 
-Fill out the form, e.g selecting your preferred options for _Accommodation_, the _Arrival_ and the _Departure date_.
+Töltse ki az űrlapot, pl. válassza ki a kívánt _szállás_, az _érkezés_ és az _elutazás_ időpontját.
 
-Click on _Apply_ once you’re finished. You may need to wait for event manager's approval, if the moderation option is enabled.
+Kattintson a _Apply_ (Jelentkezés) gombra, ha végzett. Előfordulhat, hogy meg kell várnia a rendezvényszervező jóváhagyását, ha a moderálás opció engedélyezve van.
 
 ![](../assets/Register_1.png)
 
-Once the event manager has approved your Application, you will be able to place the payment.
+Amint a rendezvénymenedzser jóváhagyta a Jelentkezésedet, el tudod helyezni a fizetést.
 
-On the page that will appear after having filled the Application form, a _Checkout_ button will appear at the bottom. It will direct you to a page, where you will be able to pay with the options enabled, e.g. bank transfer and/or PayPal.
+A Jelentkezési űrlap kitöltése után megjelenő oldalon alul megjelenik egy _Checkout_ gomb. Ez egy olyan oldalra irányítja Önt, ahol az engedélyezett opciókkal, pl. banki átutalással és/vagy PayPal-lal tud fizetni.
 
 ![](../assets/Register_2.png)
 
-### Approve Conference Applications as an event manager
+### Jóváhagyja a konferencia jelentkezéseket eseménymenedzserként
 
-As event manager, click at the pencil at the top to return to your event management page.
+Rendezvényszervezőként kattintson a ceruzára a tetején, hogy visszatérjen az eseménykezelő oldalra.
 
-Click on _Registration_ at the left banner, under _Organization_. As a manager, you may click on _Registrations_ to see the pending registration.
+Kattintson a _Regisztráció_ gombra a bal oldali bannerben, a _Organizáció_ alatt. Menedzserként a _Regisztrációk_ gombra kattintva láthatja a függőben lévő regisztrációkat.
 
 ![](../assets/Register_3.png)
 
-Simply click on the name of the applicant, and click on _Approve_ , if you agree.
+Egyszerűen kattintson a kérelmező nevére, és kattintson a _Elfogadom_ gombra, ha egyetért.
 
 ![](../assets/Register_4.png)
 

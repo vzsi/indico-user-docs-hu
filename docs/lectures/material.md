@@ -1,15 +1,13 @@
-# Adding Material to a Lecture
+# Anyag hozzáadása az előadáshoz
 
-Click on the pencil at the top right of your screen, and click on _Material Editor_.
+Kattintson a képernyő jobb felső sarkában lévő ceruzára, és kattintson az _anyagszerkesztő_ menüpontra.
 
 
 ![](../assets/lecture_material.png)
 
-In this page, you can upload files to your lecture, add links, or create a new folder in which you will include your files.
-For example, to upload a file, simply click on _Upload files_, click on _Choose from your computer_ and select a file from your device.
-Alternatively, you can drag and drop your file in the area indicated.
+Ezen az oldalon fájlokat tölthet fel az előadásához, linkeket adhat hozzá, vagy létrehozhat egy új mappát, amelybe a fájlokat felveszi. Ha például fájlt szeretne feltölteni, egyszerűen kattintson a _Fájlok feltöltése_ lehetőségre, majd kattintson a _Válasszon a számítógépéről_ lehetőségre, és válasszon ki egy fájlt az eszközéről. Alternatívaként a fájlt a jelzett területre húzva is elhelyezheti.
 
 
-Here you can also choose to automatically convert your file to PDF, and whether you want your file to be accessible to anybody or to a selected few.
+Itt kiválaszthatja azt is, hogy a fájlját automatikusan PDF-be konvertálja-e, valamint azt is, hogy a fájlja bárki vagy csak néhány kiválasztott számára legyen elérhető.
 
-Once you’re finished, click on _Upload_.
+Ha végzett, kattintson a _Upload_ gombra.

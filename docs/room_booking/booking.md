@@ -1,62 +1,62 @@
-# Book a Room
+# Foglaljon szobát
 
-As a first step click on the button *Book a Room* in the horizontal menu. In the booking area you have to specify the kind of booking, date range and time range in which you want to search for bookings. You can also search by building number or room name if you want  to find a specific room in a specific location.
+Első lépésként kattintson a vízszintes menüben a *Szobafoglalás* gombra. A foglalási területen meg kell adnia a foglalás típusát, a dátum- és időintervallumot, amelyben foglalásokat szeretne keresni. Az épület száma vagy a szoba neve alapján is kereshet, ha egy adott helyen lévő konkrét szobát szeretne megtalálni.
 
-If you want to book the room for only one day, simply click on *Single booking* and on the date you want by choosing the correct month and day. You will also have to choose the duration you want to book it for.
+Ha csak egy napra szeretné lefoglalni a szobát, egyszerűen kattintson az *Egyszeri foglalás* lehetőségre, majd a kívánt dátumra a megfelelő hónap és nap kiválasztásával. Azt is ki kell választania, hogy milyen időtartamra szeretné lefoglalni a szobát.
 
-If instead you want to book a room for several consecutive days, weeks, or months, click on *Daily* or *Recurring booking*
+Ha ehelyett több egymást követő napra, hétre vagy hónapra szeretné lefoglalni a szobát, kattintson a *Napi* vagy az *ismétlődő foglalás* lehetőségre.
 
 ![](../assets/room_booking/booking_area.png)
 
-If you have already used Indico Room Booking and have selected favourite rooms, your booking area will look like this picture. If you want to book only a room from your favourites, check the box *search only my favourites*. To know how to add a favourite read the section below.
+Ha már használta az Indico szobafoglalást, és kiválasztotta a kedvenc szobákat, a foglalási területe úgy fog kinézni, mint ezen a képen. Ha csak a kedvencei közül szeretne szobát foglalni, jelölje be a *Kizárólag a kedvenceim keresése* jelölőnégyzetet. Ha szeretné tudni, hogyan adhat hozzá kedvenceket, olvassa el az alábbi részt.
 
 ![](../assets/room_booking/booking_area_favourite.png)
 
 
 
 
-Then you will be directed to a page with all the rooms available according to your request.
+Ezután egy olyan oldalra kerül, ahol az összes, az Ön kérésének megfelelően rendelkezésre álló szobát megtalálja.
 
 
 ![](../assets/room_booking/room_search.png)
 
 
-You can use some filters if you want your room to contain certain equipment, such as videoconference, Webcast or a Projector.
+Használhat néhány szűrőt, ha azt szeretné, hogy a terem tartalmazzon bizonyos berendezéseket, például videokonferenciát, webcastot vagy projektort.
 
-To find out more about a room, put your mouse over its picture. A series of action icons will show up: *(pre-)book*, *view details* and *add to favourites*.
+Ha többet szeretne megtudni egy teremről, vigye az egeret a képére. Egy sor műveleti ikon fog megjelenni: *(elő)foglalás*, * részletek megtekintése* és * hozzáadás a kedvencekhez*.
 
 ![](../assets/room_booking/room-close-up.png)
 
 
-If you select **book a room** you will see this window:
+Ha kiválasztja a **szoba foglalása** lehetőséget, ez az ablak jelenik meg:
 
 ![](../assets/room_booking/booking.png)
 
-There, you may find information about the room such as capacity and size of the room. To finalise the booking, you have to fill in the *Usage* section mentioning the person for whom you are making the booking and giving the reasons why you book this room.
+Itt olyan információkat találhat a szobával kapcsolatban, mint például a szoba kapacitása és mérete. A foglalás véglegesítéséhez ki kell töltenie a *Használat* részt, megemlítve azt a személyt, akinek a számára a foglalást végzi, és megadva az okokat, amiért ezt a szobát lefoglalja.
 
 
 
-## How to pre-book a room
+## Hogyan foglalhat előzetesen szobát
 
-Some rooms require owner's approval. Therefore they can only be pre-booked. If you select **pre-book a room** you will see this window:
+Egyes szobákhoz a tulajdonos jóváhagyása szükséges. Ezért ezeket csak előre lehet lefoglalni. Ha kiválasztja a **szoba előfoglalás** lehetőséget, ez az ablak jelenik meg:
 
 ![](../assets/room_booking/pre_booking.png)
 
 
-There, you may find information about the room such as capacity and size of the room. To finalise the pre-booking, you have to fill in the *Usage* section mentioning the person for whom you are making the pre-booking and giving the reasons why you pre-book this room.
+Itt a szobával kapcsolatos információkat találhat, például a szoba kapacitását és méretét. Az előfoglalás véglegesítéséhez ki kell töltenie a *Használat* részt, megemlítve azt a személyt, akinek az előfoglalását végzi, és megadva az okokat, amiért ezt a szobát előfoglalta.
 
-## How to see room details
+## Hogyan láthatja a szoba részleteit
 
-If you select **room details** you will see one of these windows:
+Ha kiválasztja a **szoba részletei** menüpontot, akkor a következő ablakok egyike jelenik meg:
 
 ![](../assets/room_booking/room_details_pre_booking.png)
 
 ![](../assets/room_booking/room_details_booking.png)
 
 
-In this window, you may find information such as size,   capacity and phone number in the room. If you click on the button *book it*, you will be directed to the *book a room* or *pre-book a room* window. To know how to finalise a pre-booking or booking, read the previous paragraphs.
+Ebben az ablakban olyan információkat találhat, mint a szoba mérete, kapacitása és telefonszáma. Ha a *foglalás* gombra kattint, akkor a *szobafoglalás* vagy *előfoglalás* ablakba kerül. Az előfoglalás vagy szobafoglalás véglegesítésének módjáról az előző bekezdésekben olvashat.
 
-If you select **add to favourites** the room will be placed in your favourites' list. For your next booking, you could find all your favourite rooms by selecting this option in the filters' menu or ticking the box *search only my favourites* in the booking area of the first page.
+Ha a **hozzáadás a kedvencekhez** gombot választja, a szoba felkerül a kedvencek listájára. Következő foglalásához az összes kedvenc szobáját megtalálhatja, ha a szűrők menüpontban ezt a lehetőséget választja, vagy az első oldal foglalási területén bejelöli a *csak a kedvenceim keresése* jelölőnégyzetet.
 
 ![](../assets/room_booking/favourite.png)
 

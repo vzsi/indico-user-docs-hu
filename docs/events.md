@@ -1,19 +1,19 @@
-# Events
+# Események
 
-## Introduction
+## Bevezetés
 
-Indico allows you to manage three basic types of event:
+Az Indico három alapvető eseménytípus kezelését teszi lehetővé:
 
-* [**Lectures**](lectures/about.md) can be seen as a single presentation, with one or more speakers;
-* [**Meetings**](meetings/about.md) are generally composed of many presentations. They have a timetable and can last multiple days, although
-they most commonly happen on a single day. Contributions (talks) can be organized in sessions;
-* [**Conferences**](conferences/about.md) generally last multiple days and have the advantage over meetings of allowing multiple sessions to
-happen in parallel. They also offer flexible abstract and paper reviewing/editing workflows.
+* [**előadások**](lectures/about.md) egyetlen előadásnak tekinthető, egy vagy több előadóval;
+* [**Egyeztetések**](meetings/about.md) általában több előadásból állnak. Van menetrendjük, és több napig is tarthatnak, bár a
+leggyakrabban egyetlen napon zajlanak. A hozzászólások (előadások) szekciókba szerveződhetnek;
+* [**Konferenciák**](conferences/about.md) általában több napig tartanak, és az ülésekkel szemben az az előnyük, hogy több ülésszakot is lehetővé tesznek.
+párhuzamosan zajlanak. Rugalmas absztrakt- és előadás-ellenőrzési/szerkesztési munkafolyamatokat is kínálnak.
 
-All of these meeting types offer a set of common features, such as:
+Mindegyik értekezlettípus rendelkezik egy sor közös jellemzővel, például:
 
-* Registration;
-* Management of participants;
-* Surveys;
-* Integration with collaborative tools;
-* Event reminders.
+* Regisztráció;
+* A résztvevők kezelése;
+* Felmérések;
+* integráció az együttműködési eszközökkel;
+* Eseményemlékeztetők.

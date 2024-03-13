@@ -1,21 +1,21 @@
-# Indico Room Booking
+# Indico szobafoglalás
 
-This chapter describes Indico's **Room Booking Module**.
+Ez a fejezet az Indico **Romafoglalás modulját** ismerteti.
 
-Indico users can **book a room** for their conference, meeting or lecture. Bookings can also be **standalone**, they do not have to be bound to any event.
-Room managers can **monitor** and **moderate** all bookings. Indico administrators can **create rooms** and **manage** their data.
+Az Indico felhasználók **foglalhatnak termet** konferenciájukhoz, megbeszélésükhöz vagy előadásukhoz. A foglalások **önállóak** is lehetnek, nem kell semmilyen eseményhez kötődniük.
+A teremfelelősök **megfigyelhetik** és **moderálhatják** az összes foglalást. Az Indico rendszergazdái **teremeket hozhatnak létre** és **kezelhetik** adataikat.
 
-This section is a **tutorial** and will go through the features of the room booking module. It will show you how to:
+Ez a rész egy **tutorial**, és a szobafoglalási modul funkcióit veszi sorra. Megmutatja, hogyan:
 
-  * 🔍 **search** for available rooms and **book** or **pre-book** them (as a regular user)
-  * ✅ **accept** or ❌**reject** pre-bookings (as a room moderator)
-  * 🔒 **block** a series of rooms for a given period (as a room owner)
+  * 🔍 **keresés** a rendelkezésre álló szobák után és **foglalás** vagy **előfoglalás** (normál felhasználóként).
+  * ✅ **elfogadni** vagy ❌**elutasítani** az előzetes foglalásokat (mint szoba moderátor)
+  * 🔒 **blokkol** egy sor szobát egy adott időszakra (szobatulajdonosként)
 
 ---
 
-## Video
+## Videó
 
-Alternatively, we have a less detailed yet easier to follow **walkthrough video** you can watch:
+Alternatívaként van egy kevésbé részletes, de könnyebben követhető **ismertető videónk**, amit megnézhetsz:
 
 <iframe width="576"
         height="360"

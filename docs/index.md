@@ -2,29 +2,29 @@
 
 ![Indico Logo](assets/logo.png)
 
-*The effortless open source tool for event organization, archival and collaboration.*
+*A nyílt forráskódú eszköz az események szervezéséhez, archiválásához és az együttműködéshez.*
 
-Indico is a web application which facilitates the organization of events of all sizes, ranging from meetings and
-lectures to big conferences. It is Open Source Software, developed at [CERN](https://home.cern), the place where
-the Web was born.
+Az Indico egy olyan webes alkalmazás, amely megkönnyíti a különböző méretű események szervezését, a találkozóktól kezdve a találkozókon és a
+előadásoktól a nagy konferenciákig. Ez egy nyílt forráskódú szoftver, amelyet a [CERN](https://home.cern) fejlesztett ki.
+ahol a web született.
 
-Indico offers a [wide feature set](https://getindico.io/features), which includes **reviewing workflows** for scientific
-papers and their abstracts as well as a **full-fledged room booking system**.
+Az Indico [széleskörű funkciókészletet](https://getindico.io/features) kínál, amely magában foglalja a **értékelő munkafolyamatokat** a tudományos
+és absztraktjaik, valamint egy **teljes körű teremfoglalási rendszer**.
 
-## Introduction video
+## Bevezető videó
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yo8rgg9dOcc" frameborder="0" allowfullscreen></iframe>
 
-## About this Manual
+## A kézikönyvről
 
-This site aims at providing solutions for the most common use cases in the usage of Indico. More than exhaustive,
-it aspires to be easy to understand and to follow. The contents are presented in a way that we hope will allow you to
-solve increasingly complex tasks.
+Ez az oldal célja, hogy az Indico használata során leggyakrabban előforduló felhasználási esetekre kínáljon megoldásokat. Több mint kimerítő,
+arra törekszik, hogy könnyen érthető és követhető legyen. A tartalmat úgy mutatjuk be, hogy reméljük, lehetővé teszi az Ön számára, hogy
+egyre összetettebb feladatok megoldását.
 
-Some content is accompanied by video tutorials which you can follow and will normally explain the same thing
-in an even more visual way.
+Egyes tartalmakhoz videós oktatóvideók is kapcsolódnak, amelyeket követhet, és általában ugyanazt magyarázzák el
+még szemléletesebb módon.
 
-## Useful links
+## Hasznos linkek
 
- * [Official Product Web site](https://getindico.io)
- * [GitHub site](https://github.com/indico/indico)
+ * [A termék hivatalos honlapja](https://getindico.io)
+ * [GitHub oldal](https://github.com/indico/indico)

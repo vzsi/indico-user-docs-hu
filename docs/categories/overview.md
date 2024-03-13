@@ -1,19 +1,19 @@
 # Having an Overview
 
-In the display page of the categories, click on the **eye**, on the  right, to see the various useful options offered like:
-- _Today's_
-- _Week's events_,
-- _Calendar_ and
-- _Statistics_.
+A kategóriák megjelenítési oldalán kattintson a **szemre**, a jobb oldalon, hogy láthassa a különböző hasznos lehetőségeket, mint például:
+- _Napi_
+- _Heti események_,
+- _Naptár_ és
+- _Statisztikák_.
 
-See them highlighted on the image below:
+Lásd ezeket az alábbi képen kiemelve:
 
 ![](../assets/category_goodies_emphasis.png)
 
-Specifically for the *Calendar* view, which gives you an overview of all the events over several months, see an example from the CERN Home Category in the image below.
+Konkrétan a *Naptár* nézetre, amely több hónap összes eseményéről ad áttekintést, lásd az alábbi képen egy példát a CERN Home kategóriából.
 
 ![](../assets/category_calendar.png)
 
-You can move to past and future months from the calendar on the left banner and show the details for your category. Example:
+A bal oldali bannerben lévő naptárból a múltbeli és jövőbeli hónapokra léphet, és megjelenítheti a kategória részleteit. Példa:
 
 ![](../assets/category_calendar_events.png)

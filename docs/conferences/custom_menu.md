@@ -1,20 +1,20 @@
-# Customizing the Conference Menu
+# A konferencia menü testreszabása
 
-You can customise the appearance of your indico menus, by clicking on _Menu_, under the tab _Customisation_, while on management mode.
+Az indico menük megjelenését testreszabhatja, ha a kezelési módban a _Menu_ lapon a _Csodálkozás_ fül alatt a _Menüre_ kattint.
 
-Select _Yes_ on the right so that you can start customising the menus on your pages.
+Válassza a _Igen_ lehetőséget a jobb oldalon, így elkezdheti az oldalain lévő menük testreszabását.
 
-Click on the **eye** icon to show or stop showing a particular
-block. Then you can drag and drop the block to change their order and you can click on the pencil to edit the titles of the menu blocks.
+Kattintson a **szem** ikonra, ha egy adott menüpontot szeretne megjeleníteni vagy leállítani.
+blokkot. Ezután a blokkokat húzással megváltoztathatja a sorrendjüket, és a ceruzára kattintva szerkesztheti a menüblokkok címét.
 
 ![](../assets/Customize_4.png)
 
-To add another block to your Menus you can click on _Add an entry_, then either on _Add link_, or _Add page_.
-For example, you can add a page entitled “Accommodation” where you will show some photos of hotels, where participants of the conference can stay, and so on.
-You can also select the option _Add spacer_ that will separate two blocks.
+Ha újabb blokkot szeretne hozzáadni a menükhöz, akkor kattintson a _Add an entry_, majd vagy a _Add link_, vagy a _Add page_ gombra.
+Például hozzáadhat egy "Szállás" című oldalt, ahol megmutathat néhány fényképet azokról a szállodákról, ahol a konferencia résztvevői megszállhatnak, stb.
+Kiválaszthatja a _Add spacer_ opciót is, amely két blokkot választ el egymástól.
 
 ![](../assets/Customize_5.png)
 
-Click on _Switch to display view_ to see the changes to your menu that you just made.
+Kattintson a _Váltás a megjelenítési nézetre_ gombra, hogy láthassa a menüben az imént elvégzett módosításokat.
 
 ![](../assets/conference_menus.png)

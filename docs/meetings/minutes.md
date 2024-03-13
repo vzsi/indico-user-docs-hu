@@ -1,19 +1,19 @@
-# Adding Minutes to a Meeting
+# Jegyzőkönyv hozzáadása egy megbeszéléshez
 
-To add minutes to the whole event, click on the pencil on the top right of the page, and click on _add minutes_.
-Here you can add the text of the minutes of your meeting, you are offered formatting help (headers, bulleted or numbered lists, etc.).
-Click on save, and then on Close.
+A jegyzőkönyvek hozzáadásához az egész eseményhez kattintson az oldal jobb felső sarkában lévő ceruzára, majd a _ jegyzőkönyv hozzáadása_ gombra.
+Itt hozzáadhatja az értekezlet jegyzőkönyvének szövegét, formázási segítséget kap (fejlécek, felsorolásos vagy számozott listák stb.).
+Kattintson a mentésre, majd a Bezárás gombra.
 
 ![](../assets/add-minutes-meeting.png)
 
-Minutes can also be added to your session or contribution, by clicking on the relevant pencil on the right.
+Jegyzőkönyvet is hozzáadhat az üléséhez vagy a hozzászólásához, ha a jobb oldalon található megfelelő ceruzára kattint.
 
-See an example on the image below where _Description_, _Minutes_ and _Material_ exist at the level of the Event as well as at the level of individual _Contributions_.
+Az alábbi képen egy példát láthat, ahol a _Description_, _Minutes_ és _Material_ az Esemény szintjén, valamint az egyes _Contribúciók_ szintjén is létezik.
 
 ![](../assets/material-meeting.png)
 
-If you make use of subcontributions in your meetings, you may consider giving submitter rights to the subcontribution speakers. This allows the speakers to upload their own minutes and materials in the subcontribution without having submitter rights in the parent contribution.
+Ha az értekezletein al-hozzájárulásokat használ, fontolóra veheti, hogy az al-hozzájárulások előadóinak benyújtói jogokat adjon. Ez lehetővé teszi, hogy az előadók feltölthessék saját jegyzőkönyveiket és anyagaikat az al-hozzájárulásban anélkül, hogy a szülő-hozzájárulásban benyújtói jogokkal rendelkeznének.
 
-This setting is available on the _Protection_ page under _Subcontribution rights_:
+Ez a beállítás elérhető a _Védelem_ oldalon az _Alső hozzászólási jogok_ alatt:
 
 ![](../assets/meeting-subcontrib-rights.png)

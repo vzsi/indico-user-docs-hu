@@ -1,23 +1,23 @@
-# Defining the Programme
+# A program meghatározása
 
-This short video guides you step-by-step to define your Indico Conference programme:
+Ez a rövid videó lépésről lépésre vezeti Önt az Indico konferencia programjának meghatározásához:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275411?showTitle=true" allowfullscreen></iframe>
 
-These steps in detail:
-Enter the event **management** interface by clicking at the pencil at the top of the display view page.
-Click on _Programme_, on your left under _Organisation_.
+Ezek a lépések részletesen:
+Lépjen be az esemény **kezelő** felületére a megjelenítési nézet oldal tetején lévő ceruzára kattintva.
+Kattintson a _Program_ gombra, balra a _Organizáció_ alatt.
 
-The Program of your conference is divided in different tracks.
-Tracks cover the subjects presented at the conference.
-For example, a first track called “Online computing”, a second track called “Offline computing”, and so on.
+A konferencia Programja különböző sávokra van felosztva.
+A trackek a konferencián bemutatott témákat fedik le.
+Például az első track címe "Online számítástechnika", a második track címe "Offline számítástechnika", és így tovább.
 
-Click on _Add track_, and select the title of your track, as well as a brief description.
+Kattintson a _Add track_ gombra, és válassza ki a track címét, valamint egy rövid leírást.
 
 ![](../assets/conference_track.png)
 
-Click on _Save_ to add your first track and repeat the process for all your tracks.
+Kattintson a _Mentés_ gombra az első pálya hozzáadásához, és ismételje meg a folyamatot az összes pálya esetében.
 
-You can drag and drop your tracks and change their order using the grey rectangle at the top of each track.
+A sávokat áthúzhatja, és megváltoztathatja a sorrendjüket az egyes sávok tetején található szürke téglalap segítségével.
 
-Tracks **must** be defined before opening the _Call for Abstracts_, so that submitters can choose the track their abstracts belong to.
+A pályákat **kell** meghatározni, mielőtt megnyitja a _Közlemény-kérést_, hogy a benyújtók kiválaszthassák, melyik pályához tartoznak az absztraktjaik.

@@ -1,30 +1,30 @@
-# Customizing the Conference Page Layout
+# A konferenciaoldal elrendezésének testreszabása
 
-This short video shows you how to customise the layout and menus of your Indico pages:
+Ez a rövid videó bemutatja, hogyan lehet testre szabni az Indico oldalainak elrendezését és menüit:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275337?showTitle=true" allowfullscreen></iframe>
 
-### Layout customisation
+### Elrendezés testreszabása
 
-While in event management  mode click on _Layout_, under the tab _Customisation_.
+Az eseménykezelési módban kattintson az _Layout_-ra, a _Customisation_ fül alatt a _Layout_-ra.
 
-The _General_ section offers several options, e.g. the possibility to _Enable search_ on your pages
+Az _Általános_ rész számos lehetőséget kínál, például a _Keresés_ engedélyezése az oldalakon.
 
-The _Header style_ section offers a box for you to select the colours for your text, and for the background of your Indico pages.
+A _Főcím stílusa_ szakaszban egy mezőben kiválaszthatja a szöveg és az Indico oldalak hátterének színeit.
 
 ![](../assets/Customize_1.png)
 
-The _Announcement_ section enables you to write an announcement text to be displayed below the _Title_.
+A _Hirdetmény_ szakasz lehetővé teszi, hogy megírjon egy hirdetési szöveget, amely a _Cím_ alatt jelenik meg.
 
-Under the _Timetable_ section, you can change your Indico theme style, e.g. to group your Timetable entries by room or to always show a detailed view of the Timetable by default.
+Az _Testrend_ szekcióban megváltoztathatja az Indico téma stílusát, például úgy, hogy az órarend bejegyzéseit helyiségek szerint csoportosítsa, vagy hogy alapértelmezés szerint mindig az órarend részletes nézetét jelenítse meg.
 
-In the _Theme_ section, you can select one of the available default colours as your Theme for your Indico pages.
-Alternatively, you may upload a css file with your code, so you will be able to completely customise your pages.
+A _Téma_ szakaszban a rendelkezésre álló alapértelmezett színek közül választhat témát az Indico oldalaihoz.
+Alternatívaként feltölthet egy css fájlt a kódjával együtt, így teljesen testre szabhatja az oldalait.
 
-Finally, you can upload a **logo** for your event.
+Végül feltölthet egy **logót** az eseményéhez.
 
 ![](../assets/Customize_2.png)
 
-To do so, click on _Choose from your computer_ or drag and drop the file in the designated area.
+Ehhez kattintson a _Choose from your computer_ gombra, vagy húzza a fájlt a kijelölt területre.
 
 ![](../assets/Customize_3.png)

@@ -1,257 +1,257 @@
-In this page, we'll show how to create a timetable for a conference. This page covers all the available timetable features and settings. If you are creating a timetable for a meeting instead, you might want to see [this page](../meetings/timetable.md) first, which covers the basics.
+Ezen az oldalon megmutatjuk, hogyan hozhat létre egy konferencia menetrendjét. Ez az oldal az összes elérhető menetrendfunkciót és beállítást tartalmazza. Ha ehelyett egy értekezlet menetrendjét hozza létre, akkor érdemes először [ezt az oldalt](../meetings/timetable.md) megnéznie, amely az alapokat tárgyalja.
 
-Even though most of the focus of this explanation is on conferences, most of what we show can be applied to meetings as well. We point out the few places where the behaviour is different.
+Bár a magyarázat középpontjában a konferenciák állnak, a bemutatottak nagy része alkalmazható a megbeszélésekre is. Rámutatunk arra a néhány helyre, ahol a viselkedés eltér.
 
-### Anatomy of a timetable
+### Egy menetrend anatómiája
 
-Regardless of whether you are organizing a meeting or a conference, a timetable is made up of four basic elements:
+Függetlenül attól, hogy értekezletet vagy konferenciát szervez, az ütemterv négy alapvető elemből áll:
 
-- Sessions
-- Session blocks
-- Contributions
-- Breaks
+- Ülések
+- Ülésblokkok
+- Hozzájárulások
+- Szünetek
 
-Sessions group together related contributions (talks/presentations). These contributions are organized into session blocks. A session block is an 'instance' of a session with a defined start and end. For example, a session could be split into a morning and afternoon block. Note that sessions cannot be directly scheduled in a timetable, only session blocks can. A more thorough explanation of sessions can be found [here](./sessions.md).
+Az ülések egymáshoz kapcsolódó hozzászólásokat (előadásokat/prezentációkat) csoportosítanak. Ezek a hozzászólások szekcióblokkokba vannak szervezve. Egy ülésblokk egy ülés "példánya", meghatározott kezdéssel és befejezéssel. Egy ülésszak például délelőtti és délutáni blokkokra osztható. Megjegyzendő, hogy az üléseket nem lehet közvetlenül ütemezni az órarendben, csak az ülésblokkokat lehet. A munkamenetek alaposabb magyarázata [itt](./sessions.md) található.
 
-The use of breaks is to signal a pause in the programme, such as a lunch or a coffee break.
+A szünetekkel a programban való szünetet, például ebéd- vagy kávészünetet lehet jelezni.
 
-An example of a meeting timetable might look like this:
+Egy példa egy ülés menetrendjére így nézhet ki:
 
 ![](../assets/meetings/timetable/finished_timetable.png)
 
-This timetable only uses contributions. Many meetings are relatively simple and don't require the use of breaks or session blocks which are normally used in conferences, however it is still possible to use them nonetheless.
+Ez az ütemterv csak a hozzászólásokat használja. Sok értekezlet viszonylag egyszerű, és nem igényel szüneteket vagy ülésblokkokat, amelyeket általában a konferenciákon használnak, de ettől függetlenül mégis lehet használni őket.
 
-An example conference timetable might look like this:
+Egy példa a konferencia menetrendjére a következőképpen nézhet ki:
 
 ![](../assets/conferences/timetable/finished_timetable.png)
 
-Using the detailed view:
+A részletes nézet használata:
 
 ![](../assets/conferences/timetable/finished_timetable_detailed.png)
 
-In this timetable, there is one top-level contribution (Welcome speech) and two sessions (Talks & Workshops). The _Talks_ session has two scheduled session blocks, morning and afternoon, with several contributions in each block. There is also a break between the two blocks. The Workshops session has only one scheduled session block with several contributions in it.
+Ebben az ütemtervben egy legfelső szintű hozzászólás (Üdvözlő beszéd) és két szekció (Előadások és műhelyek) található. Az _Talks_ ülésszak két ütemezett ülésblokkot tartalmaz, délelőtt és délután, mindkét blokkban több hozzászólással. A két blokk között szünet is van. A Workshopok ülésszaknak csak egy tervezett ülésblokkja van, amelyben több hozzászólás is szerepel.
 
-Note that despite the event having two sessions, the timetable only contains sessions blocks as sessions cannot be scheduled directly. Even if a session has only one session block like the _Workshops_ session in the example above, a session block needs to be created regardless.
+Vegye figyelembe, hogy annak ellenére, hogy a rendezvénynek két ülése van, az ütemterv csak ülések blokkjait tartalmazza, mivel az ülések nem ütemezhetők közvetlenül. Még ha egy ülésnek csak egy ülésblokkja van is, mint a fenti példában a _Workshops_ ülésnek, akkor is létre kell hozni egy ülésblokkot.
 
-Besides contributions, there exist also subcontributions which can be created inside a contribution. However, these are simply part of its parent contribution and cannot be individually scheduled in the timetable. 
+A hozzájárulásokon kívül léteznek al-hozzájárulások is, amelyek egy hozzájáruláson belül hozhatók létre. Ezek azonban egyszerűen a szülői hozzájárulás részét képezik, és nem ütemezhetők külön-külön az órarendben. 
 
-### Creating a timetable
+### Órarend létrehozása
 
-In this section, we will show how to create an event timetable using session blocks, contributions and breaks.
+Ebben a szakaszban bemutatjuk, hogyan hozhatunk létre egy eseménymenetrendet az ülésblokkok, hozzájárulások és szünetek felhasználásával.
 
-Note that contributions have a slightly different behaviour in meetings and conferences. In a meeting, a contribution is an entry in the timetable representing a talk or a discussion item and it has no other purpose outside the timetable. In conferences, contributions are much more versatile and besides the timetable, they are also used for the [Call for abstracts](./cfa.md) and the [Peer reviewing](./papers/introduction.md) and [Editing](./papers/introduction.md) modules.
+Vegye figyelembe, hogy a hozzájárulások kissé másképp viselkednek az üléseken és a konferenciákon. Egy értekezleten a hozzászólás egy előadást vagy vitapontot jelképező bejegyzés az ütemtervben, és nincs más célja az ütemterven kívül. Konferenciákon a hozzászólások sokkal sokoldalúbbak, és a menetrend mellett a [Call for abstracts](./cfa.md) és a [Peer reviewing](./papers/introduction.md) és a [Editing](./papers/introduction.md) modulok is használják őket.
 
-#### Contributions
+#### Hozzájárulások
 
-We will start with the simplest case, which is adding contributions to the timetable without using any session blocks.
+A legegyszerűbb esettel kezdjük, amely a hozzájárulások hozzáadása az órarendhez, ülésblokkok használata nélkül.
 
-To schedule a contribution, first navigate to _Timetable_ in the management area of your event. This opens the top-level view of the timetable. If your event lasts multiple days, you will see at the top several tabs, each representing one day of the timetable. Switching between them will show you the programme for the given day.
+Hozzájárulás ütemezéséhez először navigáljon az esemény kezelési területén a _Ortajánló_ menüpontra. Ez megnyitja az órarend legfelső szintű nézetét. Ha az eseménye többnapos, akkor a tetején több lapot lát, amelyek mindegyike az órarend egy-egy napját jelöli. Ha ezek között váltogat, akkor az adott nap programját láthatja.
 
 ![](../assets/conferences/timetable/timetable_days.png)
 
-The days you will see here depend on the start and end date of your event.
+Az itt látható napok az esemény kezdő és befejező dátumától függnek.
 
-To add a contribution, select a day and click on _Add new_ in the top right corner of the timetable and then select _Contribution_ from the dropdown menu.
+Hozzájárulás hozzáadásához válasszon ki egy napot, és kattintson az ütemterv jobb felső sarkában található _Add new_ gombra, majd válassza ki a legördülő menüből a _Contribution_ lehetőséget.
 
 ![](../assets/conferences/timetable/add_contrib.png)
 
-From the list of available contributions, select the contributions you want to schedule. It is also possible to select multiple contributions which will be scheduled one after another. Confirm your selection by clicking on _Add selected_.
+A rendelkezésre álló hozzájárulások listájából válassza ki a beütemezni kívánt hozzájárulásokat. Lehetőség van több hozzászólás kiválasztására is, amelyek egymás után lesznek ütemezve. Erősítse meg a kiválasztást a _Add selected_ gombra kattintva.
 
 ![](../assets/conferences/timetable/add_contrib_select.png)
 
-If you cannot find the contribution you want to schedule in the list, make sure the contribution is not assigned to a session. If a contribution is assigned to a session, it can only be scheduled within that session. Only contributions with no session assignment can be scheduled at the top level. To check if your contribution has a session assigned, go to the _Contributions page_ and make sure that in the column _Session_ it says _No session_.
+Ha nem találja a listában a beütemezni kívánt hozzájárulást, győződjön meg róla, hogy a hozzájárulás nincs hozzárendelve egy ülésszakhoz. Ha egy hozzászólás egy munkamenethez van hozzárendelve, akkor csak azon belül ütemezhető. Csak a munkamenethez nem rendelt hozzájárulások ütemezhetők a legfelső szinten. Ha ellenőrizni szeretné, hogy a hozzájárulásához van-e munkamenet hozzárendelve, lépjen a _A hozzájárulások oldalra_, és győződjön meg róla, hogy a _Munkamenet_ oszlopban az áll, hogy _Nincs munkamenet_.
 
 ![](../assets/conferences/timetable/no_session.png)
 
-The timetable also allows creating and scheduling a contribution at the same time. To do so, click again on _Add new_ and select _Contribution_ from the dropdown. Then, click on _Create a new one_ at the top of the dialogue.
+Az ütemterv lehetővé teszi a hozzászólás létrehozását és ütemezését is egyszerre. Ehhez kattintson ismét a _Új_ hozzáadása gombra, és válassza ki a legördülő menüből a _Contribution_ lehetőséget. Ezután kattintson a párbeszédpanel tetején az _Create a new one_ gombra.
 
 ![](../assets/conferences/timetable/create_contrib.png)
 
-A new dialogue window will open where you must fill at least the title, start time and the duration of the contribution. In the _People_ field, you may add speakers, authors and co-authors. If you add speakers, they will be displayed under the contribution in the timetable. If you are creating a meeting timetable only speakers will be available here.
+Megnyílik egy új párbeszédablak, ahol ki kell töltenie legalább a hozzájárulás címét, kezdési időpontját és időtartamát. A _People_ mezőben hozzáadhatja az előadókat, szerzőket és társszerzőket. Ha hozzáteszi az előadókat, akkor azok a hozzászólás alatt fognak megjelenni a menetrendben. Ha ülésmenetrendet hoz létre, akkor itt csak az előadók lesznek elérhetők.
 
 ![](../assets/conferences/timetable/create_contrib_dialog.png)
 
-When finished, click _Save_ and the contribution will be automatically scheduled for the time you selected.
+Ha végzett, kattintson a _Save_ gombra, és a hozzászólás automatikusan be lesz ütemezve a kiválasztott időpontra.
 
-!!! note
-    If you have no contributions that can be scheduled, or you are creating a meeting timetable, the form to create a new contribution will open directly after clicking on _Add new_ -> _Contribution_.
+!!! Megjegyzés
+    Ha nincsenek ütemezhető hozzászólásai, vagy éppen egy megbeszélés ütemtervét hozza létre, akkor a _Új hozzászólás hozzáadása_ -> __hozzájárulás_ gombra kattintás után közvetlenül megnyílik az új hozzászólás létrehozására szolgáló űrlap.
 
-If you wish to change the start time of a contribution, you can simply drag it up or down in the timetable. Alternatively, you can use the up and down buttons, which become visible when you hover over any item in the timetable:
+Ha módosítani szeretné egy hozzászólás kezdési időpontját, akkor egyszerűen felfelé vagy lefelé húzza azt az ütemtervben. Alternatívaként használhatja a felfelé és lefelé gombokat is, amelyek akkor válnak láthatóvá, ha az órarend bármely eleme fölé mozgatja a mutatót:
 
 ![](../assets/conferences/timetable/move_up_down.png)
 
-To change the duration of a contribution, click and drag the bottom edge of the contribution.
+Egy hozzászólás időtartamának megváltoztatásához kattintson és húzza a hozzászólás alsó szélét.
 
-Clicking on a contribution in the timetable brings up a window showing some basic information about it and lets you manage its settings. You can also set the starting time and duration by clicking on the contribution and then clicking on the time:
+Ha az órarendben rákattint egy hozzászólásra, megjelenik egy ablak, amely néhány alapvető információt mutat róla, és lehetővé teszi a beállítások kezelését. A kezdési időpontot és az időtartamot is beállíthatja, ha rákattint a hozzájárulásra, majd az időre kattint:
 
 ![](../assets/conferences/timetable/adjust_start_duration.png)
 
-You can also quickly edit the contribution settings and protection:
+A hozzájárulás beállításait és védelmét is gyorsan szerkesztheti:
 
 ![](../assets/conferences/timetable/quick_edit.png)
 
-To move a contribution to a different day, click on the icon with the two arrows (_Move contribution_):
+Ha egy hozzászólást másik napra szeretne áthelyezni, kattintson a két nyíllal ellátott ikonra (_Move contribution_):
 
 ![](../assets/conferences/timetable/move.png)
 
-In the new dialogue you can select a different day for the contribution. If your timetable already has session blocks, you can also move the contribution inside one of them. This action will automatically assign the contribution to the session.
+Az új párbeszédablakban kiválaszthatja a hozzájárulás másik napját. Ha az órarend már tartalmaz ülésblokkokat, akkor a hozzájárulást ezek egyikén belül is áthelyezheti. Ez a művelet automatikusan hozzárendeli a hozzájárulást az üléshez.
 
 ![](../assets/conferences/timetable/move_dialog.png)
 
-If you simply want to move a contribution from the top level into a session block, you can also drag the contribution over the session block, which will automatically place it inside the block.
+Ha egyszerűen csak egy hozzájárulást szeretne áthelyezni a legfelső szintről egy munkamenetblokkba, akkor a hozzájárulást a munkamenetblokk fölé is húzhatja, ami automatikusan a blokk belsejébe helyezi azt.
 
-Note that, there is a difference between meetings and conferences when it comes to removing contributions from the timetable. In a conference, a contribution can be safely unscheduled while keeping its data intact. In a meeting, when a contribution is removed from a timetable, it is also deleted.
+Ne feledje, hogy a hozzájárulásoknak az órarendből való eltávolítása tekintetében különbség van az ülések és a konferenciák között. Egy konferencián egy hozzászólás biztonságosan törölhető az ütemtervből, miközben az adatai érintetlenül maradnak. Egy értekezleten, amikor egy hozzászólást eltávolítanak az ütemtervből, az egyben törlődik is.
 
-To remove a contribution from a timetable, click on the bin icon (_Unschedule contribution_ for conferences or _Delete contribution_ for meetings) and confirm by clicking _OK_.
+Ha el szeretne távolítani egy hozzászólást a menetrendből, kattintson a szemetes ikonra (konferenciák esetében a _Tervezett hozzászólás megszüntetése_, értekezletek esetében a _Bejegyzés törlése_), majd erősítse meg a _OK_ gombra kattintva.
 
 ![](../assets/conferences/timetable/unschedule.png)
 
-#### Session blocks
+#### Ülésblokkok
 
-A session block represents an instance or a part of a session with a defined start and end. A session can have one or more session blocks. This allows you to split a session into multiple parts if needed. For example, a session could have a morning and afternoon portion. For another example, a session spanning multiple days could have one session block on each day.
+Egy munkamenetblokk egy példányt vagy egy munkamenet egy részét jelenti, meghatározott kezdettel és véggel. Egy munkamenetnek egy vagy több munkamenetblokkja lehet. Ez lehetővé teszi, hogy szükség esetén egy munkamenetet több részre osszon fel. Például egy munkamenetnek lehet egy délelőtti és egy délutáni része. Egy másik példa: egy több napon át tartó munkamenetnek minden napra juthat egy munkamenetblokk.
 
-What separates session blocks from contributions is the fact that session blocks have their own timetables. This allows contributions and breaks to be scheduled not only at the top level, but also inside session blocks.
+A munkamenetblokkokat az különbözteti meg a hozzájárulásoktól, hogy a munkamenetblokkoknak saját menetrendjük van. Ez lehetővé teszi, hogy a hozzászólásokat és a szüneteket ne csak a legfelső szinten, hanem az ülésblokkokon belül is be lehessen ütemezni.
 
-To add a new session block, click on _Add new_ and select _Session block_ from the dropdown.
+Új munkamenetblokk hozzáadásához kattintson az _Új hozzáadása_ gombra, és válassza ki a legördülő menüből a _Munkamenetblokk_ lehetőséget.
 
 ![](../assets/conferences/timetable/session_block.png)
 
-Under _Add another block to_, you can select the parent session. Clicking on _Create new session_ will first create a completely new session and then a new session block inside it. You can also create sessions from the _Sessions_ tab - see more details [here](./sessions.md).
+A _Add another block to_ alatt kiválaszthatja a szülő munkamenetet. Az _Új munkamenet létrehozása_ gombra kattintva először egy teljesen új munkamenetet, majd azon belül egy új munkamenetblokkot hoz létre. A munkameneteket a _Munkamenetek_ fülön is létrehozhatja - további részletek [itt](./sessions.md).
 
-After selecting a session, a session block dialogue will open. Fill in the start time and duration and optionally the remaining fields. The session block title is optional. If you leave it empty, the session block will display the session title only. In the _Location_ field, you can select a location from the [Room booking module](../room_booking/about.md), if applicable.
+A munkamenet kiválasztása után megnyílik egy munkamenetblokk párbeszédpanel. Töltse ki a kezdési időpontot és időtartamot, valamint opcionálisan a többi mezőt. A munkamenetblokk címe opcionális. Ha üresen hagyja, a munkamenetblokk csak a munkamenet címét fogja megjeleníteni. A _Location_ mezőben adott esetben kiválaszthat egy helyszínt a [Szobafoglalás modul](../room_booking/about.md) modulból.
 
-Finally, you can also add _Conveners_ to the session block. These are distinct from session coordinators, as explained [here](./sessions.md). Session conveners have no extra rights, similar to contribution speakers. Session conveners are displayed in the top right corner of their session block.
+Végül az ülésblokkhoz hozzáadhatja a __Conveners_ (Összehívók_) mezőt is. Ezek különböznek a munkamenet-koordinátoroktól, amint azt [itt](./sessions.md) elmagyarázzuk. A munkamenet összehívóknak nincsenek extra jogaik, hasonlóan a hozzászólások előadóihoz. A munkamenet összehívói a munkamenet blokkjuk jobb felső sarkában jelennek meg.
 
 ![](../assets/conferences/timetable/block_dialog.png)
 
-Once you have filled in all the data, click _Save_ to create and schedule the session block. To edit the data later, simply click on the session block in the timetable and then click on the pencil icon in the session block section.
+Miután minden adatot kitöltött, kattintson a _Save_ gombra az ülésblokk létrehozásához és ütemezéséhez. Az adatok későbbi szerkesztéséhez egyszerűen kattintson az ülésblokkra az órarendben, majd kattintson a ceruza ikonra az ülésblokk résznél.
 
 ![](../assets/conferences/timetable/block_edit.png)
 
-Just like contributions, you can click and drag the session block up or down to change the start time. Duration is adjusted by clicking and dragging the bottom edge. The start time and duration can also be changed by clicking on the block and then clicking on the time:
+A hozzájárulásokhoz hasonlóan az ülésblokkra kattintva és azt felfelé vagy lefelé húzva módosíthatja a kezdési időpontot. Az időtartamot az alsó szélére kattintva és azt húzva lehet beállítani. A kezdési időpont és az időtartam a blokkra kattintva, majd az időre kattintva is módosítható:
 
 ![](../assets/conferences/timetable/block_change_time.png)
 
-It is also possible to manage the session settings and protection directly from the timetable by clicking on a session block:
+Az ülés beállításait és védelmét közvetlenül az órarendből is lehet kezelni, ha az ülésblokkra kattintunk:
 
 ![](../assets/conferences/timetable/block_edit_session.png)
 
-!!! note
-    A session block cannot span multiple days. If your session takes place over several days, create one session block for each day.
+!!! Megjegyzés
+    Egy ülésblokk nem terjedhet ki több napra. Ha az ülés több napon át tart, hozzon létre egy ülésblokkot minden napra.
 
-Session blocks are by default created empty. In order to schedule a contribution or a break in a session block, first navigate to the session block timetable. To do so, click on a session block and select _Go to session block timetable_.
+Az ülésblokkok alapértelmezés szerint üresen jönnek létre. Ahhoz, hogy egy ülésblokkban hozzájárulást vagy szünetet tervezzen, először navigáljon az ülésblokk órarendjéhez. Ehhez kattintson az ülésblokkra, és válassza a _Menj az ülésblokk menetrendjéhez_ lehetőséget.
 
 ![](../assets/conferences/timetable/block_timetable.png)
 
-This opens a new page which shows the session block timetable. The name of the block you are currently viewing is displayed in the top right. You can always get back to the full timetable by clicking on _Up to timetable_.
+Ez megnyit egy új oldalt, amelyen az ülésblokkok menetrendje látható. Az éppen megtekintett blokk neve a jobb felső sarokban jelenik meg. A _Up to timetable_ gombra kattintva bármikor visszatérhet a teljes órarendhez.
 
 ![](../assets/conferences/timetable/up_to_timetable.png)
 
-Inside a session block, you can schedule a contribution or a break. We cover breaks in the following section. To add a new contribution, click on _Add new_ and select _Contribution_. Note that you can only schedule contributions which are assigned to the same session as the session block you are currently in. If you want to schedule a contribution which belongs to a different session, first go to the _Contributions_ page and find the contribution in question. Next, change its _Session_ to be the same as the one of the session block where you want to schedule it.
+Egy ülésblokkon belül beoszthat egy hozzászólást vagy egy szünetet. A szünetekkel a következő szakaszban foglalkozunk. Új hozzászólás hozzáadásához kattintson az _Add new_ gombra, majd válassza a __Contribution_ lehetőséget. Vegye figyelembe, hogy csak olyan hozzájárulásokat ütemezhet, amelyek ugyanahhoz a munkamenethez vannak rendelve, mint az aktuális munkamenetblokk. Ha olyan hozzájárulást szeretne ütemezni, amely más munkamenethez tartozik, először lépjen a _Contributions_ oldalra, és keresse meg a kérdéses hozzájárulást. Ezután módosítsa a _Session_-t úgy, hogy az megegyezzen annak az ülésblokknak az ülésblokkjával, ahová ütemezni szeretné.
 
 ![](../assets/conferences/timetable/change_session.png)
 
-The procedure to schedule a contribution in a session block is the same as adding a contribution add the top level of the timetable, as explained in the [previous section](#contributions). We explain how to add breaks in the [following section](#breaks).
+A hozzászólás beütemezésének eljárása egy ülésblokkban ugyanaz, mint a hozzászólás hozzáadása az órarend legfelső szintjének hozzáadásához, ahogyan azt az [előző szakaszban](#contributions) elmagyarázzuk. A szünetek hozzáadásának módját a [következő szakaszban](#szünetek) ismertetjük.
 
-A session block cannot be moved to a different day, nor can there be a session block nested inside another session block. If you wish to move a session block to a different day, the only way is to delete it on one day and recreate it on another day. Note that deleting a session block will automatically unschedule (for conferences) or delete (for meetings) all contributions inside. It will also delete all breaks inside it.
+Egy munkamenetblokk nem helyezhető át másik napra, és nem lehet egy munkamenetblokk egy másik munkamenetblokkba ágyazva. Ha egy munkamenetblokkot más napra szeretne áthelyezni, akkor az egyetlen megoldás, ha az egyik napon törli, és egy másik napon újra létrehozza. Vegye figyelembe, hogy egy munkamenetblokk törlése automatikusan feloldja (konferenciák esetében) vagy törli (értekezletek esetében) a benne lévő összes hozzászólást. A benne lévő összes szünetet is törölni fogja.
 
-To delete a session block, click on a session block and then click on the bin icon:
+Egy ülésblokk törléséhez kattintson az ülésblokkra, majd kattintson a szemetes ikonra:
 
 ![](../assets/conferences/timetable/block_delete.png)
 
-##### Poster sessions
+##### Poszter szekciók
 
-Scheduling works differently if a session block belongs to a poster session (more details on how to create poster sessions [here](./sessions.md)). If that is the case, contributions inside the block are treated as posters and are automatically scheduled in parallel, with the start and end time being the same as the parent session block. In addition, it is not possible to add a break inside a poster session.
+Az ütemezés másképp működik, ha egy ülésblokk egy poszterüléshez tartozik (további részletek a poszterülések létrehozásának módjáról [itt](./sessions.md)). Ha ez a helyzet, a blokkban lévő hozzászólásokat poszterként kezeljük, és automatikusan párhuzamosan ütemezzük őket, a kezdési és befejezési idő megegyezik a szülő ülésblokkéval. Ezenkívül nem lehetséges szünetet beiktatni egy poszter ülésen belül.
 
-To schedule a contribution in a session block belonging to a poster session, click on _Add poster_ in the top right and select the contributions you want to schedule:
+Ha egy poszter-üléshez tartozó ülésblokkban szeretne hozzászólást ütemezni, kattintson a jobb felső sarokban a _Add poster_ gombra, és válassza ki a beütemezni kívánt hozzászólásokat:
 
 ![](../assets/conferences/timetable/add_poster.png)
 
-Notice also that the timetable looks different - instead of showing the start and end times for each contribution, it simply shows a list. 
+Vegye észre azt is, hogy az ütemterv másképp néz ki - ahelyett, hogy az egyes hozzászólások kezdő és befejező időpontját mutatná, egyszerűen egy listát jelenít meg. 
 
-#### Breaks
+#### Szünetek
 
-Breaks serve as a pause between other scheduled items in your programme such as a lunch break. A break can be scheduled either at the top level of the timetable or inside a session block. To add a top-level break, click on _Add new_ and select _Break_:
+A szünetek szünetet tartanak a program egyéb tervezett programpontjai, például az ebédszünet között. A szünetet az órarend legfelső szintjén vagy egy munkamenetblokkban lehet beütemezni. A legfelső szintű szünet hozzáadásához kattintson az _Új hozzáadása_ gombra, és válassza a _Szünet_ lehetőséget:
 
 ![](../assets/conferences/timetable/break.png)
 
-Fill in the title, start and end time and optionally the description, location and colour. Confirm by clicking on _Save_ which will schedule the break.
+Töltse ki a címet, a kezdési és befejezési időt, valamint opcionálisan a leírást, a helyszínt és a színt. Erősítse meg a _Save_ gombra kattintva, amely beütemezi a szünetet.
 
 ![](../assets/conferences/timetable/add_break.png)
 
-You can always edit these details later by clicking on the break, which opens a dialogue window.
+Ezeket a részleteket később bármikor szerkesztheti, ha a szünetre kattint, amely egy párbeszédablakot nyit meg.
 
 ![](../assets/conferences/timetable/edit_break.png)
 
-To change the start time, a break can be dragged up and down just like contributions and session blocks. A duration can be adjusted by dragging the bottom edge of the break. Like contributions, breaks can also be moved to different days or into session blocks, either by clicking on the _Move_ icon or by dragging the break over a session block.
+A kezdési időpont megváltoztatásához a szünet felfelé és lefelé húzható, csakúgy, mint a hozzászólások és az ülésblokkok. Az időtartam a szünet alsó szélének húzásával módosítható. A hozzájárulásokhoz hasonlóan a szünetek is áthelyezhetők más napokra vagy ülésblokkokba, akár a _Mozgatás_ ikonra kattintva, akár a szünetet egy ülésblokk fölé húzva.
 
-To delete a break, click on the bin icon and confirm by clicking _OK_.
+A szünet törléséhez kattintson a szemetes ikonra, majd erősítse meg a _OK_ gombra kattintva.
 
-To create a break inside a session block, first open the session block timetable by clicking on a session block and selecting _Go to session block timetable_.
+Ha szünetet szeretne létrehozni egy munkamenetblokkon belül, először nyissa meg a munkamenetblokkok órarendjét a munkamenetblokkra kattintva, majd válassza a _Menj a munkamenetblokkok órarendjéhez_ lehetőséget.
 
 ![](../assets/conferences/timetable/block_timetable.png)
 
-Then, you can follow the same steps as for the top level break described above.
+Ezután ugyanazokat a lépéseket követheti, mint a fent leírt felső szintű szünet esetében.
 
-#### Reschedule
+#### Újratervezés
 
-If you find that you need to adjust the starting time or the duration of all entries in a specific day or a session block, you can use the _Reschedule_ functionality. This will adjust all the entries automatically, rather than having to adjust each entry manually.
+Ha úgy találja, hogy egy adott nap vagy egy ülésblokk összes bejegyzésének kezdési időpontját vagy időtartamát módosítani kell, használhatja az _Reschedule_ funkciót. Ez automatikusan módosítja az összes bejegyzést, ahelyett, hogy minden egyes bejegyzést kézzel kellene beállítania.
 
-To start, select either the top-level timetable or a session block timetable and click on _Reschedule_ in the top right.
+A kezdéshez válassza ki a legfelső szintű órarendet vagy egy ülésblokk órarendjét, majd kattintson a _Útütemezés_ gombra a jobb felső sarokban.
 
 ![](../assets/conferences/timetable/reschedule.png)
 ![](../assets/conferences/timetable/reschedule_dialog.png)
 
-You can either adjust the starting time or the duration. If you choose to adjust the starting time, the first entry in the timetable will be moved so that its start time is the same as the start time of the event. In the case of a session block, the entry will be moved to start when the session block starts. All other entries will be 'stacked' after the first entry to completely fill the gaps between the entries.
+Beállíthatja a kezdési időpontot vagy az időtartamot. Ha a kezdési időpont beállítása mellett dönt, az ütemterv első bejegyzése úgy kerül áthelyezésre, hogy a kezdési időpontja megegyezzen az esemény kezdési időpontjával. Ülésblokkok esetén a bejegyzés úgy kerül áthelyezésre, hogy az akkor kezdődjön, amikor az ülésblokk kezdődik. Az összes többi bejegyzés az első bejegyzés után kerül "egymásra", hogy a bejegyzések közötti hézagokat teljesen kitöltse.
 
-This is an example session block timetable before adjusting the start time:
+Ez egy példa az ülésblokk menetrendjére a kezdési időpont beállítása előtt:
 
-![](../assets/conferences/timetable/before_reschedule_start_time.png)
+../assets/conferences/timetable/before_reschedule_start_time.png)
 
-And this is the final result. Notice that the start time was moved from 16:00 to 15:20 (the session block start time) and the gaps between entries were removed. The duration of the entries is unchanged.
+Ez pedig a végeredmény. Vegye észre, hogy a kezdési időpont 16:00-ról 15:20-ra (az ülésblokk kezdési időpontja) került át, és a bejegyzések közötti hézagok eltűntek. A bejegyzések időtartama nem változott.
 
 ![](../assets/conferences/timetable/after_reschedule_start_time.png)
 
-The second rescheduling option, which adjusts the duration of all entries, fills the empty gap between each pair of entries by extending their duration but keeping the start time unchanged.
-If we use the previous example and adjust the durations, we will get this end result:
+A második átütemezési lehetőség, amely az összes bejegyzés időtartamát módosítja, az egyes bejegyzéspárok közötti üres hézagot úgy tölti ki, hogy a bejegyzések időtartamát meghosszabbítja, de a kezdési időt változatlanul hagyja.
+Ha az előző példát használjuk, és kiigazítjuk az időtartamokat, ezt a végeredményt kapjuk:
 
 ![](../assets/conferences/timetable/after_reschedule_duration.png)
 
-Notice that the duration of the last contribution did not change since it is the last entry in the timetable and thus there is no 'gap' to fill.
+Vegyük észre, hogy az utolsó hozzászólás időtartama nem változott, mivel ez az utolsó bejegyzés az órarendben, és így nincs kitöltendő "rés".
 
-With both of the options explained above, a 'time gap' can be specified. This will leave a gap between each pair of entries instead of filling it completely.
+A fent ismertetett mindkét opcióval megadható egy "időhézag". Ezáltal minden egyes bejegyzési pár között marad egy rés, ahelyett, hogy teljesen kitöltené azt.
 
 ![](../assets/conferences/timetable/reschedule_gap.png)
 
-If we take the same example again and adjust the starting time with a time gap of 10 minutes, we will get this:
+Ha ugyanezt a példát újra vesszük, és a kezdési időpontot 10 perces időkülönbséggel állítjuk be, akkor ezt kapjuk:
 
 ![](../assets/conferences/timetable/after_reschedule_gap.png)
 
-All events have been moved to an earlier time while leaving a gap of 10 minutes between them.
+Az összes eseményt korábbi időpontra helyeztük át, miközben 10 perc hézagot hagytunk közöttük.
 
-#### Fit to content
+#### Illeszkedés a tartalomhoz
 
-If the duration of a session block is larger than the total duration of its contents, it is possible to automatically shrink it so that it covers the entries exactly. This involves setting the start time of the block to the start time of its first entry and setting the end time of the block to the end time of its last entry. This operation does not move the individual entries inside the session block.
+Ha egy ülésblokk időtartama nagyobb, mint a tartalma teljes időtartama, lehetőség van arra, hogy automatikusan összezsugorítsa, hogy pontosan lefedi a bejegyzéseket. Ehhez a blokk kezdő időpontját az első bejegyzés kezdő időpontjára, a blokk végét pedig az utolsó bejegyzés végére kell beállítani. Ez a művelet nem mozgatja az egyes bejegyzéseket a munkamenetblokkon belül.
 
-To fit a session block to its content, click on _Fit to content_ in the top right of the session block timetable:
+Ha egy munkamenetblokkot a tartalmához szeretne igazítani, kattintson a munkamenetblokk ütemtervének jobb felső sarkában található _Tartalomhoz igazítás_ gombra:
 
 ![](../assets/conferences/timetable/fit_to_content.png)
 
-You can also fit to content all session blocks in a specific day by clicking on _Reschedule_ in the top-level timetable and ticking _Fit all the sessions to their content_.
+Egy adott nap összes ülésblokkját is tartalomhoz illesztheti, ha a felső szintű órarendben a _Újratervezés_ gombra kattint, és bejelöli az _Minden ülésblokkot a tartalomhoz illeszteni_ jelölőnégyzetet.
 
 ![](../assets/conferences/timetable/fit_to_content_reschedule.png)
 
-!!! note
-    Note that _Fit to content_ is only necessary when you want to shrink a session block. A session block will always grow automatically to accommodate its contents. In fact, it is not possible to set the duration of a session block to be less than the duration of its contents.
+!!! Megjegyzés
+    Vegye figyelembe, hogy a _Fit to content_ csak akkor szükséges, ha egy ülésblokkot szeretne összezsugorítani. Egy munkamenetblokk mindig automatikusan megnő a tartalmának megfelelően. Valójában nem lehet beállítani, hogy egy munkamenetblokk időtartama kisebb legyen, mint a tartalma időtartama.
 
-### Making the timetable public (conferences only)
+### Az órarend nyilvánosságra hozatala (csak konferenciák esetén)
 
-By default, event contributions are in 'Draft mode'. This means that regular users cannot see the list of contributions, the timetable, the book of abstracts and the author and speaker list. The draft mode exists to prevent participants from seeing the timetable while it's being created.
+Alapértelmezés szerint az eseményekhez való hozzászólások "Tervezet módban" vannak. Ez azt jelenti, hogy a rendszeres felhasználók nem láthatják a hozzászólások listáját, az időbeosztást, az absztraktok könyvét, valamint a szerzők és előadók listáját. A vázlatos üzemmód azért van, hogy a résztvevők ne láthassák az ütemtervet, amíg az elkészül.
 
-When you want to make the timetable public, you can turn off the draft mode. To do so, navigate to the _Contributions_ page and toggle _Draft_ in the top right corner.
+Ha nyilvánossá kívánja tenni az ütemtervet, kikapcsolhatja a tervezet módot. Ehhez navigáljon a _Contributions_ oldalra, és kapcsolja be a jobb felső sarokban a _Draft_ lehetőséget.
 
 ![](../assets/conferences/timetable/draft.png)
 
-You can also do the same from the _Settings_ or _Timetable_ page by clicking on _Publish contributions_ inside the warning.
+Ugyanezt megteheti a _Settings_ vagy a _Timetable_ oldalról is, ha a figyelmeztetésen belül a _Publish contributions_ gombra kattint.
 
 ![](../assets/conferences/timetable/draft_warning.png)

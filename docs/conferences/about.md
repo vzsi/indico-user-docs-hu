@@ -1,19 +1,16 @@
-# Conference
+# Konferencia
 
-This is a complex event with many features, including Programme definition and Call for Abstracts, Abstract submission,
-participants' Registration/Application to the event, e-payment facilities and publication Review.
+Ez egy komplex esemény, amely számos funkcióval rendelkezik, beleértve a program meghatározását és az absztraktfelhívást, az absztraktok benyújtását, a résztvevők regisztrációját/jelentkezését az eseményre, az elektronikus fizetési lehetőségeket és a publikációs felülvizsgálatot.
 
-The following video explains how to create a Conference in Indico and define its different components.
+A következő videó elmagyarázza, hogyan hozzon létre egy konferenciát az Indicóban, és hogyan határozza meg annak különböző összetevőit.
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2264870?showTitle=true" allowfullscreen></iframe>
 
 
-As a conference organiser, i.e. event manager, make sure that you are on the Indico page and that you are logged in.
-Click on the tab _Create event_, and click on _Create conference_.
+Konferenciaszervezőként, azaz rendezvényszervezőként győződjön meg arról, hogy az Indico oldalán van, és be van jelentkezve. Kattintson a _Esemény létrehozása_ fülre, majd a _Konferencia létrehozása_ gombra.
 
-The initial steps are similar across Indico event creation. Please read the **Meeting** section of this documentation, if needed.
-The general data you'll enter when creating your conference will constitute the _Overview_.
+A kezdeti lépések hasonlóak az Indico esemény létrehozásában. Szükség esetén olvassa el a dokumentáció **Találkozó** részét. A konferencia létrehozásakor megadott általános adatok alkotják az _Áttekintést_.
 
 ![](../assets/conference_overview.png)
 
-Click on _Switch to display view_ to see what you've done.
+Kattintson a _Váltás a megjelenített nézetre_ gombra, ha látni szeretné, hogy mit csinált.

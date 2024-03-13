@@ -1,38 +1,38 @@
-In some parts of the event you might need to link other users.
-These could be authors and/or speakers in contributions and abstracts, event chairpersons, session conveners or
-lecture speakers.
+Az esemény egyes részein szükség lehet más felhasználók összekapcsolására.
+Ezek lehetnek a hozzászólások és összefoglalók szerzői és/vagy előadói, az esemény elnökei, az ülésszakok összehívói vagy
+előadók.
 
 ![](../assets/conferences/people/person-link.png)
 
-To add an existing user, use the search functionality by clicking on _Search_.
-You can search users by their name, email and affiliation:
+Egy meglévő felhasználó hozzáadásához használja a keresési funkciót a _Keresés_ gombra kattintva.
+A felhasználókat név, e-mail cím és hovatartozás alapján keresheti:
 
 ![](../assets/conferences/people/search.png)
 
-When a user is linked to an event, Indico stores a copy of the user's details such as the name, title and affiliation in the event.
-This preserves the personal data at the time the event took place. If in the future the user changes e.g. their affiliation,
-the event will still display the affiliation they had at the time of the event.
+Amikor egy felhasználó egy eseményhez kapcsolódik, az Indico tárolja a felhasználó adatainak másolatát, például a nevét, címét és hovatartozását az eseményben.
+Ez megőrzi a személyes adatokat az esemény időpontjában. Ha a jövőben a felhasználó megváltoztatja pl. a hovatartozását,
+az esemény továbbra is az esemény időpontjában meglévő hovatartozását fogja megjeleníteni.
 
-The details of a user can be edited by clicking on the edit icon. Note, however, that since the event only stores a copy of the user's data,
-editing user details will only have an effect inside the event. It will not affect the Indico user nor any other event where the user is taking part.
+A felhasználó adatai a szerkesztés ikonra kattintva szerkeszthetők. Vegye azonban figyelembe, hogy mivel az esemény csak a felhasználó adatainak egy másolatát tárolja,
+a felhasználói adatok szerkesztése csak az eseményen belül lesz hatással. Nem lesz hatással sem az Indico felhasználóra, sem más olyan eseményre, amelyben a felhasználó részt vesz.
 
 ![](../assets/conferences/people/edit-person.png)
 
-It is also possible to add people who have no Indico account whose data will only be stored in the event.
-You can add a person this way by clicking on _Enter manually_.
-Note that people added this way will still need to create an Indico account in order to e.g. submit materials.
+Lehetőség van olyan személyek hozzáadására is, akik nem rendelkeznek Indico fiókkal, akiknek az adatai csak az eseményben lesznek tárolva.
+A személyt ily módon a _Kézi bevitel_ gombra kattintva adhatja hozzá.
+Vegye figyelembe, hogy az így hozzáadott személyeknek továbbra is létre kell hozniuk egy Indico-fiókot ahhoz, hogy pl. anyagokat küldhessenek be.
 
 ![](../assets/conferences/people/manual-entry.png)
 
-Here, you can fill the personal data. If you fill in the email, Indico will automatically check for existing users and will notify
-you in case there is already a person with that email in the event, be it an Indico user or another person added manually.
+Itt töltheti ki a személyes adatokat. Ha kitölti az e-mail címét, az Indico automatikusan ellenőrzi a meglévő felhasználókat, és értesíti a
+Önt abban az esetben, ha már van egy személy ezzel az e-mail címmel az eseményen, legyen az egy Indico felhasználó vagy egy másik, kézzel hozzáadott személy.
 
 ![](../assets/conferences/people/add-update.png)
 
-If a person with the email already exists, you can click on _Update_ which will fill the form with the person's data.
+Ha már létezik az adott e-mail címmel rendelkező személy, akkor a _Update_ gombra kattintva kitöltheti az űrlapot a személy adataival.
 
-After updating the form, you can tweak the data further before confirming by clicking on _Save_. This adds the person to the list and updates their data in the event.
+Az űrlap frissítése után tovább finomíthat az adatokon, mielőtt a _Mentés_ gombra kattintva megerősítené. Ezzel a személyt felveszi a listára, és frissíti az adatait az eseményben.
 
-The _Add_ button is simply a shortcut which fills the form, replacing anything you may have written before and confirms automatically.
+A _Add_ gomb egyszerűen egy gyorsbillentyű, amely kitölti az űrlapot, felváltva mindent, amit korábban írt, és automatikusan megerősíti.
 
-Note that you can always edit the details later by clicking on the _Edit_ icon.
+Ne feledje, hogy az adatokat később bármikor szerkesztheti a _Szerkesztés_ ikonra kattintva.

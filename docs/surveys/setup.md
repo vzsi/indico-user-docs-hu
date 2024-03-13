@@ -1,74 +1,74 @@
-# Setting up a Survey
+# Felmérés felállítása
 
-First, you will have to login in to Indico and create an **event** that matches your needs (meeting or lecture or conference). To learn how to do this, please see the relevant sections in this documentation.
+Először is be kell jelentkeznie az Indico-ba, és létre kell hoznia egy **eseményt**, amely megfelel az igényeinek (értekezlet, előadás vagy konferencia). Ennek módját a dokumentáció megfelelő szakaszaiban találja.
 
-On your event management page, accessible by clicking on the **pencil** on the top of the event display page, select _Surveys_, which is under _Organization_ on the left banner.
+Az eseménykezelő oldalon, amelyet az eseménymegjelenítő oldal tetején lévő **ceruzára** kattintva érhet el, válassza ki a _Felmérések_ menüpontot, amely a bal oldali bannerben a _Organizáció_ alatt található.
 
-Click on _Create Survey_ to start the Survey definition.
+Kattintson a _Felmérés létrehozása_ gombra a felmérés meghatározásának elindításához.
 
-Choose a _Title_ for your survey and fill the introduction box with some text you want to be shown as a description.
+Válasszon egy _Címet_ a felmérés számára, és töltse ki a bevezető mezőt valamilyen szöveggel, amelyet leírásként szeretne megjeleníteni.
 
 ![](../assets/survey_create_1.png)
 
-Decide whether you allow _Anonymous submissions_ or not,
-if you want to put a _limit_ on the number of _submissions_ accepted,
-if you want to make the survey _public_ or reserved for a selected few,
-and whether you allow a _partial completion_ of the survey,
+Döntse el, hogy engedélyezi-e az _Anonim beküldéseket_ vagy sem,
+ha _limitet_ akarsz-e szabni a _elfogadott beadványok_ számára,
+hogy a felmérést _nyilvánosnak_ vagy csak néhány kiválasztott számára fenntartottnak kívánja-e tenni,
+és engedélyezi-e a felmérés _részleges kitöltését_,
 
-Decide whether you want to enable email _Notifications_ related to the survey.
-If you select _YES_, then type in the email addresses of the users who will receive these notifications in the appropriate boxes, the first box for when the survey **starts**, and the second one for each time the survey is **filled** by a participant. Write one email address per line, no separators are accepted.
+Döntse el, hogy engedélyezni kívánja-e a felméréssel kapcsolatos _E-mail értesítések_ küldését.
+Ha az _YES_ lehetőséget választja, akkor írja be a megfelelő mezőkbe azoknak a felhasználóknak az e-mail címét, akik ezeket az értesítéseket kapják, az első mezőbe a felmérés **kezdésekor**, a másodikba pedig minden olyan alkalommal, amikor a felmérést egy résztvevő **kitöltötte**. Soronként egy e-mail címet írjon, elválasztójeleket nem fogadunk el.
 
-When you are finished, click on _Save_.
+Ha végzett, kattintson a _Mentés_ gombra.
 
 ![](../assets/survey_create_2.png)
 
-## Create the questionnaire
+## A kérdőív létrehozása
 
-To do this, click on _Manage_, and then on _Prepare questionnaire_.
+Ehhez kattintson a _Manage_, majd a _Prepare questionnaire_ gombra.
 
-You can either import an existing questionnaire, or define a new one.
+Vagy importálhat egy meglévő kérdőívet, vagy definiálhat egy újat.
 
-You may  divide your questionnaire in sections. _Sections_ contain
-_questions_ and questions will show up within the corresponding section, except for those in the "_Standalone section_", which will show up at the top level.
+A kérdőívet szakaszokra oszthatja. A _Szekciók_ a következőket tartalmazzák
+_kérdéseket_, és a kérdések a megfelelő szakaszon belül jelennek meg, kivéve a "_Standalone szakasz_" kérdéseit, amelyek a legfelső szinten jelennek meg.
 
-For each question, you can choose a different modality, such as multiple choice, a "yes" or "no" answer, and so on.
+Minden egyes kérdéshez választhat különböző módozatot, például feleletválasztást, "igen" vagy "nem" választ stb.
 
-While creating a new section, by clicking on _Add section_, decide whether you want a standard section, or a standalone one.
+Új szekció létrehozása során a _Add section_ gombra kattintva döntse el, hogy szabványos szekciót vagy önálló szekciót szeretne.
 
-Type in the _Title_ of your section and a Description explaining what you are asking the users to do.
+Írja be a szakasz _Címét_ és egy leírást, amely megmagyarázza, hogy mit kér a felhasználóktól.
 
-Click on _Save_ and the section will be displayed.
+Kattintson a _Mentés_ gombra, és a szakasz megjelenik.
 
 
 ![](../assets/survey_questionnaire_1.png)
 
 
-Time to add some items to your section.
+Ideje hozzáadni néhány elemet a szakaszhoz.
 
-You can click on _Add text item_ if you want to include an item that only contains your informative text.
-Otherwise, you can add one of the actual questions that the survey participant will have to answer.
+A _Szöveges elem hozzáadása_ gombra kattinthat, ha olyan elemet szeretne felvenni, amely csak az Ön tájékoztató szövegét tartalmazza.
+Ellenkező esetben hozzáadhatsz egyet a tényleges kérdések közül, amelyekre a felmérés résztvevőjének válaszolnia kell.
 
-In the _Add text item_ pop-up write your prompting text in the box. Click on _Save_ in order to show the text item in your section.
+A _Szöveges elem hozzáadása_ felugró ablakban írja be a kérdőív szövegét a mezőbe. Kattintson a _Mentés_ gombra, hogy a szöveges elem megjelenjen a szekciójában.
 
 ![](../assets/survey_questionnaire_2.png)
 
-Click on the tab _Add question_ and select the question modality that suits your needs, e.g. _Single choice_ question, as per this figure:
+Kattintson a _Add question_ fülre, és válassza ki az igényeinek megfelelő kérdezési módot, például _Single choice_ kérdést, az ábra szerint:
 
 ![](../assets/survey_questionnaire_3.png)
 
-This means that the user will be able to select only **one** from the available options.
+Ez azt jelenti, hogy a felhasználó csak **egyet** választhat a rendelkezésre álló lehetőségek közül.
 
-Type the question in the _Title_ box, for example "Will you use Indico to make your own survey?" and add a _Description_ if you need to, for example: "Select one of the candidate answers below", then indicate whether you want the answer to this question to be _Required_ in order for the survey to be effectively submitted.
+Írja be a kérdést a _Cím_ mezőbe, például "Használja-e az Indico-t saját felmérésének elkészítéséhez?", és ha szükséges, adjon hozzá egy _leírást_, például: "Válasszon ki egyet az alábbi válaszlehetőségek közül", majd adja meg, hogy a kérdésre adott válasz _Követelményes_ legyen-e a felmérés hatékony elküldéséhez.
 
-Select whether you want your options to be displayed as _Radio buttons_ or a _Drop-down list_.
-If you choose radio buttons, indicate whether you want them displayed _Vertically_ or _Horizontally_.
+Válassza ki, hogy a választási lehetőségeket _Rádiógombok_ vagy _leereszkedő lista_ formájában kívánja-e megjeleníteni.
+Ha a rádiógombokat választja, adja meg, hogy _Vertikálisan_ vagy _Horizontálisan_ szeretné-e megjeleníteni őket.
 
-Type in the Options that you want your participant to choose and click on _Save_ once you are finished. The figure below shows the above options selected:
+Írja be azokat az opciókat, amelyeket a résztvevő választani kíván, és kattintson a _Mentés_ gombra, ha befejezte. Az alábbi ábra a fenti opciókat mutatja be kiválasztva:
 
 ![](../assets/survey_questionnaire_4.png)
 
-Now that you have created your _Section_, you can change the order of presentation of your question and item. To do this, you can drag your question or item by using the grey rectangle that will appear on the left.
+Most, hogy létrehozta a _Section_-t, megváltoztathatja a kérdés és a tételek bemutatásának sorrendjét. Ehhez a kérdését vagy elemét a bal oldalon megjelenő szürke téglalap segítségével húzza el.
 
-You can do the same with your entire section, by dragging it using the grey rectangle at the top.
+Ugyanezt megteheti az egész szekciójával is, ha a felül megjelenő szürke téglalap segítségével húzza el.
 
 ![](../assets/survey_sections.png)

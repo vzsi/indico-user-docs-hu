@@ -1,22 +1,21 @@
-# Create a reminder for your Indico event
+# Hozzon létre emlékeztetőt az Indico eseményhez
 
-From the event management view, click on _Reminders_ on the left banner under _Organisation_.
+Az eseménykezelési nézetben kattintson a _Emlékeztetőkre_ a bal oldali bannerben a _Organizáció_ alatt.
 
 ![](assets/reminders_entry.png)
 
-Click on _Add reminder_.
+Kattintson az _Emlékeztető hozzáadása_ gombra.
 
-Here you can decide **when** you want to send your reminder, a few hours or days from the start of your event, if you want your reminder to be sent at a fixed date and time, or if you want to send it immediately,
+Itt eldöntheti, hogy **mikor** szeretné elküldeni az emlékeztetőt, néhány órával vagy nappal az esemény kezdete után, ha azt szeretné, hogy az emlékeztetőt egy meghatározott időpontban küldje el, vagy ha azonnal szeretné elküldeni,
 
-You can check the box _Participants_ if you defined your event such that candidate participants were prompted to register. The reminder will be sent to everybody who will participate in the event.
+Bejelölheti a _Résztvevők_ jelölőnégyzetet, ha úgy határozta meg az eseményét, hogy a jelentkező résztvevők regisztrációra legyenek felszólítva. Az emlékeztető mindenkinek elküldésre kerül, aki részt vesz az eseményen.
 
-You can also type _Email addresses_ in the relevant box - write one email per line, no separators are allowed.
+A megfelelő mezőbe beírhatja az _Email címeket_ is - soronként egy e-mailt írjon, elválasztójelek nem engedélyezettek.
 
-Select the senders, and write the text that you want to include in the email message.
+Válassza ki a feladókat, és írja meg az e-mail üzenetben szerepeltetni kívánt szöveget.
 
-You can decide to include the agenda of the event in the email by checking the _include agenda_ box.
+Dönthet úgy, hogy az esemény napirendjét is tartalmazza-e az email, ha bejelölöd a _include agenda_ (napirend beillesztése) négyzetet.
 
 ![](assets/reminders.png)
 
-Click on _Save_ when you are finished.
-
+Kattintson a _Mentés_ gombra, ha végzett.

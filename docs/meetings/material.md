@@ -1,14 +1,13 @@
-# Adding Material to a Meeting
+# Anyag hozzáadása egy megbeszéléshez
 
-Click on the pencil at the top right of your screen, and click on _Material Editor_.
+Kattintson a képernyő jobb felső sarkában lévő ceruzára, és kattintson az _anyagszerkesztő_ lehetőségre.
 
-In this window, you can _Upload files_, _Add links_, or create a new **folder** in which you will include your files.
+Ebben az ablakban _Fájlok feltöltése_, _Hivatkozások hozzáadása_, vagy egy új **mappa** létrehozása, amelybe a fájlokat felveszi.
 
-For example, to upload a file, simply click on _Upload files_, click on _Choose from your computer_ and select a file from your device. You can also drag and drop your file in the area indicated.
-Here you can also choose to automatically convert your file to PDF, and decide whether you want your file to be accessible to anybody or to a selected few.
+Ha például fájlt szeretne feltölteni, egyszerűen kattintson a _Fájlok feltöltése_ gombra, majd kattintson a _Choose from your computer_ lehetőségre, és válasszon ki egy fájlt az eszközéről. Fájlját a jelzett területre húzva is elhelyezheti. Itt kiválaszthatja azt is, hogy fájlját automatikusan PDF-be konvertálja-e. Továbbá eldöntheti, hogy fájlját bárki vagy csak néhány kiválasztott személy számára tegye hozzáférhetővé.
 
-Once you’re finished, click on _Upload_ and close your window.
+Ha végzett, kattintson a _Upload_ gombra, és zárja be az ablakot.
 
-See an example of a meeting with material directly attached to the event as well as included in _Folders_.
+Tekintse meg egy értekezlet példáját, amelynek anyagát közvetlenül az eseményhez csatolták, valamint a _Mappák_ között is szerepel.
 
 ![](../assets/with-folders-material-meeting.png)

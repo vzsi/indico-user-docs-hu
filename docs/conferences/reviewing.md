@@ -1,57 +1,57 @@
-# Reviewing Abstracts
+# Absztraktok áttekintése
 
-This short video explains the Abstract Review process and the Judge's role in Indico:
+Ez a rövid videó elmagyarázza az absztraktok bírálati folyamatát és a bíró szerepét az Indicóban:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275653?showTitle=true" allowfullscreen></iframe>
 
-Read about this process in detail below.
+Az alábbiakban részletesen olvashat erről a folyamatról.
 
-### As an abstract Reviewer
+### Absztrakt bírálóként
 
-From the event display view, as an event manager with a Reviewer role, click on the Reviewer area. See the tracks you are a Reviewer of, hover over the area, see how many tracks contain Abstracts pending for Review, click on the track.
+Az eseménymegjelenítési nézetben, mint eseménykezelő a Reviewer szerepkörrel, kattintson a Reviewer területre. Lássa a pályákat, amelyeknek Ön a bírálója, vigye a gépet a terület fölé, nézze meg, hogy hány pálya tartalmaz felülvizsgálatra váró absztraktokat, kattintson a pályára.
 
-Click on the Abstract’s name.
+Kattintson az Absztrakt nevére.
 
-On the Reviewing page, as a Reviewer, you may leave feedback on the Abstract in the _Review option_. The _Judge option_ means to effectively _Accept_ or _Reject_ an Abstract, based on the various reviews.
+A Reviewing oldalon, mint Reviewer, a _Review opcióban_ visszajelzést hagyhat az Absztraktról. A _Bírálat opció_ azt jelenti, hogy a különböző bírálatok alapján ténylegesen _elfogadja_ vagy _elutasítja_ az Absztraktot.
 
-To leave a comment, as a Reviewer, scroll down the page and click on _Review_ on the right.
+Ha véleményt szeretne hagyni, mint Reviewer, görgessen lefelé az oldalon, és kattintson a jobb oldalon található _Review_ lehetőségre.
 
 ![](../assets/Conference_Abstract_Review_1.png)
 
-Give a _Rating_ in number for each question, defined in advance by the event manager.
-If you select to _Accept_ an Abstract, you may choose its _Type_, for example as a _Poster_ and leave review comments, if you want,
-Click on _Submit review_.
+Adjon egy _Rating_ számmal kifejezett értékelést minden egyes kérdéshez, amelyet a rendezvény vezetője előre meghatároz.
+Ha úgy dönt, hogy _Accept_ egy absztraktot, akkor kiválaszthatja annak _Típusát_, például _Poster_ként, és ha szeretné, hagyhat véleményező megjegyzéseket,
+Kattintson a _Submit review_ gombra.
 
 ![](../assets/Conference_Abstract_Review_2.png)
 
-Remember that the Conveners defined by the event manager(s) have privileged access to all reviews in their tracks.
+Ne feledje, hogy az eseménykezelő(k) által meghatározott összehívók kiváltságos hozzáféréssel rendelkeznek a pályájukban szereplő összes értékeléshez.
 
-## As an Abstract Judge
+## Absztrakt bírálóként
 
-Judges can decide to Accept or Reject Abstracts based on the reviews available.
+A bírálók a rendelkezésre álló bírálatok alapján dönthetnek az absztraktok elfogadásáról vagy elutasításáról.
 
-As a Judge, at the bottom of the reviewing area page, you can select:
-- The option corresponding to your decision, for example _Accept_,
-- The track the Abstract will be accepted in,
-- The type, for example _Oral_.
+Bírálóként a bírálati terület oldalának alján választhat:
+- A döntésnek megfelelő opciót, például _Accept_,
+- A pálya, amelyen az absztraktot elfogadják,
+- a típus, például _Orális_.
 
-Finally, you can write some additional comments in the comment box, and decide if you want to notify the Abstract Submitter of your decision. As a Judge you may Reject an Abstract even if all Reviewers have given positive comments and grades.
+Végül a megjegyzés rovatba további megjegyzéseket írhat, és eldöntheti, hogy értesíti-e az Absztrakt benyújtóját a döntéséről. Bírálóként akkor is elutasíthat egy Absztraktot, ha az összes bíráló pozitív megjegyzéseket és osztályzatokat adott.
 
-Click on _Judge_ to confirm.
+A megerősítéshez kattintson a _Bíró_ gombra.
 
 ![](../assets/Conference_Abstract_Review_3.png)
 
-## Abstract management
+## Absztraktok kezelése
 
-From the event management page, click on _Call for Abstracts_ on the left banner, under _Workflows_.
-Click on _Manage_ on the right of the _List of abstracts_.
+Az eseménykezelő oldalon kattintson a bal oldali bannerben, a _Munkafolyamatok_ alatt a __Call for Abstracts_ gombra.
+Kattintson a _Konsztrakták listája_ jobb oldalán található _Manage_ gombra.
 
-As an event manager, you will see the list of all Abstracts and their status. The options at the top offer customisation possibilities, where you can decide the display criteria of this list. As the Conference event manager you may, with your privileges, undo all Judges’ decisions about Abstract acceptance.
+Rendezvényszervezőként látni fogja az összes Abstracts listáját és azok státuszát. A tetején található opciók testreszabási lehetőségeket kínálnak, ahol meghatározhatja e lista megjelenítési kritériumait. Konferencia rendezvénymenedzserként a jogosultságaiddal visszavonhatod a bírálóknak az absztraktok elfogadásáról szóló összes döntését.
 
-If you click on the boxes of several Abstracts and you have the privileges, you may judge several of them in one go.
+Ha több Absztrakt dobozára kattint, és rendelkezik a megfelelő jogosultságokkal, akkor egyszerre több Absztraktot is elbírálhat.
 
 ![](../assets/Conference_Abstract_Review_4.png)
 
-More options are offered on the same line, for example to export the selected abstracts in various document formats (pdf, excel, etc.).
+Ugyanezen a soron további opciókat kínálunk, például a kiválasztott absztraktok exportálására különböző dokumentumformátumokban (pdf, excel stb.).
 
 ![](../assets/Conference_Abstract_Review_5.png)

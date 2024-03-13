@@ -1,33 +1,33 @@
-# Protection
+# Védelem
 
-From the Management Area you can protect your category in terms of who can view it, who is its manager and who can create events in the category.
+A Kezelési területről megvédheti a kategóriáját a tekintetben, hogy ki láthatja, ki a kezelője, és ki hozhat létre eseményeket a kategóriában.
 
 ![](../assets/category_protection.png)
 
-Users and groups can be added to a category to allow access to the Management Area for modification. Category managers are those listed with the *Manage* permission, Indico administrators, and the category creator.
-Besides users and groups, it is also possible to add custom roles as described in [Using custom roles](../custom_roles.md).
+Felhasználók és csoportok adhatók hozzá egy kategóriához, hogy a Kezelési területhez hozzáférést biztosítsanak a módosításhoz. A kategória kezelői azok, akik a *Manage* jogosultsággal szerepelnek, az Indico adminisztrátorok és a kategória létrehozója.
+A felhasználók és csoportok mellett lehetőség van egyéni szerepkörök hozzáadására is, az [Egyéni szerepkörök használata](../custom_roles.md) című fejezetben leírtak szerint.
 
 ![](../assets/category_protection_edit_permissions.png)
 
-To edit a user or group's permissions click on the pencil. The available permissions allow:
+Egy felhasználó vagy csoport jogosultságainak szerkesztéséhez kattintson a ceruzára. A rendelkezésre álló jogosultságok lehetővé teszik:
 
-- *Access*: viewing events belonging to the category;
-- *Manage*: accessing the management area, modifying all settings and moderating event move requests.
-- *Event creation*: creating events in the category;
-- *Request event move*: requesting an event to be moved to the category.
+- * Hozzáférés*: a kategóriához tartozó események megtekintése;
+- *Manage*: a kezelési terület elérése, az összes beállítás módosítása és az esemény áthelyezési kérelmek moderálása.
+- *Esemény létrehozása*: a kategóriába tartozó események létrehozása;
+- *Esemény áthelyezésének kérése*: esemény áthelyezésének kérése a kategóriába.
 
-Moreover, the *Manage* permission grants the *Event creation* and *Request event move* permissions to the user/group.
+Ezen túlmenően a *Manage* jogosultság megadja a *Event creation* és *Request event move* jogosultságokat a felhasználónak/csoportnak.
 
-*Protection mode*: a category can be:
+*Védelmi mód*: egy kategória lehet:
 
-- *Public*: anyone can view events in it, or
-- *Inheriting*: the protection mode of the parent category (see breadcrumbs under the page top banner) applies, or
-- *Protected*: only users in the *Permissions* list or administrators can access the category.
+- *nyilvános*: bárki megtekintheti a benne lévő eseményeket, vagy
+- *Öröklés*: a szülő kategória védelmi módja érvényes (lásd a morzsákat az oldal tetején lévő banner alatt), vagy
+- *Védett*: csak a *Jogosultságok* listában szereplő felhasználók vagy az adminisztrátorok férhetnek hozzá a kategóriához.
 
-When a Category has _Inheriting_ or _Protected_ mode, the manager(s) can define contact information to be shown to non-authorised viewers, so users with no access will know who to contact in order to request access.
+Ha egy kategória _Öröklés_ vagy _Védett_ módban van, a kezelő(k) meghatározhatják a nem jogosult nézők számára megjelenítendő elérhetőségeket, hogy a hozzáféréssel nem rendelkező felhasználók tudják, kihez kell fordulniuk a hozzáférés kérése érdekében.
 
-Important note for the _Inheriting_ protection mode - changing the parent's protection will change the protection of its sub-categories.
+Fontos megjegyzés az _Öröklődő_ védelmi móddal kapcsolatban - a szülői védelem megváltoztatása az alkategóriák védelmét is megváltoztatja.
 
-*Event visibility*: this is **not** related to category viewing rights - those are regulated by the *Protection mode* explained above.  The choice offered, allows you to decide whether events in this category will be shown in *Today's events* and the *Calendar* from everywhere or from some parent categories only.
+*Esemény láthatósága*: ez **nem** kapcsolódik a kategóriák megtekintési jogaihoz - azokat a fentebb ismertetett *Védelmi mód* szabályozza.  A felkínált választási lehetőség lehetővé teszi annak eldöntését, hogy az adott kategóriába tartozó események mindenhonnan vagy csak egyes szülő kategóriákból jelenjenek meg a *Napi események* és a *Naptár* között.
 
-*Event creation mode*: you can restrict who is able to add events to the category. If you do so, you will need to add users or groups to the permissions list in order to allow them to create events, or to moderate event move requests.
+*Esemény létrehozási mód*: korlátozhatja, hogy ki adhat hozzá eseményeket a kategóriához. Ha így tesz, akkor a jogosultságok listájához hozzá kell adnia felhasználókat vagy csoportokat, hogy engedélyezze számukra az események létrehozását, illetve az események áthelyezési kérelmeinek moderálását.

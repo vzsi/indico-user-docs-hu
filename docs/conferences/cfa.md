@@ -1,106 +1,106 @@
 # Call for Abstracts
 
-This short video shows you how to define the Call for Abstracts in Indico and open it to candidate Abstract submissions:
+Ez a rövid videó bemutatja, hogyan kell meghatározni a Call for Abstracts-t az Indico-ban, és megnyitni azt a jelöltek számára az absztraktok beküldésére:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275338?showTitle=true" allowfullscreen></iframe>
 
-See here these steps in detail:
+Lásd itt ezeket a lépéseket részletesen:
 
-As an event **manager** click on _Call for Abstracts_ on the left banner, under _Workflows_.
+Rendezvény **menedzserként** kattintson a bal oldali bannerben, a _Munkafolyamatok_ alatt található _Hívás összefoglalók benyújtására_ gombra.
 
-Click on _Enable module_ and you will be directed to your "Call for Abstracts" page.
+Kattintson a _Enable module_ gombra, és a "Call for Abstracts" oldalra kerül.
 
-On this page, you will be able to:
-- define _Settings_ related to the types of questions asked during the review of an abstract,
-- select the users who will review the abstracts,
-- officially open the call for abstracts
+Ezen az oldalon a következőkre lesz lehetősége:
+- meghatározhatja az absztraktok bírálata során feltett kérdések típusával kapcsolatos _beállításokat_,
+- kiválaszthatja azokat a felhasználókat, akik az absztraktokat átnézik,
+- hivatalosan megnyitni az absztraktok beküldésére vonatkozó felhívást
 
-and more...
+és így tovább...
 
-The _Schedule_ box defines when the call for abstracts will be open for submissions, at a given future date, or right now.
+Az _Schedule_ mezőben meghatározhatja, hogy az összefoglalók beküldésére vonatkozó felhívás mikor lesz nyitva, egy adott jövőbeli időpontban vagy éppen most.
 
-Before opening the Call for Abstracts, you have to define the parameters below.
+Mielőtt megnyitná az absztraktfelhívást, meg kell határoznia az alábbi paramétereket.
 
-### Email notifications
+### Email értesítések
 
-To customise the email notification templates to send to the users who submit their abstracts, click on _Notifications_, and click on _Add new one_. Here you can add what we call a "notification ruleset", i.e. a specific email template to send when a rule is matched. For example: if an abstract is submitted, a certain email notification will be sent.
+Az absztraktokat beküldő felhasználóknak küldendő e-mail értesítési sablonok testreszabásához kattintson az _Elérések_, majd az _Új értesítés hozzáadása_ gombra. Itt hozzáadhat egy úgynevezett "értesítési szabálykészletet", azaz egy adott e-mail sablont, amelyet egy szabály teljesülése esetén küldjön el. Például: ha egy absztraktot benyújtanak, egy bizonyos e-mail értesítést küldenek.
 
-Choose a _Title_ for your ruleset, and select the email template that you want, for example “Submit”. Then you will have to select a rule, for example “submit”, like your email template. click on _Add new rule_ and select _Submitted_. Click on _Save_.
+Válasszon egy _Címet_ a szabálykészlethez, és válassza ki a kívánt e-mail sablont, például a "Submit" (Beküldés). Ezután ki kell választania egy szabályt, például "submit", mint az e-mail sablonját. kattintson az _Add new rule_ gombra, és válassza a _Submitted_ lehetőséget. Kattintson a _Mentés_ gombra.
 
 ![](../assets/conference_abstract_def.png)
 
-You can add new rulesets by clicking on _Add new one_, for example for when a abstract is _Accepted_ or _Rejected_.
+A _Add new one_ gombra kattintva új szabálykészleteket adhat hozzá, például arra az esetre, ha egy absztrakt _Accepted_ vagy _Rejected_.
 
-### Configure abstract submission
+### Az absztrakt benyújtásának konfigurálása
 
-From the "Call for Abstracts" management page, click on _Settings_ on the _Submissions_ raw which leads to to the _Configure abstract submission_ screen.
+A "Call for Abstracts" kezelőoldalon kattintson a _Szabályozások_ gombra a _Submissions_ nyersen, amely az __Configure abstract submission_ képernyőre vezet.
 
-Write in an _Announcement_ you want to be displayed when users submit their abstracts.
+Írjon be egy _Hirdetményt_, amelyet meg szeretne jeleníteni, amikor a felhasználók beküldik az absztraktjaikat.
 
-Select the options that suit you, such as:
-- allowing the selection of multiple tracks,
-- making the track selection mandatory
+Válassza ki az Önnek megfelelő lehetőségeket, például:
+- több pálya kiválasztásának lehetővé tétele,
+- a pálya kiválasztásának kötelezővé tétele
 
-etc.
+stb.
 
-If you want to limit the abstract submission to a selected few, you can add a limited number of users in _Authorized submitters_.
+Ha csak néhány kiválasztottra szeretné korlátozni az absztraktok beküldését, akkor a _Authorized submitters_ (Jogosult beküldők_) menüpontban megadhat korlátozott számú felhasználót.
 
 ![](../assets/conference_abstract_submit_config.png)
 
-Scroll down for the instructions box, if you wish to insert some additional advice to submitters. Click on _Save_.
+Görgessen lejjebb az utasítások mezőhöz, ha további tanácsokat szeretne beilleszteni a benyújtóknak. Kattintson a _Mentés_ gombra.
 
-The _Fields and types_ raw contains options, where you (as conference manager) will have to define and add the type of the contributions you allow, such as _Oral_ or _Poster_, for example.
-Click on _Contribution types_, _New contribution type_ and create a few.
+A _Fields and types_ nyersen olyan opciókat tartalmaz, ahol Önnek (mint konferencia-menedzsernek) meg kell határoznia és hozzá kell adnia az Ön által engedélyezett hozzászólások típusát, például _Oral_ vagy _Poster_.
+Kattintson a _Contribution types_, _New contribution type_ (Hozzájárulástípusok_), és hozzon létre néhányat.
 
 ![](../assets/conference_abstract_type.png)
 
-From the same  _Fields and types_ raw click on the _Abstract fields_ box, to add new fields tailored to your event, such as a question, or simple text. To do this, click on _Add new field_, and then on _Single choice_ if you allow only one of the available options. Enter the question and select how your want your question to be displayed, for example with radio buttons, displayed vertically. Click on _Save_ and close the window.
+Ugyanitt a _Mezők és típusok_ nyersen kattintson az _Abstract mezők_ mezőre, hogy új, az eseményre szabott mezőket adjon hozzá, például kérdést vagy egyszerű szöveget. Ehhez kattintson az _Új mező hozzáadása_ lehetőségre, majd az _Egyetlen választás_ lehetőségre, ha a rendelkezésre álló lehetőségek közül csak egyet engedélyez. Írja be a kérdést, és válassza ki, hogyan szeretné, hogy a kérdés megjelenjen, például függőlegesen megjelenített rádiógombokkal. Kattintson a _Mentés_ gombra, és zárja be az ablakot.
 
 ![](../assets/conference_abstract_custom.png)
 
-### Configure Abstract Reviewing options
+### Absztrakt áttekintési beállítások konfigurálása
 
-Always on the "Call for Abstracts" management page a raw on _Reviewing_ options allows you to define the questions used in the abstract reviewing process.
+Mindig a "Call for Abstracts" kezelőoldalon a _Reviewing_ options nyersen lehetővé teszi az absztraktok bírálati folyamatában használt kérdések meghatározását.
 
 ![](../assets/conference_review_def.png)
 
-Click on _Roles_. In this page, you can add users as _Reviewers_ and _Conveners_. Reviewers provide an assessment of the abstract with their review, and they can consult only their own reviews.
-Conveners can read all reviews in their tracks and, like the event managers, can act as _Judges_, who can effectively accept or reject an abstract based on the feedback left by the Reviewers.
+Kattintson a _Roles_ gombra. Ezen az oldalon _Reviewers_ és _Conveners_ felhasználóként adhat hozzá felhasználókat. A bírálók a bírálatukkal együtt értékelést adnak az absztraktról, és csak a saját bírálataikat tekinthetik meg.
+A Conveners (összehívók) elolvashatják a saját pályájukban szereplő összes értékelést, és az eseménykezelőkhöz hasonlóan _Judge_ként is felléphetnek, akik a Reviewers (bírálók) által hagyott visszajelzések alapján ténylegesen elfogadhatják vagy elutasíthatják az absztraktot.
 
 ![](../assets/conference_reviewers.png)
 
-The idea is that you can have a team of specialists for specific tracks, such as “Online Computing”, in the example above.
-You may _Add_ Reviewers or Conveners for a selected track (or for “all tracks” at the top). You will be offered the possibility to _Search_ for existing users and add them.
+Az ötlet lényege, hogy egy csapatnyi szakembert állíthat össze bizonyos pályákhoz, mint például a fenti példában az "Online Computing".
+Egy kiválasztott pályához (vagy az "összes pályához" a tetején) _Add_ Reviewereket vagy Convenereket adhatsz hozzá. Lehetőséget kap arra, hogy _Kereshet_ meglévő felhasználók után, és hozzáadhatja őket.
 
-Click on _Save_ once you’ve chosen all the relevant people for these roles.
+Kattintson a _Mentés_ gombra, ha kiválasztotta az összes megfelelő személyt ezekhez a szerepkörökhöz.
 
-Now click on _Settings_, at the right of _Roles_ to define, as event manager, a set of questions, to  be used as a guide for the reviewers and the scale for the answers to these questions, from 0 to 5 for example.
+Most kattintson a _Rollák_ jobb oldalán található _Beállítások_ gombra, hogy eseménykezelőként meghatározhasson egy sor kérdést, amelyeket a bírálók számára iránymutatásként használ, valamint az ezekre a kérdésekre adott válaszok skáláját, például 0-tól 5-ig.
 
-Below you have certain options such as allowing conveners to accept or reject an abstract, allowing comments in your review page, and allow contributors in the comments.
+Az alábbiakban bizonyos lehetőségek állnak rendelkezésére, mint például, hogy az összehívóknak engedélyezze az absztraktok elfogadását vagy elutasítását, a véleményezési oldalon a hozzászólások engedélyezését, valamint a hozzászólásokban a hozzászólók engedélyezését.
 
-Under _Review questions_, type in your questions, click the disk icon on your right to save your question and click on _Add_ if you want to add a new question, for example “What is the quality of the content?"
+A _Kritikai kérdések_ alatt írja be a kérdéseit, kattintson a jobb oldali korong ikonra a kérdés elmentéséhez, és kattintson a _Add_ gombra, ha új kérdést szeretne hozzáadni, például "Milyen a tartalom minősége?".
 
 ![](../assets/conference_review_instructions.png)
 
-Finally, write in some instructions for the Reviewers and for the Judges, who need to ultimately accept or reject an abstract based on the review.
+Végül írjon néhány utasítást a bírálók és a bírálók számára, akiknek végül el kell fogadniuk vagy el kell utasítaniuk egy absztraktot a bírálat alapján.
 
-Once you have chosen your _Scale_ and your _questions_, click on _Save_ at the bottom of the page.
+Miután kiválasztotta a _Skálát_ és a _kérdéseket_, kattintson az oldal alján található _Save_ gombra.
 
-### The Book of Abstracts
+### Az összefoglalók könyve
 
-The book of abstracts is a configurable and downloadable document (in pdf) where only the accepted abstracts will be published.
+Az absztraktok könyve egy konfigurálható és letölthető dokumentum (pdf-ben), amelyben csak az elfogadott absztraktok kerülnek közzétételre.
 
-To configure the book of abstracts, click on _Settings_ from the relevant raw of the "Call for Abstracts" management page.
+Az absztraktkönyv konfigurálásához kattintson a "Call for Abstracts" kezelőoldalának megfelelő nyersoldalán a _Settings_ gombra.
 
-Write any additional text that will be included on the document, and select the sorting criteria for the abstracts’ appearance in the book.  Click on _Save_.
+Írjon bármilyen további szöveget, amely a dokumentumba kerül, és válassza ki az absztraktok könyvben való megjelenésének rendezési kritériumait.  Kattintson a _Mentés_ gombra.
 
 ![](../assets/conference_abstracts_book_list.png)
 
-### The List of Abstracts
+### Az összefoglalók listája
 
-This is the list of **all** abstracts and it is built automatically once the "Call for Abstracts" is open.
-You can rearrange this list by clicking on _Manage_.
+Ez a lista **az összes** absztraktot tartalmazza, és automatikusan összeáll, amint a "Call for Abstracts" megnyílt.
+Ezt a listát a _Manage_ gombra kattintva átrendezheti.
 
-### Open the Call for Abstracts
+### Az összefoglaló felhívás megnyitása
 
-From the same management page, you can click on _Schedule_ and select the start, the end and modification deadline of your call for abstracts. Otherwise, if you want to open it right away, simply click on _Start now_.
+Ugyanezen a kezelőoldalon a _Szervezés_ gombra kattintva kiválaszthatja az absztraktfelhívás kezdetét, végét és módosítási határidejét. Ellenkező esetben, ha azonnal meg szeretné nyitni, egyszerűen kattintson a _Start now_ gombra.

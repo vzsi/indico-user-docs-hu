@@ -1,54 +1,54 @@
-# Searching and Booking
+# Keresés és foglalás
 
-Let’s now look at how to search for an available room based on more specific criteria.
-For this, click on *List of Rooms* in the horizontal menu.
+Most nézzük meg, hogyan kereshetünk szabad szobát konkrétabb kritériumok alapján.
+Ehhez kattintson a vízszintes menüben a *Szobák listája* menüpontra.
 
-![List of rooms](../assets/room_booking/list_of_rooms.png)
+![Szobák listája](../assets/room_booking/list_of_rooms.png)
 
-At the top of the page, there are some criteria you can select to filter the rooms:
+Az oldal tetején néhány kritériumot választhat a szobák szűréséhez:
 
-![Filters](../assets/room_booking/list_of_rooms_filters.png)
-
-
-Choose the building you want and the number of seats you want the room to have. Then select the criteria that you want from the extensive list of equipment. Every time you select a criteria do not forget to click on *apply* or your criteria will not be taken into consideration.
-
-If you want to see only the rooms you are authorised to book or your favourite click on *Show only* and select your criteria.
+![Szűrők](../assets/room_booking/list_of_rooms_filters.png)
 
 
-Once you have finished, the next page will show you the list of rooms that match your criteria.
+Válassza ki a kívánt épületet és a helyiségek számát. Ezután válassza ki a kívánt kritériumokat a felszerelések széles listájából. Minden alkalommal, amikor kiválaszt egy kritériumot, ne felejtsen el az *alkalmazás* gombra kattintani, különben a kritériumai nem lesznek figyelembe véve.
 
-![Favourites](../assets/room_booking/favourite.png)
-
-Place your mouse over the picture of the room which interests you and click on *see details* for more details about the room.
+Ha csak az Ön által lefoglalni engedélyezett termeket vagy a kedvenceit szeretné látni, kattintson a *Kizárólag megjelenítése* gombra, és válassza ki a kritériumokat.
 
 
-![Room Details](../assets/room_booking/list_of_room_room_detail.png)
+Ha ezt befejezte, a következő oldalon megjelenik a kritériumoknak megfelelő szobák listája.
+
+![Kedvencek](../assets/room_booking/favourite.png)
+
+Vigye az egeret az Önt érdeklő szoba képe fölé, és kattintson a * részletek megtekintése* gombra, hogy további részleteket tudjon meg a szobáról.
 
 
-
-
-There you can also start booking or pre-booking (if the room requires confirmation) and you will be directed to the page that allows you to book the room. Complete just like we have seen before.
-
-![Pre-booking](../assets/room_booking/list_of_room_pre_booking.png)
+![Szoba részletei](../assets/room_booking/list_of_room_room_detail.png)
 
 
 
 
-## Booking conflicts
+Ott is elindíthatja a foglalást vagy az előfoglalás (ha a szoba megerősítést igényel), és átirányítjuk arra az oldalra, amely lehetővé teszi a szoba lefoglalását. Komplett, ahogyan azt már korábban is láttuk.
 
-After your search, if you choose a room which is already booked you will see a window with an error message and you will not be able to make your booking. To solve this problem, you have two options:
-
-1. Go to the previous page and choose another room according to your criteria.
-2. Change the date or/and hours for your booking.
-
-![Room Booking Conflict](../assets/room_booking/list_of_rooms_room_detail_pre_booking_room_conflict.png)
-
-If you are making a daily booking and the room you choose is not available for one or more days you will see a warning message:
-
-![Booking Conflicts for multiple occurrences](../assets/room_booking/pre_book_room_conflict.png)
+![Előfoglalás](../assets/room_booking/list_of_room_pre_booking.png)
 
 
-If you decide to book this room anyway, you will be directed to the pre-booking/booking page. You will see another warning message telling you the number of your occurrences which are in conflict with existing bookings. To finalise your pre-booking/booking you will have to check the box **"I understand, please skip any days with conflicting occurrences"**. It means that you will have to find another room for the days in conflict.
+
+
+## Foglalási konfliktusok
+
+A keresés után, ha olyan szobát választasz, amely már foglalt, akkor egy hibaüzenetet tartalmazó ablak jelenik meg, és nem tudod elvégezni a foglalást. A probléma megoldására két lehetősége van:
+
+1. Menjen vissza az előző oldalra, és válasszon ki egy másik szobát az Ön szempontjainak megfelelően.
+2. Módosítsa a foglalás dátumát és/vagy óráját.
+
+![Szobafoglalás konfliktus](../assets/room_booking/list_of_rooms_room_detail_pre_booking_room_conflict.png)
+
+Ha napi foglalást készít, és az Ön által kiválasztott szoba egy vagy több napon nem elérhető, akkor egy figyelmeztető üzenet jelenik meg:
+
+(../assets/room_booking/pre_book_room_conflict.png)
+
+
+Ha úgy dönt, hogy mégis lefoglalja ezt a szobát, akkor az előfoglalás/foglalás oldalra kerül. Egy másik figyelmeztető üzenetet fog látni, amely megmondja, hogy hány olyan előfordulása van, amely konfliktusban van a meglévő foglalásokkal. Az előfoglalás/foglalás véglegesítéséhez be kell jelölnie a **"Értem, kérem, hagyja ki az ütköző napokat "** jelölőnégyzetet. Ez azt jelenti, hogy az ütköző napokra másik szobát kell keresnie.
 
 ![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurrences.png)
 

@@ -1,36 +1,36 @@
-# Frequently Asked Questions
+# Gyakran ismételt kérdések
 
-!!! note
-    This section is still under active development
-
-
-## My affiliation information didn't get propagated to all events after I changed it on my profile. Is this normal?
-
-**Most probably, yes**. Indico stores user information at several levels. The changes in your profile and only
-propagated to **events created after the change**. You will have to notify a manager of the event in question if you
-would like your information to be updated therein.
+!!!!
+    Ez a rész még aktív fejlesztés alatt áll
 
 
-### Why is it done this way?
+## A hovatartozási információm nem terjedt át az összes eseményre, miután megváltoztattam a profilomon. Ez normális?
 
-Because Indico tries to preserve data **as it was when the event took place**. If you spoke at a conference back in
-2010 when you were at University X, you will most likely want to be listed on that event with that affiliation, and not
-the institute you now work for.
-Likewise, if you have two jobs, one at University X and another at Company Y and are listed as speaking on behalf of
-Company Y at a conference, you won't want that information to be overridden once you change your main affiliation.
-
-You can read more about how Indico manages user information [here](./conferences/people.md).
+**Nagy valószínűséggel igen**. Az Indico több szinten tárolja a felhasználói információkat. A profilodban végrehajtott módosítások és csak
+csak a **a módosítás után létrehozott eseményekre** terjednek át. Értesítenie kell a kérdéses esemény menedzserét, amennyiben
+szeretné, ha az adatait frissítenék benne.
 
 
-## I'd like to use Indico in my institution. Do I have to pay? How do I get an account?
+### Miért történik ez így?
 
-Indico is **Open Source Software**, which means its source code is publicly available to anyone without any restrictions. It is licensed under a [permissive license](https://github.com/indico/indico/blob/master/LICENSE) which allows you to use, modify and redistribute it for free as long as you respect the Copyright attribution and the other terms of the license. CERN provides this product for free as part of its [mission](https://home.cern/about/who-we-are/our-mission) of advancing the frontiers of technology worldwide.
+Mert az Indico igyekszik megőrizni az adatokat **úgy, ahogyan azok az esemény bekövetkezésekor voltak**. Ha Ön egy konferencián beszélt
+2010-ben, amikor még az X. Egyetemen volt, akkor valószínűleg az adott eseményen is ezzel a hovatartozással szeretne szerepelni, és nem az alábbiakban.
+az intézet, ahol most dolgozik.
+Hasonlóképpen, ha két munkahelye van, az egyik az X egyetemen, a másik pedig az Y vállalatnál, és úgy szerepel, mint aki a következő cég nevében beszél.
+cég nevében szerepel egy konferencián, nem szeretné, ha ez az információ felülíródna, ha megváltoztatja a fő hovatartozását.
 
-Indico is a **web application**, which means it needs server infrastructure behind it in order to run. That said, if you want to have Indico in your organization, you have the following options:
+További információkat olvashat arról, hogy az Indico hogyan kezeli a felhasználói információkat [itt](./conferences/people.md).
 
- * **(Easiest)** Get someone to **run it for you** - this means finding a commercial hosting provider which can install it either on your IT infrastructure or on theirs and maintain it accordingly
- * **(Cheapest)** Run it **yourself**, assuming you or your IT department have Linux system administration knowledge. We have very complete [installation guides](https://docs.getindico.io/en/stable/installation/production/) which will guide you through that process
- * [**Global Indico**](https://indico.cern.ch/category/5372/) category - Under **specific circumstances**, we may be able to host you on `indico.cern.ch`, namely if you are part of a research or educational institution. You will have to agree to our [fair use policy](https://cern.service-now.com/service-portal?id=kb_article&n=KB0004606). Feel free to contact us if you would like to try that
- * There's a last option, which is asking **another Indico server** in the community to give you an account. If you're an educational institution or laboratory, it's possible that another organization in your research network already has a server.
 
-CERN **doesn't** provide any commercial Indico service at this point.
+## Szeretném használni az Indicót az intézményemben. Fizetnem kell érte? Hogyan kaphatok fiókot?
+
+Az Indico **nyílt forráskódú szoftver**, ami azt jelenti, hogy a forráskódja bárki számára korlátozás nélkül elérhető. A licenc [megengedő licenc](https://github.com/indico/indico/blob/master/LICENSE) alatt áll, amely lehetővé teszi, hogy ingyenesen használd, módosítsd és terjeszd tovább, amíg tiszteletben tartod a szerzői jogi hivatkozást és a licenc egyéb feltételeit. A CERN ezt a terméket ingyenesen bocsátja rendelkezésre a [küldetése](https://home.cern/about/who-we-are/our-mission) részeként, amely a technológia határainak világszerte történő előmozdítására irányul.
+
+Az Indico egy **web alkalmazás**, ami azt jelenti, hogy a futtatásához szerver infrastruktúrára van szükség. Ennek ellenére, ha szeretné, hogy az Indico az Ön szervezetében is működjön, a következő lehetőségek állnak rendelkezésére:
+
+ * **(Legegyszerűbb)** Megbízhat valakit, hogy **futtassa Ön helyett** - ez azt jelenti, hogy talál egy kereskedelmi tárhelyszolgáltatót, aki vagy az Ön IT-infrastruktúrájára vagy az övékre telepíti és ennek megfelelően karbantartja.
+ * **(Legolcsóbb)** **Futtasd **magad**, feltéve, hogy te vagy az informatikai részleged rendelkezik Linux rendszergazdai ismeretekkel. Nagyon teljes [telepítési útmutatót](https://docs.getindico.io/en/stable/installation/production/) kínálunk, amely végigvezeti Önt ezen a folyamaton.
+ * [**Global Indico**](https://indico.cern.ch/category/5372/) kategória - **specifikus körülmények között** lehetséges, hogy az "indico.cern.ch" címen is tudunk Önnek tárhelyet biztosítani, nevezetesen, ha Ön egy kutatási vagy oktatási intézmény tagja. Ehhez el kell fogadnia a [méltányos használatra vonatkozó szabályzatunkat](https://cern.service-now.com/service-portal?id=kb_article&n=KB0004606). Nyugodtan lépjen kapcsolatba velünk, ha ezt szeretné kipróbálni.
+ * Van még egy utolsó lehetőség, ami az, hogy megkérsz egy **másik Indico szervert** a közösségben, hogy adjon neked egy fiókot. Ha oktatási intézmény vagy laboratórium vagy, lehetséges, hogy a kutatási hálózatodban egy másik szervezetnek már van szervere.
+
+A CERN **nem** nyújt jelenleg semmilyen kereskedelmi Indico szolgáltatást.

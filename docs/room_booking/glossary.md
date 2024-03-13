@@ -1,15 +1,15 @@
 # Glossary
 
-_Room_: meeting or conference room. Please note that the software is not suitable for managing other rooms, like offices, corridors, etc.
+_Room_: tárgyaló vagy konferenciaterem. Kérjük, vegye figyelembe, hogy a szoftver nem alkalmas más helyiségek, például irodák, folyosók stb. kezelésére.
 
-_Location_: physical location of rooms. Room custom attributes and possible equipment are defined on a location basis. Example: rooms at CERN may have different attributes and different equipment than rooms in Fermilab.
+_Lokáció_: a helyiségek fizikai elhelyezkedése. A helyiségek egyéni attribútumai és a lehetséges berendezések helységenként kerülnek meghatározásra. Példa: a CERN-ben lévő helyiségek más attribútumokkal és felszereltséggel rendelkezhetnek, mint a Fermilabban lévő helyiségek.
 
-_Booking_: final reservation of a room. While considered final, it still may be rejected in case of emergency.
+_Foglalás_: egy szoba végleges foglalása. Bár véglegesnek tekinthető, vészhelyzet esetén elutasítható.
 
-_PRE-booking_: unconfirmed reservation of a room. PRE-booking is subject to acceptance or rejection by the room's owner.
+_PRE-foglalás_: egy szoba meg nem erősített foglalása. Az előfoglalás a szoba tulajdonosa általi elfogadás vagy elutasítás függvénye.
 
-_Room responsible/manager_: the person who accepts/rejects bookings. Each room has exactly one person responsible. A person may be responsible for any number of rooms.
+_Szobafelelős/menedzser_: az a személy, aki a foglalásokat elfogadja/visszautasítja. Minden szobához pontosan egy felelős személy tartozik. Egy személy tetszőleges számú szobáért lehet felelős.
 
-_Room blocking_: a restriction created by a room manager which prevents users from booking the rooms listed in the blocking unless they have explicit permission to override the permission or own the rooms.
+_Robblokkolás_: egy szobafelelős által létrehozott korlátozás, amely megakadályozza, hogy a felhasználók a blokkolásban felsorolt szobákra foglaljanak, kivéve, ha kifejezett engedélyük van az engedély felülbírálására vagy a szobák tulajdonosai.
 
 ---
