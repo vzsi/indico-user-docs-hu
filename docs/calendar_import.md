@@ -1,16 +1,16 @@
-# Importálás a naptárkészítő eszközökbe
+# Importálás a naptári eszközökbe
 
-Az eseménymegjelenítő nézetben kattintson a naptár ikonra az oldal bal felső részén.
+Az eseménymegjelenítési nézetben kattintson a naptár ikonra az oldal bal felső sarkában.
 
-A megjelenő ablakban letölthet egy fájlt, amelyet megnyithat a naptárkészítő eszközökkel.
+A megjelenő ablakban letölthet egy fájlt, amelyet a naptári eszközeivel nyithat meg.
 
-Alternatívaként két URL-cím áll rendelkezésére, az első a csak nyilvánosan elérhető információkhoz, a második pedig védett információkat is tartalmaz. Másolja ki az egyik URL-címet, hogy importálja a naptárkészítő eszközébe.
+Alternatív megoldásként két URL-je van, az első a csak nyilvánosan elérhető információkhoz, a második pedig védett információkat is tartalmaz.
+Másolja ki az egyik URL-t a naptári eszközbe való importáláshoz.
 
 ![](assets/calendar_entry.png)
 
-Az Ön által preferált naptárkezelő eszközben adja meg az új naptár-előfizetést az imént másolt URL beillesztésével és a _Subscribe_ gombra kattintva.
+A kívánt naptáreszközben adja meg az új naptár-előfizetést úgy, hogy beilleszti az imént másolt URL-t, és kattintson a _Feliratkozás_ gombra.
 
 ![](assets/calendar_import.png)
 
-
-Ha az eseményt a naptárkezelő eszközeiben ezzel az URL-címmel importálja, nem pedig a letölthető fájl segítségével, akkor biztosítja, hogy az esemény későbbi módosításai rendszeresen frissüljenek.
+Ha az eseményt a letölthető fájllal ellentétben ezzel az URL-címmel importálja a naptári eszközeibe, akkor az esemény minden későbbi módosítása rendszeresen frissül.

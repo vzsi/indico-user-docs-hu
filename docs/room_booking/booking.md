@@ -1,66 +1,53 @@
-# Foglaljon szobát
+# Helyiség Foglalása
 
-Első lépésként kattintson a vízszintes menüben a *Szobafoglalás* gombra. A foglalási területen meg kell adnia a foglalás típusát, a dátum- és időintervallumot, amelyben foglalásokat szeretne keresni. Az épület száma vagy a szoba neve alapján is kereshet, ha egy adott helyen lévő konkrét szobát szeretne megtalálni.
+Első lépésként kattints a vízszintes menüben a *Helyiség Foglalása* gombra. A foglalási területen meg kell adnod a foglalás típusát, a dátumtartományt és az időtartományt, amelyben foglalásokat szeretnél keresni. Keresési szempontként használhatsz épületszámot vagy helyiségnevet is, ha egy adott helyiséget szeretnél egy adott helyen megtalálni.
 
-Ha csak egy napra szeretné lefoglalni a szobát, egyszerűen kattintson az *Egyszeri foglalás* lehetőségre, majd a kívánt dátumra a megfelelő hónap és nap kiválasztásával. Azt is ki kell választania, hogy milyen időtartamra szeretné lefoglalni a szobát.
+Ha a helyiséget csak egy napra szeretnéd lefoglalni, egyszerűen kattints a *Egyszeri foglalás* lehetőségre, és válaszd ki a kívánt dátumot a megfelelő hónap és nap kiválasztásával. Ezenkívül ki kell választanod, hogy mennyi időre szeretnéd lefoglalni.
 
-Ha ehelyett több egymást követő napra, hétre vagy hónapra szeretné lefoglalni a szobát, kattintson a *Napi* vagy az *ismétlődő foglalás* lehetőségre.
+Ha helyiséget szeretnél foglalni több egymást követő napra, hétre vagy hónapra, kattints a *Napi* vagy *Ismétlődő foglalás* lehetőségre.
 
 ![](../assets/room_booking/booking_area.png)
 
-Ha már használta az Indico szobafoglalást, és kiválasztotta a kedvenc szobákat, a foglalási területe úgy fog kinézni, mint ezen a képen. Ha csak a kedvencei közül szeretne szobát foglalni, jelölje be a *Kizárólag a kedvenceim keresése* jelölőnégyzetet. Ha szeretné tudni, hogyan adhat hozzá kedvenceket, olvassa el az alábbi részt.
+Ha már használtad az Indico Helyiségek Foglalását, és kiválasztottál kedvenc helyiségeket, a foglalási területed így fog kinézni. Ha csak a kedvenceid közül szeretnél egy helyiséget lefoglalni, jelöld be a *csak a kedvenceim keresése* mezőt. A kedvencek hozzáadásának módjáról az alábbi szakaszban olvashatsz.
 
 ![](../assets/room_booking/booking_area_favourite.png)
 
-
-
-
-Ezután egy olyan oldalra kerül, ahol az összes, az Ön kérésének megfelelően rendelkezésre álló szobát megtalálja.
-
+Ezután egy olyan oldalra kerülsz, ahol az összes, a kérésednek megfelelő helyiség látható.
 
 ![](../assets/room_booking/room_search.png)
 
+Használhatsz néhány szűrőt, ha szeretnéd, hogy a helyiség tartalmazzon bizonyos felszereléseket, mint például videokonferencia, webcast vagy projektor.
 
-Használhat néhány szűrőt, ha azt szeretné, hogy a terem tartalmazzon bizonyos berendezéseket, például videokonferenciát, webcastot vagy projektort.
-
-Ha többet szeretne megtudni egy teremről, vigye az egeret a képére. Egy sor műveleti ikon fog megjelenni: *(elő)foglalás*, * részletek megtekintése* és * hozzáadás a kedvencekhez*.
+További információkért egy helyiségről húzd az egérmutatót a képe fölé. Egy sor műveleti ikon jelenik meg: *(elő-)foglalás*, *részletek megtekintése* és *hozzáadás a kedvencekhez*.
 
 ![](../assets/room_booking/room-close-up.png)
 
-
-Ha kiválasztja a **szoba foglalása** lehetőséget, ez az ablak jelenik meg:
+Ha a **helyiség foglalása** lehetőséget választod, ezt az ablakot fogod látni:
 
 ![](../assets/room_booking/booking.png)
 
-Itt olyan információkat találhat a szobával kapcsolatban, mint például a szoba kapacitása és mérete. A foglalás véglegesítéséhez ki kell töltenie a *Használat* részt, megemlítve azt a személyt, akinek a számára a foglalást végzi, és megadva az okokat, amiért ezt a szobát lefoglalja.
+Itt információkat találsz a helyiségről, mint például a kapacitás és a helyiség mérete. A foglalás véglegesítéséhez ki kell töltened a *Használat* szakaszt, megemlítve, hogy ki számára foglalod a helyiséget, és megadva az indokokat, amiért ezt a helyiséget foglalod.
 
+## Hogyan lehet előfoglalni egy helyiséget
 
-
-## Hogyan foglalhat előzetesen szobát
-
-Egyes szobákhoz a tulajdonos jóváhagyása szükséges. Ezért ezeket csak előre lehet lefoglalni. Ha kiválasztja a **szoba előfoglalás** lehetőséget, ez az ablak jelenik meg:
+Néhány helyiséghez a tulajdonos jóváhagyása szükséges. Ezért csak előfoglalni lehet őket. Ha az **előfoglalás** lehetőséget választod, ezt az ablakot fogod látni:
 
 ![](../assets/room_booking/pre_booking.png)
 
+Itt információkat találsz a helyiségről, mint például a kapacitás és a helyiség mérete. Az előfoglalás véglegesítéséhez ki kell töltened a *Használat* szakaszt, megemlítve, hogy ki számára teszed az előfoglalást, és megadva az indokokat, amiért ezt a helyiséget előfoglalod.
 
-Itt a szobával kapcsolatos információkat találhat, például a szoba kapacitását és méretét. Az előfoglalás véglegesítéséhez ki kell töltenie a *Használat* részt, megemlítve azt a személyt, akinek az előfoglalását végzi, és megadva az okokat, amiért ezt a szobát előfoglalta.
+## Hogyan lehet megtekinteni a helyiség részleteit
 
-## Hogyan láthatja a szoba részleteit
-
-Ha kiválasztja a **szoba részletei** menüpontot, akkor a következő ablakok egyike jelenik meg:
+Ha a **helyiség részletei** lehetőséget választod, az egyik ilyen ablakot fogod látni:
 
 ![](../assets/room_booking/room_details_pre_booking.png)
 
 ![](../assets/room_booking/room_details_booking.png)
 
+Ebben az ablakban olyan információkat találsz, mint a méret, a kapacitás és a helyiségben lévő telefon száma. Ha a *foglalás* gombra kattintasz, átirányít a *helyiség foglalása* vagy *előfoglalás* ablakba. Az előfoglalás vagy foglalás véglegesítésének módjáról az előző bekezdésekben olvashatsz.
 
-Ebben az ablakban olyan információkat találhat, mint a szoba mérete, kapacitása és telefonszáma. Ha a *foglalás* gombra kattint, akkor a *szobafoglalás* vagy *előfoglalás* ablakba kerül. Az előfoglalás vagy szobafoglalás véglegesítésének módjáról az előző bekezdésekben olvashat.
-
-Ha a **hozzáadás a kedvencekhez** gombot választja, a szoba felkerül a kedvencek listájára. Következő foglalásához az összes kedvenc szobáját megtalálhatja, ha a szűrők menüpontban ezt a lehetőséget választja, vagy az első oldal foglalási területén bejelöli a *csak a kedvenceim keresése* jelölőnégyzetet.
+Ha a **hozzáadás a kedvencekhez** lehetőséget választod, a helyiség bekerül a kedvenceid listájába. A következő foglalásodnál megtalálhatod az összes kedvenc helyiségedet a szűrők menüben ezt a lehetőséget választva, vagy bejelölve a *csak a kedvenceim keresése* mezőt az első oldal foglalási területén.
 
 ![](../assets/room_booking/favourite.png)
 
 ---
-
-
-

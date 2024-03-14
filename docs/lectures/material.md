@@ -1,13 +1,13 @@
-# Anyag hozzáadása az előadáshoz
+# Anyag Hozzáadása Egy Előadáshoz
 
-Kattintson a képernyő jobb felső sarkában lévő ceruzára, és kattintson az _anyagszerkesztő_ menüpontra.
-
+Kattints a képernyő jobb felső sarkában található ceruzára, majd válaszd a _Material Editor_ (Anyagszerkesztő) opciót.
 
 ![](../assets/lecture_material.png)
 
-Ezen az oldalon fájlokat tölthet fel az előadásához, linkeket adhat hozzá, vagy létrehozhat egy új mappát, amelybe a fájlokat felveszi. Ha például fájlt szeretne feltölteni, egyszerűen kattintson a _Fájlok feltöltése_ lehetőségre, majd kattintson a _Válasszon a számítógépéről_ lehetőségre, és válasszon ki egy fájlt az eszközéről. Alternatívaként a fájlt a jelzett területre húzva is elhelyezheti.
+Ezen az oldalon fájlokat tölthetsz fel az előadásodhoz, linkeket adhatsz hozzá, vagy új mappát hozhatsz létre, amelybe a fájljaidat fogod tartalmazni.
+Például egy fájl feltöltéséhez egyszerűen kattints az _Upload files_ (Fájlok feltöltése) gombra, kattints a _Choose from your computer_ (Válassz a számítógépedről) gombra, és válassz egy fájlt az eszközödről.
+Alternatívaként a fájlt az adott területre is húzhatod és ejtheted.
 
+Itt dönthetsz úgy is, hogy automatikusan PDF formátumra konvertálod a fájlt, és hogy szeretnéd-e, ha a fájlod bárki számára hozzáférhető lenne, vagy csak néhány kiválasztott személy számára.
 
-Itt kiválaszthatja azt is, hogy a fájlját automatikusan PDF-be konvertálja-e, valamint azt is, hogy a fájlja bárki vagy csak néhány kiválasztott számára legyen elérhető.
-
-Ha végzett, kattintson a _Upload_ gombra.
+Ha befejezted, kattints az _Upload_ (Feltöltés) gombra.

@@ -1,21 +1,21 @@
-# Indico szobafoglalás
+# Indico Helyiségek Foglalása
 
-Ez a fejezet az Indico **Romafoglalás modulját** ismerteti.
+Ez a fejezet az Indico **Helyiségek Foglalási Moduljáról** szól.
 
-Az Indico felhasználók **foglalhatnak termet** konferenciájukhoz, megbeszélésükhöz vagy előadásukhoz. A foglalások **önállóak** is lehetnek, nem kell semmilyen eseményhez kötődniük.
-A teremfelelősök **megfigyelhetik** és **moderálhatják** az összes foglalást. Az Indico rendszergazdái **teremeket hozhatnak létre** és **kezelhetik** adataikat.
+Az Indico felhasználók **foglalhatnak helyiséget** konferenciájukhoz, megbeszélésükhöz vagy előadásukhoz. A foglalások **önállóak** is lehetnek, nem szükségesek az eseményhez kötni őket.
+A helyiség menedzserek **figyelemmel kísérhetik** és **moderálhatják** az összes foglalást. Az Indico adminisztrátorok **létrehozhatnak helyiségeket** és **kezelhetik** adataikat.
 
-Ez a rész egy **tutorial**, és a szobafoglalási modul funkcióit veszi sorra. Megmutatja, hogyan:
+Ez a szakasz egy **oktatóanyag**, amely végigvezet a helyiségek foglalási moduljának funkcióin. Megmutatja, hogyan kell:
 
-  * 🔍 **keresés** a rendelkezésre álló szobák után és **foglalás** vagy **előfoglalás** (normál felhasználóként).
-  * ✅ **elfogadni** vagy ❌**elutasítani** az előzetes foglalásokat (mint szoba moderátor)
-  * 🔒 **blokkol** egy sor szobát egy adott időszakra (szobatulajdonosként)
+  * 🔍 **keresni** elérhető helyiségeket és **foglalni** vagy **előfoglalni** őket (mint rendes felhasználó)
+  * ✅ **elfogadni** vagy ❌**elutasítani** az előfoglalásokat (mint helyiség moderátor)
+  * 🔒 **blokkolni** egy sor helyiséget egy adott időszakra (mint helyiség tulajdonos)
 
 ---
 
 ## Videó
 
-Alternatívaként van egy kevésbé részletes, de könnyebben követhető **ismertető videónk**, amit megnézhetsz:
+Alternatív megoldásként van egy kevésbé részletes, de könnyebben követhető **bemutató videónk** is, amit megnézhetsz:
 
 <iframe width="576"
         height="360"

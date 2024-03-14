@@ -1,4 +1,4 @@
-site_name: Indico tanulása
+site_name: Indico oktató
 theme:
     language: hu
     name: material
@@ -34,7 +34,7 @@ extra_css:
     - stylesheets/fonts.css
     - stylesheets/extra.css
 nav:
-    - Bevezetés: index.md
+    - Bevezető: index.md
     - Kategóriák:
         - Bevezető: categories/about.md
         - Kategória létrehozása: categories/creating.md

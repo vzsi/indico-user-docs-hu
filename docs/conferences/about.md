@@ -1,16 +1,18 @@
-# Konferencia
+### Konferencia
 
-Ez egy komplex esemény, amely számos funkcióval rendelkezik, beleértve a program meghatározását és az absztraktfelhívást, az absztraktok benyújtását, a résztvevők regisztrációját/jelentkezését az eseményre, az elektronikus fizetési lehetőségeket és a publikációs felülvizsgálatot.
+Ez egy összetett esemény sok funkcióval, többek között Programdefinícióval és Absztrakt Felhívással, Absztrakt beküldéssel,
+a résztvevők Regisztrációjával/Jelentkezésével az eseményre, e-fizetési lehetőségekkel és a kiadványok Lektorálásával.
 
-A következő videó elmagyarázza, hogyan hozzon létre egy konferenciát az Indicóban, és hogyan határozza meg annak különböző összetevőit.
+Az alábbi videó bemutatja, hogyan hozhatsz létre egy Konferenciát az Indicoban és hogyan definiálhatod annak különböző összetevőit.
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2264870?showTitle=true" allowfullscreen></iframe>
 
+Mint konferencia szervező, azaz esemény menedzser, győződj meg róla, hogy az Indico oldalán vagy és be vagy jelentkezve.
+Kattints a _Create event_ (Esemény létrehozása) fülre, majd a _Create conference_ (Konferencia létrehozása) gombra.
 
-Konferenciaszervezőként, azaz rendezvényszervezőként győződjön meg arról, hogy az Indico oldalán van, és be van jelentkezve. Kattintson a _Esemény létrehozása_ fülre, majd a _Konferencia létrehozása_ gombra.
-
-A kezdeti lépések hasonlóak az Indico esemény létrehozásában. Szükség esetén olvassa el a dokumentáció **Találkozó** részét. A konferencia létrehozásakor megadott általános adatok alkotják az _Áttekintést_.
+Az első lépések hasonlóak az Indico események létrehozásakor. Ha szükséges, olvasd el a dokumentáció **Meeting** (Találkozó) szekcióját.
+Az általános adatok, amelyeket a konferenciád létrehozásakor megadsz, az _Overview_ (Áttekintés) részt alkotják.
 
 ![](../assets/conference_overview.png)
 
-Kattintson a _Váltás a megjelenített nézetre_ gombra, ha látni szeretné, hogy mit csinált.
+Kattints a _Switch to display view_ (Váltás megjelenítési nézetre) gombra, hogy lásd, mit csináltál.

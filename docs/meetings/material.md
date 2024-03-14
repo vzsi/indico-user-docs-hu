@@ -1,13 +1,14 @@
-# Anyag hozzáadása egy megbeszéléshez
+# Anyag Hozzáadása Egy Megbeszéléshez
 
-Kattintson a képernyő jobb felső sarkában lévő ceruzára, és kattintson az _anyagszerkesztő_ lehetőségre.
+Kattints a képernyő jobb felső sarkában található ceruzára, majd válaszd a _Material Editor_ (Anyagszerkesztő) opciót.
 
-Ebben az ablakban _Fájlok feltöltése_, _Hivatkozások hozzáadása_, vagy egy új **mappa** létrehozása, amelybe a fájlokat felveszi.
+Ebben az ablakban _Fájlokat tölthetsz fel_, _Linkeket adhatsz hozzá_, vagy létrehozhatsz egy új **mappát**, amelyben a fájljaidat fogod tartalmazni.
 
-Ha például fájlt szeretne feltölteni, egyszerűen kattintson a _Fájlok feltöltése_ gombra, majd kattintson a _Choose from your computer_ lehetőségre, és válasszon ki egy fájlt az eszközéről. Fájlját a jelzett területre húzva is elhelyezheti. Itt kiválaszthatja azt is, hogy fájlját automatikusan PDF-be konvertálja-e. Továbbá eldöntheti, hogy fájlját bárki vagy csak néhány kiválasztott személy számára tegye hozzáférhetővé.
+Például egy fájl feltöltéséhez egyszerűen kattints az _Upload files_ (Fájlok feltöltése) gombra, válaszd a _Choose from your computer_ (Válassz a számítógépedről) opciót és válassz egy fájlt az eszközödről. A fájlt a megjelölt területre is húzhatod és ejtheted.
+Itt dönthetsz úgy is, hogy a fájlt automatikusan PDF formátumra konvertálod, és eldöntheted, hogy a fájlod bárki számára hozzáférhető legyen, vagy csak néhány kiválasztott személy számára.
 
-Ha végzett, kattintson a _Upload_ gombra, és zárja be az ablakot.
+Ha befejezted, kattints az _Upload_ (Feltöltés) gombra és zárd be az ablakot.
 
-Tekintse meg egy értekezlet példáját, amelynek anyagát közvetlenül az eseményhez csatolták, valamint a _Mappák_ között is szerepel.
+Lásd egy példát egy olyan megbeszélésre, amelyhez közvetlenül az eseményhez csatolt anyagok tartoznak, valamint anyagok, amelyek _Mappákban_ vannak elhelyezve.
 
 ![](../assets/with-folders-material-meeting.png)

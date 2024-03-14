@@ -1,20 +1,20 @@
-# Program kódok
+# Programkódok
 
-A programkódok bizonyos elemek (ülések, ülésblokkok, hozzájárulások és al-hozzájárulások) megjelölésére szolgálnak, hogy az Indicón kívül könnyebben lehessen rájuk hivatkozni.
-Ezeket a kódokat vagy manuálisan lehet beállítani minden egyes tételen, vagy automatikusan generálhatók előre beállított szekvenciák alapján, amelyeket a _Advanced options_ (Speciális beállítások) lap _Programkódok_ fülén lehet megadni a sablonok szerkesztésével.
+A programkódok egy módszert jelentenek bizonyos elemek (ülések, üléscsoportok, hozzájárulások és alhozzájárulások) megjelölésére, hogy azokat könnyebben lehessen hivatkozni az Indicón kívül.
+Ezek a kódok manuálisan állíthatók be minden elemen, vagy automatikusan generálhatók előre konfigurált sorozatok alapján, amelyek a _Programkódok_ fülön állíthatók be az _Haladó beállítások_ részben a sablonok szerkesztésével.
 
 ![](../assets/conference_program_codes.png)
 
 Minden elemhez egy kód tartozhat.
-Az egyes tételek kódja manuálisan is beállítható a szerkesztés során - például a hozzájárulások esetében a szerkesztési párbeszédpanel megnyitásakor a _Advanced_ részben található egy _Programkód_ mező.
+Az egyes elemek kódját manuálisan lehet beállítani szerkesztéskor - például a hozzájárulások esetében, amikor megnyitod a szerkesztési párbeszédablakot, van egy _Programkód_ mező az _Haladó_ szakaszban.
 
 ![](../assets/conference_program_codes_manual.png)
 
-Ahhoz, hogy a kódokat automatikusan hozzárendelje a meglévő tételekhez, be kell állítania egy sablont a Programkódok lapon a Speciális beállítások között, majd a sablon mellett lévő nyílra kell kattintania.
-Például az ülések esetében beállíthatja a `S{id}` sablont, és a generált ülések kódjai a létrehozás sorrendjében az `S1`,`S2`,...,`Sn` lesznek. Hozzájárulások esetén beállíthat valami olyasmit, mint a `C_{év}{hónap}{nap}_{id}`, és a generált kódok a következők lesznek: `C_20220601_1`, `C_20220602_2`, ...
+A meglévő elemekhez automatikusan kódok hozzárendeléséhez be kell állítanod egy sablont a Programkódok fülön a haladó beállításokban, majd meg kell nyomnod a sablon melletti nyilat.
+Például az ülésekhez beállíthatsz egy `S{id}` sablont, és a generált üléskódok `S1`,`S2`,...,`Sn` lesznek, a létrehozás sorrendjében. A hozzájárulásokhoz beállíthatsz valamit, mint `C_{év}{hónap}{nap}_{id}`, és a generált kódok valami ilyesmi lehetnek: `C_20220601_1`, `C_20220602_2`, ...
 
 ![](../assets/conference_program_codes_assign.png)
 
-A programkódok hasznosak a párhuzamos ülések és ülésblokkok rendezéséhez is az órarendben, valamint szűrési kritériumként a szerkeszthetők listáján.
+A programkódok hasznosak a párhuzamos ülések és üléscsoportok időrendi táblázatban való rendezéséhez, valamint szűrési kritériumként a szerkeszthetők listáján.
 
 ![](../assets/conference_program_codes_filter.png)

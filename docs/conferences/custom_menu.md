@@ -1,20 +1,20 @@
-# A konferencia menü testreszabása
+# A Konferencia Menüjének Testreszabása
 
-Az indico menük megjelenését testreszabhatja, ha a kezelési módban a _Menu_ lapon a _Csodálkozás_ fül alatt a _Menüre_ kattint.
+Az Indico menüid megjelenését testre szabhatod, ha az eseménykezelési módban a _Testreszabás_ fül alatt a _Menü_ gombra kattintasz.
 
-Válassza a _Igen_ lehetőséget a jobb oldalon, így elkezdheti az oldalain lévő menük testreszabását.
+Válaszd a _Igen_ opciót a jobb oldalon, hogy elkezdhesd a menüid testreszabását az oldalaidon.
 
-Kattintson a **szem** ikonra, ha egy adott menüpontot szeretne megjeleníteni vagy leállítani.
-blokkot. Ezután a blokkokat húzással megváltoztathatja a sorrendjüket, és a ceruzára kattintva szerkesztheti a menüblokkok címét.
+Kattints a **szem** ikonra egy adott
+blokk megjelenítéséhez vagy elrejtéséhez. Ezután húzd és ejtsd a blokkot azok sorrendjének megváltoztatásához, és kattints a ceruza ikonra a menüblokkok címeinek szerkesztéséhez.
 
 ![](../assets/Customize_4.png)
 
-Ha újabb blokkot szeretne hozzáadni a menükhöz, akkor kattintson a _Add an entry_, majd vagy a _Add link_, vagy a _Add page_ gombra.
-Például hozzáadhat egy "Szállás" című oldalt, ahol megmutathat néhány fényképet azokról a szállodákról, ahol a konferencia résztvevői megszállhatnak, stb.
-Kiválaszthatja a _Add spacer_ opciót is, amely két blokkot választ el egymástól.
+Ha egy új blokkot szeretnél hozzáadni a Menüidhez, kattints az _Új bejegyzés hozzáadása_ gombra, majd vagy az _Hivatkozás hozzáadása_, vagy az _Oldal hozzáadása_ gombra.
+Például hozzáadhatsz egy "Szállás" című oldalt, ahol néhány hotelt mutatsz be képekkel, ahol a konferencia résztvevői megszállhatnak, és így tovább.
+Választhatod az _Elválasztó hozzáadása_ opciót is, ami két blokkot választ el egymástól.
 
 ![](../assets/Customize_5.png)
 
-Kattintson a _Váltás a megjelenítési nézetre_ gombra, hogy láthassa a menüben az imént elvégzett módosításokat.
+Kattints a _Megjelenítési nézetre váltás_ gombra, hogy megnézd azokat a változtatásokat a menüdben, amelyeket éppen végrehajtottál.
 
 ![](../assets/conference_menus.png)

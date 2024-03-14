@@ -1,24 +1,24 @@
-# Absztrakt benyújtása
+# Absztrakt Beküldése
 
-Ez a rövid videó bemutatja, hogyan kell benyújtani a jelölt absztraktját egy konferenciára az Indico-ban:
+Ez a rövid videó megmutatja, hogyan nyújthatod be jelölt absztraktodat egy konferenciára az Indicoban:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275344?showTitle=true" allowfullscreen></iframe>
 
 Részletesebben:
 
-Absztrakt **Elküldőként** az _Új absztrakt elküldése_ gombra kattintva.
+Absztrakt **Beküldőjeként** kattints az _Új absztrakt beküldése_-re.
 
 ![](../assets/conference_abstract_submit.png)
 
-Adjon meg egy _Címet_ és az absztrakt tartalmát.
+Írd be a _Címet_ és az absztrakt tartalmát.
 
-Válassza ki a _Típust_, pl. _Poster_, és adja meg az absztrakt _Author_ nevét. Ők akár többen is lehetnek.
-Kattintson a _Speaker_ gombra legalább az egyik szerzője esetében.
-Válassza ki, hogy az absztraktja melyik _Track_-hez tartozik, és válaszoljon az ott található kérdésekre, ha vannak ilyenek.
+Válaszd ki a _Típusát_, pl. _Poszter_, és add hozzá az absztrakt _Szerzőjét_. Lehet több szerző is.
+Legalább egyik szerzőt jelöld meg _Előadóként_.
+Válaszd ki, melyik _Szekciónak_ tartozik az absztraktod, és válaszolj a szekcióban található kérdésekre, ha vannak ilyenek.
 
-Kattintson a _Submit_ gombra.
+Kattints a _Beküldés_-re.
 
 ![](../assets/conference_abstract_submit_details.png)
 
-Ha az absztraktfelhívásban az értesítési lehetőségek engedélyezve vannak, akkor Önnek, mint az absztrakt benyújtójának, e-mailt kell kapnia az absztrakt sikeres benyújtásáról.
-Az absztrakt nevére kattintva a benyújtó láthatja, hogy a bírálók (általában több bíráló) pozitív vagy negatív bírálatot hagytak-e, és hogy az absztraktot elfogadta-e egy bíráló.
+Ha az Absztrakt Felhívásban engedélyezték az értesítési lehetőségeket, akkor te, mint az absztrakt beküldője, egy emailt kellene kapnod a sikeres absztrakt beküldésről.
+Az Absztrakt nevére kattintva a Beküldő láthatja, ha az Értékelők (általában több mint egy) pozitív vagy negatív értékelést hagytak, és hogy az Absztraktot elfogadta-e egy Bíró.

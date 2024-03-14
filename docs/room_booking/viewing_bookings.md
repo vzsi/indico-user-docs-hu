@@ -1,30 +1,27 @@
-# A foglalások és az összes foglalás megtekintése
+# Foglalásaid és Az Összes Foglalás Megtekintése
 
-## A foglalásaid
+## A Foglalásaid
 
-![Foglalásaim](../assets/room_booking/my_bookings_3.png)
+![Saját foglalások](../assets/room_booking/my_bookings_3.png)
 
-A szobafoglalás oldalmenü *Foglalásaim* menüpontja alatt megtekintheti az Ön által készített foglalásokat vagy előfoglalásokat.
+A saját foglalásaidat vagy előfoglalásaidat a Helyiség Foglalás oldalsó menüjében a *Saját foglalások* szekció alatt tekintheted meg.
 
 ## Az összes foglalás
 
-A vízszintes menüben a *Foglalások* menüpontra kattintva megtekintheti az összes szoba összes foglalását, amelyet mindenki készített.
+Az összes helyiség által mindenki által végzett foglalásokat megtekintheted, ha a vízszintes menüben a *Foglalások* menüpontra kattintasz.
 
 ![Foglalások](../assets/room_booking/bookings.png)
 
+Az oldal tetején vannak szűrők, amelyekkel szűrheted a helyiségeket:
 
+![Foglalások szűrői](../assets/room_booking/bookings_filters.png)
 
-Az oldal tetején van néhány kritérium, amelyet kiválasztva szűrheted a szobákat:
+Válaszd ki a kívánt épületet és a helyiségnek rendelkeznie kellő székek számát. Ezután válaszd ki a kívánt kritériumokat a felszerelések hosszú listájából. Minden alkalommal, amikor kiválasztasz egy kritériumot, ne felejtsd el rákattintani az *alkalmaz* gombra, különben a kritériumokat nem veszi figyelembe.
 
-![Bookings filters](../assets/room_booking/bookings_filters.png)
+Ha csak azokat a helyiségeket szeretnéd látni, amelyekre jogosult vagy foglalni, vagy a kedvenceidet, kattints a *Csak megjelenítés* lehetőségre, és válaszd ki a kritériumaidat.
 
-Válassza ki a kívánt épületet és a helyiségek számát. Ezután válassza ki a kívánt kritériumokat a felszerelések széles listájából. Minden alkalommal, amikor kiválaszt egy kritériumot, ne felejtsen el az *alkalmazás* gombra kattintani, különben a kritériumai nem lesznek figyelembe véve.
+Miután befejezted, a következő oldal megmutatja azokat a helyiségeket, amelyek megfelelnek a kritériumaidnak.
 
-Ha csak az Ön által lefoglalni engedélyezett termeket vagy a kedvenceit szeretné látni, kattintson a *Kizárólag megjelenítése* gombra, és válassza ki a kritériumokat.
-
-
-Ha ezt befejezte, a következő oldalon megjelenik a kritériumoknak megfelelő szobák listája.
-
-Ez a lehetőség segíthet Önnek abban, hogy az utolsó pillanatban foglaljon szobát, vagy megoldja a foglalási konfliktust. Könnyedén láthatja a szobát foglaló kollégák nevét, és e-mailt küldhet nekik, hogy megpróbáljon megoldást találni a konfliktusra, ha valóban szüksége van erre a szobára, és senki más nem tud megfelelni az Ön kritériumainak.
+Ez az opció segíthet az utolsó pillanatban történő helyiségfoglalásban vagy egy foglalási konfliktus megoldásában. Könnyen láthatod a helyiségeket lefoglaló kollégák nevét, és e-mailben felveheted velük a kapcsolatot, hogy megoldást találj a konfliktusra, ha valóban szükséged van erre a helyiségre, és más nem felel meg a kritériumaidnak.
 
 ---

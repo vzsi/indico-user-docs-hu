@@ -1,7 +1,7 @@
-# Egy kategória kezelése
+# Kategória kezelése
 
-Az alkategóriákat vagy eseményeket a jelölőnégyzetek kiválasztásával és a jobb oldali vízszintes nyilakra kattintva mozgathatja. Ezután a rendszer felkéri, hogy válassza ki az események/alkategóriák új helyét.
+Al-kategóriákat vagy eseményeket tudsz áthelyezni úgy, hogy kijelölöd őket a jelölőnégyzetek segítségével, majd a jobb oldalon található vízszintes nyilakra kattintasz. Ezután kérni fogja tőled az események/al-kategóriák új helyét.
 
 ![](../assets/category_move.png)
 
-Egy alkategóriát és mindent, amit tartalmaz, vagy egy eseményt törölhet, ha kijelöli azt, és a szemetesre kattint. A kategóriák nem törölhetők, ha nem üresek.
+Egy al-kategória vagy az általa tartalmazott események törléséhez jelöld ki, és kattints a kukára. Kategóriákat nem lehet törölni, ha nem üresek.

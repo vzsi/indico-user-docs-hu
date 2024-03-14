@@ -1,30 +1,30 @@
-# Felmérés megnyitása/befejezése
+# Felmérés Megnyitása/Lezárása
 
-**Vezetőként**, miután befejezte a kérdőív szakaszainak létrehozását, megnyithatja a kérdőívet!
-Kattintson a bal oldali _Felmérések_ gombra.
-Most kattintson a _Felügyelet_ gombra, itt tudja eldönteni, hogy a kérdőív mikor küldhető be, és mikor lesz nyitva.
+**Menedzserként**, miután befejezted a kérdőív szekcióinak létrehozását, készen állsz a megnyitásra!
+Kattints a bal oldalon a _Surveys_ (Felmérések) menüpontra.
+Most kattints a _Manage_ (Kezelés) gombra, ahol dönthetsz arról, hogy mikor lehet a felmérést kitölteni és mikor lesz nyitva.
 
-Ezen az oldalon kattintson a _Szervezés_ gombra, és válassza ki a napnak azt a napját és óráját, amikor a kérdőívet be lehet küldeni, és amikor zárva lesz.
+Ezen az oldalon kattints a _Schedule_ (Ütemezés) gombra, és válaszd ki a dátumot és az órát, amikor a felmérés kitölthető lesz, és mikor zárul le.
 
-Alternatív megoldásként egyszerűen kattintson a _Megnyitni most_ gombra, így bárki azonnal ki tudja majd tölteni a felmérést.
+Alternatív megoldásként egyszerűen kattinthatsz az _Open now_ (Nyitás most) gombra, így bárki azonnal kitöltheti a felmérést.
 
 ![](../assets/survey_schedule.png)
 
-Kattintson a _Megjelenítési nézetre váltás_, majd a jobb oldalon a _Kitöltés_ gombra, hogy hozzáférjen a felméréshez.
+Kattints a _Switch to display view_ (Váltás megjelenítési nézetre) gombra, majd a jobb oldalon a _Fill out_ (Kitöltés) gombra, hogy hozzáférj a felméréshez.
 
 ![](../assets/survey_fillout.png)
 
-**Használóként ** kitöltheti a felmérést, és elküldheti válaszait.
+**Felhasználóként** kitöltheted a felmérést és elküldheted a válaszaidat.
 
-### A bezáráshoz:
+### A lezárás:
 
-Eseménykezelőként, miután néhány felhasználó kitöltötte a felmérést, ellenőrizheti a felmérés eredményeit.
+Esemény menedzserként, miután néhány felhasználó kitöltötte a felmérést, ellenőrizheted a felmérés eredményeit.
 
-Ehhez kattintson a képernyő tetején lévő ceruzára, és térjen vissza az esemény kezelőoldalára. Ezután kattintson a _Felmérések_, majd a _Felmérések kezelése_ gombra.
+Ehhez kattints a képernyő tetején lévő ceruzára, hogy visszatérj az eseményed kezelő oldalára. Ezután kattints a _Surveys_ (Felmérések) menüpontra, majd a _Manage_ (Kezelés) gombra.
 
 ![](../assets/survey_results.png)
 
-Az oldal alján láthatja azokat a felhasználókat, akik már kitöltötték a felmérést.
-Az adatokat különböző formátumokban exportálhatja, ha az _Export_ gombra kattint. Az _Eredmények_ gombra kattintva megjelenítheti azokat a grafikonokat is, amelyek a felhasználók válaszainak százalékos arányát szemléltetik az egyes tételeknél.
+Az oldal alján láthatod azokat a felhasználókat, akik már kitöltötték a felmérést.
+Az adatokat különböző formátumokban exportálhatod a _Export_ (Exportálás) gombra kattintva. Kattinthatsz a _Results_ (Eredmények) gombra is, hogy megjelenjenek azok a grafikonok, amelyek az egyes elemekre adott felhasználói válaszok százalékos megoszlását ábrázolják.
 
 ![](../assets/survey_results_display.png)

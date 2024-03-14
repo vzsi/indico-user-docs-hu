@@ -1,38 +1,38 @@
-# Regisztráció egy konferencián
+# Konferencián Való Regisztráció
 
-Ez a rövid videó elmagyarázza, hogyan regisztrálhat/jelentkezhet és fizethet egy konferencián való részvételért az Indico segítségével:
+Ez a rövid videó bemutatja, hogyan regisztrálhatsz/jelentkezhetsz és fizethetsz a részvételért egy Konferencián az Indico használatával:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275654?showTitle=true" allowfullscreen></iframe>
 
-Kövesse ezeket a lépéseket részletesen itt:
+Kövesd részletesen ezeket a lépéseket:
 
-### Regisztráljon/jelentkezzen és fizessen, mint résztvevőjelölt.
+### Regisztráció/Jelentkezés & fizetés mint jelölt résztvevő
 
-Felhasználóként, konferencia résztvevőjelöltként Regisztrációt vagy Jelentkezést adhat le, ha az esemény moderált.
+Mint felhasználó, leendő Konferencia résztvevő, helyezhetsz el egy Regisztrációt vagy Jelentkezést, ha az esemény moderálva van.
 
-Az esemény áttekintő oldalán kattintson a _Feljelentkezés most_ gombra.
+Az esemény áttekintő oldalán kattints az _Jelentkezés most_ gombra.
 
-Töltse ki az űrlapot, pl. válassza ki a kívánt _szállás_, az _érkezés_ és az _elutazás_ időpontját.
+Töltsd ki az űrlapot, például válaszd ki a kívánt opciókat a _Szállás_, az _Érkezés_ és a _Távozás dátuma_ tekintetében.
 
-Kattintson a _Apply_ (Jelentkezés) gombra, ha végzett. Előfordulhat, hogy meg kell várnia a rendezvényszervező jóváhagyását, ha a moderálás opció engedélyezve van.
+Kattints az _Jelentkezés_ gombra, amikor befejezted. Lehet, hogy meg kell várnod az esemény menedzserének jóváhagyását, ha a moderálási opció engedélyezve van.
 
 ![](../assets/Register_1.png)
 
-Amint a rendezvénymenedzser jóváhagyta a Jelentkezésedet, el tudod helyezni a fizetést.
+Miután az esemény menedzsere jóváhagyta a jelentkezésedet, elhelyezheted a fizetést.
 
-A Jelentkezési űrlap kitöltése után megjelenő oldalon alul megjelenik egy _Checkout_ gomb. Ez egy olyan oldalra irányítja Önt, ahol az engedélyezett opciókkal, pl. banki átutalással és/vagy PayPal-lal tud fizetni.
+Az űrlap kitöltése után megjelenő oldalon a lap alján megjelenik egy _Pénztár_ gomb. Ez átirányít egy oldalra, ahol a kiválasztott fizetési opciókkal fizethetsz, például banki átutalással és/vagy PayPal-lel.
 
 ![](../assets/Register_2.png)
 
-### Jóváhagyja a konferencia jelentkezéseket eseménymenedzserként
+### Konferencia Jelentkezések Jóváhagyása mint esemény menedzser
 
-Rendezvényszervezőként kattintson a ceruzára a tetején, hogy visszatérjen az eseménykezelő oldalra.
+Mint esemény menedzser, kattints a tetején lévő ceruzára, hogy visszatérj az esemény kezelői oldalára.
 
-Kattintson a _Regisztráció_ gombra a bal oldali bannerben, a _Organizáció_ alatt. Menedzserként a _Regisztrációk_ gombra kattintva láthatja a függőben lévő regisztrációkat.
+Kattints a _Regisztráció_ gombra a bal oldali sávban, az _Szervezés_ alatt. Mint menedzser, kattinthatsz a _Regisztrációk_ gombra, hogy megnézd a függőben lévő regisztrációkat.
 
 ![](../assets/Register_3.png)
 
-Egyszerűen kattintson a kérelmező nevére, és kattintson a _Elfogadom_ gombra, ha egyetért.
+Egyszerűen kattints a jelentkező nevére, és kattints az _Jóváhagyás_ gombra, ha egyetértesz.
 
 ![](../assets/Register_4.png)
 

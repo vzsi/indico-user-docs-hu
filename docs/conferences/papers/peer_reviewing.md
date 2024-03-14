@@ -1,53 +1,52 @@
-# Paper Peer Reviewing
+# Kéziratlektorálás
 
 ### Bevezetés
 
-Ez a rövid videó elmagyarázza a szakmai bírálati folyamatot, valamint a bíráló és a bíráló szerepét az Indicóban:
+Ez a rövid videó bemutatja az Indico lektorálási folyamatát és a lektorok valamint bírák szerepét:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2728255?showTitle=true" allowfullscreen></iframe>
 
-A szakértői értékelés modul lehetővé teszi, hogy
+A Kéziratlektorálás modul lehetővé teszi, hogy
 
-- Elfogadott [absztraktok] (../cfa.md) benyújtását,
-- bíráló- és bírálócsoportok felállítását, valamint a dolgozatokhoz való hozzárendelésüket,
-- a dolgozatok bírálatát és elbírálását, valamint
-- az elfogadott dolgozatok közzétételét.
+- cikkeket nyújts be elfogadott [absztraktokhoz](../cfa.md),
+- lektorálói és bírálói csapatokat állíts fel és rendelj hozzájuk cikkeket,
+- cikkeket lektorálj és bírálj, valamint
+- közzé tedd az elfogadott cikkeket.
 
-!!! Megjegyzés
-    Ha nem biztos benne, hogy melyik modult kell használnia, nézze meg a [introduction](./introduction.md) a Peer Reviewing és Editing modulok magasabb szintű leírását.
+!!! megjegyzés
+    Ha nem vagy biztos abban, melyik modult használd, nézd meg a [bevezetőt](./introduction.md) az átfogó leíráshoz a Kéziratlektorálás és Szerkesztés modulokról.
 
-Itt egy folyamatábra, amely a szakértői bírálati munkafolyamat áttekintését mutatja be:
+Íme egy ábra, amely áttekintést nyújt a kéziratlektorálás munkafolyamatáról:
 
 ![](../../assets/papers/peer_reviewing/review_diagram.png)
 
-A következő szakaszok a Peer Reviewing modul használatát ismertetik a szervezők, a szerzők, a dolgozat bírálók és a bírálók szemszögéből.
+A következő szakaszokban azt magyarázzuk el, hogyan használható a Kéziratlektorálás modul a szervezők, szerzők, lektorok és bírák szemszögéből.
 
-### A szakértői bírálat beállítása konferenciamenedzserként/szervezőként
+### A kéziratlektorálás beállítása konferencia menedzser/szervezőként
 
 #### A modul engedélyezése
 
-Ahhoz, hogy elkezdhesse használni a Peer Reviewing modult, először engedélyeznie kell azt.
-Az eseménykezelő oldalon kattintson a bal oldali menüben a _Munkafolyamatok_ alatt található _Peer Reviewing_ fülre.
-Végül kattintson a _Modul engedélyezése_ gombra a Peer Reviewing modul engedélyezéséhez.
+Ahhoz, hogy elkezdd használni a Kéziratlektorálás modult, először engedélyezned kell azt.
+A rendezvény kezelési oldaláról kattints a bal menüben a _Kéziratlektorálás_ fülre a _Munkafolyamatok_ alatt.
+Végül kattints a _Modul engedélyezése_ gombra a Kéziratlektorálás modul engedélyezéséhez.
 
 ![](../../assets/papers/peer_reviewing/reviewing_enable_module.png)
 
-A modul bármikor letiltható a _Features_ fülön a _Advanced options_ alatt.
+A modul bármikor kikapcsolható a _Funkciók_ fülön az _Haladó beállítások_ alatt.
 
 ![](../../assets/papers/peer_reviewing/reviewing_disable_module.png)
 
-Ha a modul engedélyezve van, a konferencia menüjében új lapok jelennek meg a váltáskor
-a megjelenítési területre.
+Amint a modul engedélyezve van, új fülek jelennek meg a konferencia menüjében, amikor átváltasz a megjelenítési területre.
 
 ![](../../assets/papers/peer_reviewing/enabled_display_area.png)
 
-#### Papírsablon feltöltése
+#### Cikk sablon feltöltése
 
-Ha a konferenciája megköveteli, hogy a dolgozatoknak meghatározott stílusúak vagy elrendezésűek legyenek, akkor egy papírsablon feltöltésével segítheti a papírok szerzőit.
-A szerzők ezt követően letölthetik ezt a sablont a konferencia _Paper Peer Reviewing_ lapjáról.
+Ha a konferenciád megköveteli, hogy a cikkeknek különleges stílusban vagy elrendezésben kell lenniük, segítheted a cikk szerzőit azzal, hogy feltöltesz egy cikk sablont.
+A szerzők ekkor letölthetik ezt a sablont a konferencia _Kéziratlektorálás_ füléről.
 
-A sablon feltöltéséhez válassza a kezelési területen a _Peer Reviewing_ lapot. Ezután kattintson a _Papírsablonok_ mellett található _Manage_ gombra.
-Itt feltöltheti a sablonját, nevet és opcionálisan leírást adhat neki. Ha szeretné, több sablont is feltölthet.
+Cikk sablon feltöltéséhez válaszd a _Kéziratlektorálás_ fület a kezelési területen. Ezután kattints a _Kezelés_ gombra a _Cikk sablonok_ mellett.
+Itt feltöltheted a sablonodat, adhatsz neki nevet és opcionálisan egy leírást. Több sablont is feltölthetsz, ha szeretnéd.
 
 ![](../../assets/papers/peer_reviewing/template_manage.png)
 
@@ -55,240 +54,238 @@ A sablon láthatóvá válik a konferencia megjelenítési területén:
 
 ![](../../assets/papers/peer_reviewing/template_uploaded.png)
 
-#### Tartalom és elrendezés áttekintésének beállítása
+#### Tartalmi és elrendezési lektorálás beállítása
 
-A szakértői bírálat modul lehetővé teszi, hogy a bírálók külön-külön bírálják el a dolgozat tartalmát és elrendezését.
-A _Paper Peer Reviewing_ fülön engedélyezheti az egyik vagy mindkét folyamatot. Alapértelmezés szerint csak a tartalmi bírálat
-folyamat van engedélyezve.
+A kéziratlektorálás modul lehetővé teszi a lektorok számára, hogy külön értékeljék egy cikk tartalmát és elrendezését.
+Ezeket a folyamatokat engedélyezheted a _Kéziratlektorálás_ fülön. Alapértelmezés szerint csak a tartalmi lektorálási
+folyamat engedélyezett.
 
 ![](../../assets/papers/peer_reviewing/reviewing_processes.png)
 
-Ezen kívül lehetőség van a tartalmi és az elrendezési bírálatra is felülvizsgálati határidőt beállítani. Ha határidő van beállítva, akkor egy információs mező jelenik meg az átnézési területen
-amely tájékoztatja a bírálókat a határidőről. A határidő érvényesíthető is, ami szintén megakadályozza a megadott dátum utáni felülvizsgálatot.
+Emellett lehetőség van lektorálási határidő beállítására is mind a tartalmi, mind az elrendezési lektoráláshoz. Ha határidő van megadva, egy információs doboz jelenik meg a lektorálási területen,
+amely tájékoztatja a lektorokat a határidőről. A határidő érvényesíthető is, ami megakadályozza a lektorálást a megadott dátum után.
 
-A felülvizsgálati határidő beállításához kattintson a _Határidő_ gombra azon felülvizsgálati folyamat mellett, amelyre vonatkozóan a határidőt be szeretné állítani:
+Lektorálási határidő beállításához kattints a _Határidő_ gombra a megfelelő lektorálási folyamat mellett, amelyhez be szeretnéd állítani a határidőt:
 
 ![](../../assets/papers/peer_reviewing/reviewing_deadline_set.png)
 
-Ezt látják a bírálók a határidő beállításakor:
+Így néz ki a határidő a lektorok számára, amikor be van állítva:
 
 ![](../../assets/papers/peer_reviewing/reviewing_deadline_display.png)
 
-A bírálóknak egyéni kérdéseket is megjeleníthetnek, amikor egy dolgozatról véleményt hagynak.
-Ez akkor lehet hasznos, ha a dolgozat elfogadásán/elutasításán kívül további információkra is szükség van a bírálótól.
-A kérdések három típusa használható:
+A lektorok számára egyedi kérdéseket is megjeleníthetsz, amikor egy cikkről véleményt írnak.
+Ez akkor lehet hasznos, ha a szerző elfogadásán/elutasításán kívül további információra van szükség a lektortól.
+Háromféle kérdéstípus használható:
 
-- A minősítés
+- Értékelés
 - Igen/nem kérdés
 - Szabad szöveg
 
-Minden kérdésnek van neve, leírása és további beállításai a kérdés típusától függően. Minden kérdés szükség szerint konfigurálható
-ami azt jelenti, hogy a véleményezőnek válaszolnia kell a kérdésre, mielőtt véleményt hagyna.
+Minden kérdésnek van neve, leírása és típustól függően további beállításai. Minden kérdést kötelezőként is be lehet állítani,
+ami azt jelenti, hogy a lektor válaszolnia kell a kérdésre, mielőtt a lektorálást befejezné.
 
-A megfelelő értékelési folyamat melletti _Kérdések_ gombra kattintva adhat hozzá értékelő kérdéseket.
+Lektorálási kérdések hozzáadásához kattints a megfelelő lektorálási folyamat melletti _Kérdések_ gombra.
 
 ![](../../assets/papers/peer_reviewing/questions.png)
 
-Így néznek ki a különböző kérdések a bíráló szemszögéből:
+Így néznek ki a különböző kérdések a lektor szemszögéből:
 
 ![](../../assets/papers/peer_reviewing/questions_display.png)
 
-Az értékelő kérdések skálája (a minimális és maximális érték) minden kérdésnél ugyanaz, és az értékelő beállításoknál beállítható:
+Az értékelési kérdések skálája (a minimum és maximum érték) minden kérdés esetében azonos, és a lektorálási beállításokban konfigurálható:
 
 ![](../../assets/papers/peer_reviewing/rating_scale.png)
 ![](../../assets/papers/peer_reviewing/rating_scale_set.png)
 
 !!! megjegyzés
-    A minősítések minimális és maximális értékének megváltoztatása arányosan skálázza az összes meglévő választ.
+    Az értékelési skála minimum és maximum értékének megváltoztatása arányosan átskálázza az összes meglévő választ.
 
-#### A dolgozatok bírálatának beállítása
+#### Cikkek bírálatának beállítása
 
-Az egyetlen kifejezetten a bírálók számára elérhető beállítás a bírálati határidő, amely ugyanúgy működik, mint a korábban ismertetett bírálati határidők.
-A határidő beállítása után egy információs doboz jelenik meg a konferencia bírálati területén. Ha a határidő érvényben van, a bírálók nem tudnak bírálni
-dolgozatokat a határidő lejárta után.
+A bírák számára az egyetlen kifejezetten elérhető beállítás a bírálati határidő, amely ugyanúgy működik, mint a korábban ismertetett lektorálási határidők.
+Ha a határidő be van állítva, egy információs doboz jelenik meg a konferencia bírálati területén. Ha a határidő érvényesítve van, a bírák a határidő után nem bírálhatják el
+a cikkeket.
 
 ![](../../assets/papers/peer_reviewing/judge_deadline_set.png)
 ![](../../assets/papers/peer_reviewing/judge_deadline_display.png)
 
-#### Felülvizsgálati beállítások
+#### Lektorálási beállítások
 
-A bírálati beállítások segítségével konfigurálhatja a bejelentést, beállíthatja a kérdések értékelésének skáláját (az előző szakaszokban ismertetve), és kezelheti az e-mailes értesítéseket.
-A bejelentés segítségével egy üzenetet jeleníthet meg a bírálók számára a szakértői értékelés oldalon.
+A lektorálási beállítások lehetővé teszik, hogy konfigurálj egy bejelentést, beállítsd az értékelési kérdések skáláját (az előző szakaszokban ismertetve) és kezeld az e-mail értesítéseket.
+A bejelentést arra lehet használni, hogy egy üzenetet jeleníts meg a lektorálási oldalon a lektorok számára.
 
-Az e-mail értesítésekkel beállíthatja, hogy ki és milyen körülmények között
-kapjon e-mailt - például, hogy szeretné-e, ha egy bíráló értesítést kapna egy dolgozat bírálatáról. A leggyakoribb értesítések alapértelmezés szerint be vannak kapcsolva, de igény szerint finomhangolhatja őket. A bírálók és bírálók kijelölésével és a dolgozatokhoz való hozzárendelésükkel a következő szakaszokban foglalkozunk.
+Az e-mail értesítések lehetővé teszik, hogy konfiguráld, ki és milyen körülmények között
+kapjon e-mailt — például, akkor szeretnél-e egy bírót értesíteni, ha egy cikket lektoráltak. A leggyakoribb értesítések alapértelmezés szerint be vannak kapcsolva, de finomhangolhatod őket, ahogy szükséges. A lektorok és bírák kijelölését és hozzárendelését a cikkekhez a következő szakaszokban tárgyaljuk.
 
-A bírálati beállítások megnyitásához kattintson a _Elbírálati beállítások_ mellett található _Settings_ gombra.
+A lektorálási beállítások megnyitásához kattints a _Beállítások_ gombra a _Lektorálási beállítások_ mellett.
 
 ![](../../assets/papers/peer_reviewing/settings.png)
 
-!!! Megjegyzés
-    Az e-mailes értesítés beállításaiban a tartalmi és elrendezési bíráló oszlopok csak akkor láthatók, ha a megfelelő folyamat engedélyezve van.
+!!! megjegyzés
+    A tartalmi és elrendezési lektorok oszlopai az e-mail értesítési beállításokban csak akkor láthatók, ha a megfelelő folyamat engedélyezve van.
 
-Íme egy képernyőkép arról, hogyan nézhet ki egy bejelentés.
-A bejelentésszerkesztő támogatja az alapvető stílusokat Markdownon keresztül. Képeket is beágyazhat link segítségével.
+Íme egy képernyőkép arról, hogy nézhet ki egy bejelentés.
+A bejelentés szerkesztője támogatja az alapvető stílusokat Markdown segítségével. Képeket is beágyazhatsz egy link használatával.
 
 ![](../../assets/papers/peer_reviewing/announcement.png)
 
-#### Értékelő csoportok felállítása
+#### Lektorálói csapatok beállítása
 
-Mielőtt a dolgozatokat kioszthatná a bírálókhoz és a bírálókhoz, szükséges a bírálócsoportok felállítása.
-Ezek kijelölik, hogy ki jogosult egy dolgozatot bírálni és/vagy bírálni.
+Mielőtt cikkeket rendelnél lektorokhoz és bírákhoz, szükséges lektorálói csapatokat beállítani.
+Ezek jelölik ki, kinek van joga lektorálni és/vagy bírálni egy cikket.
 
-A kezdéshez kattintson a _Teams_ gombra a _Revíziós csapatok_ mellett.
+A kezdetekhez kattints a _Csapatok_ gombra a _Lektorálói csapatok_ mellett.
 
 ![](../../assets/papers/peer_reviewing/teams.png)
 
-A párbeszédablakban hozzáadhat dolgozatmenedzsereket, bírálókat, valamint tartalmi és elrendezési bírálókat. A lapmenedzserek rendelkeznek a Peer Reviewing modul beállításainak kezeléséhez szükséges jogokkal.
-A papírmenedzsereket az esemény _Védelem_ lapjáról is kezelheti a _Papírmenedzser_ jogosultság hozzáadásával.
+A megjelenő párbeszédablakból hozzáadhatsz cikkmenedzsereket, bírákat és tartalmi valamint elrendezési lektorokat. A cikkmenedzsereknek joga van kezelni a Kéziratlektorálás modul beállításait.
+A cikkmenedzsereket az esemény _Védelem_ füléről is kezelheted, hozzáadva a _Cikkmenedzser_ engedélyt.
 
 ![](../../assets/papers/peer_reviewing/teams_setup.png)
 ![](../../assets/papers/peer_reviewing/paper_manager.png)
 
-Ha a csapatok felállítása megtörtént, érdemes _kompetenciákat_ is hozzáadni a bírálókhoz és a bírálókhoz.
-A kompetenciák olyan kulcsszavak, amelyeket hozzáadhatsz, és amelyek leírják az adott személy szakterületét.
-Ezek a kulcsszavak segíthetnek a lapkezelőknek abban, hogy a megfelelő bírálót és/vagy bírót illesszék a laphoz.
+Miután beállítottad a csapatokat, hasznos lehet _kompetenciákat_ adni a lektoraidhoz és bíráidhoz.
+A kompetenciák kulcsszavak, amelyek leírják a személy szakmai tudását.
+Ezek a kulcsszavak segíthetnek a cikkmenedzsereknek a megfelelő lektor és/vagy bíró kiválasztásában egy cikkhez.
 
-A kompetenciákat a _Revíziós csoportok_ mellett található _Kompetenciák_ gombra kattintva tudja kezelni.
+A kompetenciák kezeléséhez kattints a _Kompetenciák_ gombra a _Lektorálói csapatok_ mellett.
 
 ![](../../assets/papers/peer_reviewing/competences.png)
 ![](../../assets/papers/peer_reviewing/competences_add.png)
 
-A bírálókkal és a bírálókkal való kapcsolatfelvételhez e-mailben is praktikusak a bírálók és a bírálók.
-Egyszerűen kattintson a Kapcsolat_ gombra, és válassza ki a kívánt címzetteket.
+A lektorálói csapatok hasznosak lehetnek a lektoraid és bíráid e-mailben történő eléréséhez is.
+Egyszerűen kattints a _Kapcsolat_ gombra és válaszd ki a kívánt címzetteket.
 
 ![](../../assets/papers/peer_reviewing/contact.png)
 
-Az _Emailek küldése_ gombra kattintva megnyílik egy párbeszédablak, ahol megírhatja az e-mailt.
+A _Levelek küldése_ gombra kattintva egy párbeszédablak nyílik meg, ahol megírhatod az e-mailedet.
 
-#### A felhívás engedélyezése
+#### Cikkek felhívásának engedélyezése
 
-Ha eddig a pontig követte a dokumentációt, akkor most már készen kell állnia a call for papers megnyitásához.
-Azaz, engedélyezze a szerzők számára, hogy dolgozatokat nyújtsanak be bírálatra.
+Ha eddig követted a dokumentációt, akkor most már készen állsz arra, hogy megnyisd a cikkek felhívását.
+Azaz, lehetővé tedd a szerzők számára, hogy cikkeket nyújtsanak be lektorálásra.
 
-A felhívás megnyitásához vagy a _Start now_ gombra kattintva azonnal megnyitja a felhívást, vagy a _Schedul_ gombra kattintva.
-és válassza ki a felhívás kezdő és befejező dátumát.
+A cikkek felhívásának megnyitásához vagy kattints a _Most indít_ gombra, ami azonnal megnyitja a felhívást, vagy kattints a _Ütemezés_ gombra,
+és válaszd ki a felhívás kezdő- és záró dátumát.
 
 ![](../../assets/papers/peer_reviewing/cfp_open.png)
 
-Ha a pályázati felhívás nyitva van, ugyanitt lehetőség van annak lezárására vagy átütemezésére is.
+Amint a cikkek felhívása megnyílt, lehetőséged lesz arra is, hogy lezárd vagy újraütemezd azt ugyanott.
 
-#### Papírfeladat kiosztása
+#### Cikkek hozzárendelése
 
-Miután a felhívás megnyílt és a dolgozatok benyújtásra kerültek, a lapkezelő feladata, hogy a benyújtott dolgozatokhoz bírálókat és bírálókat rendeljen.
-A bírálók és bírálók csak olyan dolgozatokon dolgozhatnak, amelyeket kifejezetten hozzájuk rendeltek.
+A cikkek felhívásának megnyitásával és a cikkek beküldésével a cikkmenedzser feladata, hogy lektorokat és bírákat rendeljen a beküldött cikkekhez.
+A lektorok és bírák csak azokon a cikkeken dolgozhatnak, amelyeket kifejezetten hozzájuk rendeltek.
 
-A dolgozatkiosztás oldal megnyitásához kattintson a _Papírok kiosztása_ mellett a _Papírkiosztás_ gombra.
+A cikkek hozzárendelési oldalának megnyitásához kattints az _Cikkek hozzárendelése_ gombra a _Cikk hozzárendelés_ mellett.
 
 ![](../../assets/papers/peer_reviewing/assign.png)
 ![](../../assets/papers/peer_reviewing/list_of_papers.png)
 
-Ez az oldal a beadott dolgozatok és azok állapotának áttekintésére szolgál. Ha egy személyt szeretne hozzárendelni egy dolgozathoz, először válassza ki a dolgozatot, és kattintson a
-_Assign_ a felső menüben. Válassza ki a kívánt szerepet a legördülő menüből, majd a megnyíló párbeszédpanelen válassza ki azokat a személyeket, akiknek ezt a szerepet ki kell osztani. Itt láthatja az egyes személyek kompetenciáit is.
-személy korábban megadott kompetenciáit.
+Ez az oldal áttekintést nyújt az összes beküldött cikk állapotáról. Egy személy hozzárendeléséhez először válaszd ki a cikket, és kattints az
+_Hozzárendel_ gombra a felső menüben. Válaszd ki a kívánt szerepet a legördülő menüből, és a megnyíló párbeszédablakban válaszd ki azokat a személyeket, akiket erre a szerepre hozzá kívánsz rendelni. Itt láthatod az egyes
+személyek korábban megadott kompetenciáit is.
 
 ![](../../assets/papers/peer_reviewing/assign_judges.png)
 
-Lehetőség van arra is, hogy egyszerre több dolgozathoz is hozzárendeljünk személyeket. Ehhez egyszerűen válasszon ki több dolgozatot, és kövesse ugyanazt az eljárást.
+Több személyt is hozzá lehet rendelni egyszerre több cikkhez. Ehhez egyszerűen válassz ki több cikket, és kövesd ugyanazt az eljárást.
 
-Egy személy eltávolítása egy dolgozatból,
-válassza ki a dolgozatot, majd kattintson a felső menüben a _Unassign_ (Hozzárendelés megszüntetése) gombra, és válassza ki az eltávolítandó szerepet a legördülő menüből. Az újonnan megnyíló párbeszédpanelen válassza ki az eltávolítandó személyt, és erősítse meg a választást a _Unassign_ (Hozzárendelés megszüntetése) gombra kattintva.
+Egy személy eltávolításához egy cikkről,
+válaszd ki a cikket, és kattints az _Leválaszt_ gombra a felső menüben, majd válaszd ki a leválasztandó szerepet a legördülő menüből. A megnyíló párbeszédablakban válaszd ki az eltávolítandó személyt, és erősítsd meg a választásodat a _Leválaszt_ gombra kattintva.
 
 ![](../../assets/papers/peer_reviewing/unassign_judges.png)
 
 #### Jogosultságok
 
-A szakértői bírálat modul új szerepköröket hoz létre, amelyekkel az Indico felhasználói rendelkezhetnek. Itt adunk egy listát arról, hogy milyen jogosultságok szükségesek ahhoz, hogy elvégezhessék
-a Peer Reviewing modulhoz kapcsolódó leggyakoribb műveletek elvégzéséhez.
+A kéziratlektorálás modul új szerepeket vezet be az Indico felhasználói számára. Itt bemutatjuk, hogy milyen engedélyek szükségesek a Kéziratlektorálás modullal kapcsolatos leggyakoribb műveletek elvégzéséhez.
 
-| Művelet | Szükséges engedélyek |
-| --------------------------------- | -------------------------------------------------------------------- |
-| Dolgozat beküldése | Absztrakt vagy hozzászólás beküldői |
-| Dolgozat bírálata | Dolgozat bírálók és eseménykezelők (a bírálókat ki kell jelölni) |
-| Dolgozat elbírálása | Dolgozatbírálók és rendezvénymenedzserek (a bírálókat ki kell jelölni) |
-| Dolgozatok hozzárendelése és beállítások kezelése | Dolgozat- és rendezvénymenedzserek |
+| Művelet                          | Szükséges engedélyek                                                 |
+| -------------------------------- | -------------------------------------------------------------------- |
+| Cikk beküldése                   | Absztrakt vagy hozzájárulás beküldői                                  |
+| Cikk lektorálása                 | Cikklektorok és esemény menedzserek (a lektoroknak hozzá kell lenniük rendelve) |
+| Cikk bírálata                    | Cikkbírák és esemény menedzserek (a bíráknak hozzá kell lenniük rendelve) |
+| Cikkek hozzárendelése és beállítások kezelése | Cikk és esemény menedzserek                                         |
 
-### Előadás szerzőjeként történő bírálat
+### Kéziratlektorálás cikk szerzőként
 
-Egy tipikus konferencia munkafolyamatában a dolgozat feltöltése előtt az első teendő az absztrakt beküldése. Amint az absztraktot a szervezők elfogadják, automatikusan létrejön egy új hozzászólás. Az összes hozzászólását a _My contributions_ oldalon láthatja.
+A tipikus konferencia munkafolyamatban az első lépés a cikk feltöltése előtt az absztrakt beküldése. Az absztrakt elfogadása után a szervezők automatikusan létrehoznak egy új hozzájárulást. Az összes hozzájárulásodat a _Saját hozzájárulások_ oldalon tekintheted meg.
 
 ![](../../assets/papers/peer_reviewing/contributions.png)
 
-Amint az absztraktot elfogadták, beadhat egy dolgozatot, feltéve, hogy a pályázati felhívás nyitva van. A dolgozatot a _Paper Peer reviewing_ oldalon a _Submit paper_ gombra kattintva küldheti be. Ha több olyan hozzászólása is van, amelyhez papírt nyújthat be, akkor megkérjük, hogy válasszon egyet.
+Amint az absztraktot elfogadták, beküldhetsz egy cikket, feltéve, hogy a cikkek felhívása nyitva van. Cikket a _Kéziratlektorálás_ oldalról nyújthatsz be, a _Cikk beküldése_ gombra kattintva. Ha több hozzájárulásod van, amelyhez cikket beküldhetsz, ki kell választanod egyet.
 
 ![](../../assets/papers/peer_reviewing/submit.png)
 ![](../../assets/papers/peer_reviewing/submit_select.png)
 
-Közvetlenül a hozzájárulási oldalról is beküldhet egy dolgozatot.
+A cikket közvetlenül a hozzájárulás oldalról is beküldheted.
 
 ![](../../assets/papers/peer_reviewing/submit_from_contrib.png)
 
-Miután beküldte a dolgozatát, a _Paper Peer reviewing_ oldalon, a _My papers_ alatt nyomon követheti annak előrehaladását.
+Miután beküldted a cikkedet, nyomon követheted annak előrehaladását a _Kéziratlektorálás_ oldalon a _Saját cikkeim_ alatt.
 
 ![](../../assets/papers/peer_reviewing/my_papers.png)
 
-Ezen a ponton a bírálók véleményt hagyhatnak a dolgozatáról javaslatokkal, és javaslatot tehetnek a dolgozat elfogadására, elutasítására vagy javítására. Szerzőként Önt e-mailben értesítjük minden Önt érintő tevékenységről. A dolgozat bírálója kérheti a dolgozatának javítását is, ebben az esetben Ön feltöltheti dolgozatának új változatát.
+Ebben a szakaszban a lektorok véleményezhetik a cikkedet javaslatokkal és javasolhatják annak elfogadását, elutasítását vagy javítását. Mint szerző, minden rád vonatkozó tevékenységről e-mailben értesítést kapsz. Egy cikkbíró is kérhet javításokat a cikkeden, ebben az esetben feltölthetsz egy új verziót a cikkedből.
 
 ![](../../assets/papers/peer_reviewing/review.png)
 
-Amint a dolgozatot elfogadták, az a megfelelő hozzájárulásban fog megjelenni.
+Amint a cikket elfogadják, az a megfelelő hozzájárulásban lesz közzétéve.
 
 ![](../../assets/papers/peer_reviewing/accepted_papers.png)
 
-### Szakmai bírálat bírálóként
+### Kéziratlektorálás lektorként
 
-Bírálóként az Ön feladata, hogy átnézze a benyújtott dolgozatokat, és javaslatot tegyen egy intézkedésre - a dolgozat _elfogadására_, _elutasítására_ vagy _javítására_. A dolgozatok bírálói figyelembe veszik az Ön visszajelzéseit, amikor arról döntenek, hogy mit tegyenek.
+Mint lektor, a feladatod a beküldött cikkek véleményezése és egy cselekvés javaslata - a cikk _elfogadása_, _elutasítása_ vagy _javításának_ kérése. A cikkbírák a visszajelzésed figyelembe veszik, amikor döntenek a cikkről.
 
-Csak olyan dolgozatokat bírálhat el, amelyeket kifejezetten Önhöz rendeltek.
-Ezeket a dolgozatokat az esemény _Kritika területén_ a _Kritizálandó dolgozatok_ alatt láthatja. Az Ön által már felülvizsgált dolgozatok a _Reviewed papers_ alatt jelennek meg.
+Csak azokat a cikkeket véleményezheted, amelyeket kifejezetten hozzád rendeltek.
+A véleményezendő cikkeket az esemény _Véleményezési területe_ alatt találod a _Véleményezésre váró cikkek_ alatt. A már áttekintett cikkek a _Véleményezett cikkek_ alatt jelennek meg.
 
 ![](../../assets/papers/peer_reviewing/papers_to_review.png)
 
-Felkérhetik, hogy hagyjon egy tartalmi, egy layout reviewt, vagy mindkettőt. Ezek pontos meghatározása az adott rendezvénytől és a szervezőktől függ, de általánosságban elmondható, hogy a tartalmi bírálat a szöveggel, annak helyességével és teljességével foglalkozik, míg az elrendezési bírálat a dolgozat stílusát és megjelenését értékeli, valamint azt, hogy az megfelel-e az adott konferencia irányelveinek.
+Kérhetnek tőled tartalmi véleményezést, elrendezési véleményezést vagy mindkettőt. A pontos meghatározás az adott eseménytől és a szervezőktől függ, de általánosságban a tartalmi véleményezés a szöveggel, annak helyességével és teljességével foglalkozik, míg az elrendezési véleményezés a cikk stílusát és megjelenését ítéli meg, valamint hogy megfelel-e a konferencia irányelveinek.
 
-Egy dolgozat véleményezéséhez először válasszon ki egy dolgozatot a dolgozatok listájából, hogy megnyissa a dolgozat idővonalát. Az idővonal oldal tetején, 
-letöltheti a benyújtott dolgozat legfrissebb változatát. Ha elolvasta a dolgozatot, és készen áll a bírálat hozzáadására, kattintson a _Review_ gombra.
+Egy cikk véleményezéséhez először válassz ki egy cikket a listáról a cikk idővonalának megnyitásához. Az idővonal tetején letöltheted a cikk legújabb verzióját. Miután elolvastad a cikket és készen állsz a vélemény hozzáadására, kattints a _Véleményezés_ gombra.
 
 ![](../../assets/papers/peer_reviewing/make_a_review.png)
 
-Ha a tartalom és az elrendezés felülvizsgálatára is felkérték, akkor megjelenik egy legördülő ablak, ahol ki kell választania, hogy melyik típusú felülvizsgálatot szeretné hozzáadni.
+Ha tartalmi és elrendezési véleményt is kért tőled, egy legördülő menüt láthatsz, ahol ki kell választanod, melyik típusú véleményt szeretnéd hozzáadni.
 
 ![](../../assets/papers/peer_reviewing/choose_review_type.png)
 
-A kiválasztás után ki kell választania a javasolt műveletet - a dolgozat _elfogadása_ vagy _elutasítása_, illetve _korrekciók kérése_.
-Ha a szervező extra bírálati kérdéseket adott hozzá, előfordulhat, hogy a bírálat hozzáadásához meg kell válaszolnia ezeket.
+Ezután ki kell választanod egy javasolt cselekvést - a cikk _elfogadása_ vagy _elutasítása_, vagy _javítás kérés_.
+Ha a szervező extra véleményezési kérdéseket adott hozzá, meg kell válaszolnod őket ahhoz, hogy hozzáadhass egy véleményt.
 
 ![](../../assets/papers/peer_reviewing/propose_action.png)
 
-A bírálatot később is szerkesztheti, amennyiben még nincs bírálat. Ezt az értékelésedben a szerkesztés ikonra kattintva teheted meg.
+A véleményedet később is szerkesztheted, amíg még nincs ítélet. Ezt a vélemény szerkesztés ikonjára kattintva teheted meg.
 
 ![](../../assets/papers/peer_reviewing/edit_review.png)
 
-Egy dolgozathoz véleményezés nélkül is hozzá lehet szólni anélkül, hogy véleményt hagyna. A hozzászólás láthatóságát beállíthatja úgy, hogy az csak pl. a bírálók számára legyen látható. Ez hasznos, ha kényes témákat vitat meg anélkül, hogy a szerző látná.
+Megjegyzést is fűzhetsz egy cikkhez véleményezés nélkül. A megjegyzés láthatóságát úgy állíthatod be, hogy az például csak a bírák számára legyen látható. Ez hasznos lehet érzékeny témák megvitatásához anélkül, hogy a szerző látná.
 
 ![](../../assets/papers/peer_reviewing/comment.png)
 
-Ha egy bíró javításokat kér, a bírálók megtekinthetik a javított dolgozatot.
+Ha egy bíró javításokat kér, a lektorok véleményezhetik a javított cikket.
 
-### Bírálóként történő bírálat
+### Kéziratlektorálás bíróként
 
-A dolgozatbíráló munkafolyamata nagyban hasonlít a bírálókéhoz. A bírálók csak olyan dolgozatokat bírálhatnak el, amelyeket a dolgozatmenedzserek osztottak ki számukra.
-A bírálható dolgozatok listája a _Bírálati terület_ alatt érhető el.
+A bírók munkafolyamata nagymértékben hasonlít a lektorokéhoz. A bírák csak azokat a cikkeket bírálhatják el, amelyeket a cikkmenedzserek hozzájuk rendeltek.
+A bírálandó cikkek listája a _Bírálati területen_ található.
 
 ![](../../assets/papers/peer_reviewing/judging_area.png)
 
-A dolgozatok bírálói mondják ki a végső szót, amikor egy dolgozat elfogadásáról van szó. Elfogadhatják vagy elutasíthatják a dolgozatot, illetve kérhetnek javításokat. Ha javításokat kérnek,
-a dolgozat szerzője új változatot nyújthat be, amelyet újra bírálni kell.
-Ne feledje, hogy egy dolgozatot csak egy bíráló bírálhat el.
+A cikkbíráknak van végső szavuk abban, hogy egy cikk elfogadásra kerül-e. Elfogadhatják vagy elutasíthatják a cikket, vagy kérhetik annak javítását. Ha javítást kérnek,
+a cikk szerzője beküldhet egy új verziót, amelyet ismét el kell bírálni.
+Fontos megjegyezni, hogy egy cikket csak egy bíró ítélhet meg.
 
-A bírálat hozzáadása előtt győződjön meg arról, hogy a bírálóknak volt lehetőségük átnézni a dolgozatot. A kijelölt tartalmi és elrendezési bírálókat a _Bírálati terület_ alatt láthatja.
+Mielőtt ítéletet hoznál, győződj meg róla, hogy a lektoroknak volt lehetőségük áttekinteni a cikket. A hozzárendelt tartalmi és elrendezési lektorokat a _Bírálati területen_ láthatod.
 
-A bírálatok a bírálati mezőben található _Rezess judgment_ ikonra kattintva visszaállíthatók:
+Az ítéleteket vissza lehet állítani az ítélet dobozban található _Ítélet visszaállítása_ ikonra kattintva:
 
 ![](../../assets/papers/peer_reviewing/reset_judgment.png)
 
-Bírálóként az ítélet hozzáadása előtt megjegyzéseket is hagyhat egy dolgozathoz.
+Mint bíró, hozzászólhatsz is egy cikkhez ítélet hozzáadása előtt.
 
-!!! Megjegyzés
-    Mind a bírálatnak, mind a bírálatnak lehet egy meghatározott határideje, amely után már nem lehet dolgozatokat bírálni vagy bírálni. Ha van határidő, akkor azt a bírálat és a bírálat területén láthatja.
+!!! megjegyzés
+    Mind a véleményezés, mind a bírálat esetében határidőt állíthatnak be, amely után nem lehet cikkeket véleményezni vagy bírálni. Ha határidő van megadva, azt a Véleményezési és Bírálati területeken láthatod.
     ![](../../assets/papers/peer_reviewing/reviewing_deadline_display.png)

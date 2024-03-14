@@ -1,6 +1,5 @@
-# Meeting
+# Megbeszélés
 
-A _Meeting_ egy olyan Indico esemény, amelybe **Jegyzőkönyveket** is felvehet, az Indico események egyéb gazdag funkciói mellett. Ez a rövid videó bemutatja egy találkozó létrehozásának folyamatát és az összes kellék hozzáadását.
-
+A _Megbeszélés_ egy Indico esemény, amelyben **Jegyzőkönyveket** is magában foglalhatsz, az Indico események összes többi gazdag funkcióján túl. Ez a rövid videó bemutatja a megbeszélés létrehozásának folyamatát és minden hozzá tartozó kiegészítő hozzáadását.
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2261868?showTitle=true" allowfullscreen></iframe>

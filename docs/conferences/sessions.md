@@ -1,91 +1,92 @@
-Ez az oldal elmagyarázza a _Sessions_ célját az Indicóban, és azt, hogyan használjuk őket.
+### Ülésszakok az Indicoban és azok használata
 
-Egyszerűen fogalmazva, az ülések egy módja annak, hogy csoportosítsuk az egymáshoz kapcsolódó hozzájárulásokat, amikor egy órarendet készítünk.
-Például egy konferenciát fel lehet osztani egy üdvözlő ülésre, egy előadásoknak szentelt ülésre, műhelyülésekre stb.
+Egyszerűen fogalmazva, az ülésszakok egy módszert jelentenek a kapcsolódó hozzájárulások csoportosítására időrendi beosztás készítésekor.
+Példaként, egy konferencia felosztható egy üdvözlő ülésszakra, előadásoknak szentelt ülésszakra, workshop ülésszakra, stb.
 
-Ebben a részben a szervezők szemszögéből vizsgáljuk meg, hogyan hozhatók létre és kezelhetők az ülések. Ha szeretné megtanulni, hogyan használjuk az üléseket az órarend létrehozásakor, akkor tekintse meg [ezt az oldalt](./timetable.md).
+Ebben a részben azt fogjuk tárgyalni, hogyan hozhatunk létre és kezelhetünk ülésszakokat a szervezők szemszögéből. Ha arra vagy kíváncsi, hogyan használják az ülésszakokat az időrend készítésekor, lásd [ezt az oldalt](./timetable.md).
 
-### Üléstípus létrehozása
+### Ülésszak típus létrehozása
 
-Mielőtt létrehoznánk egy munkamenetet, először létrehozunk egy munkamenet típust. A munkamenet-típusok segíthetnek a munkamenetek jobb szervezésében, de nem szükségesek, hacsak nem akarunk poszter munkameneteket használni (további részletekért lásd a [menetrend oldal](./timetable.md)).
+Mielőtt ülésszakot hoznánk létre, először ülésszak típust hozunk létre. Az ülésszak típusok segíthetnek jobban szervezni az ülésszakjaidat, de csak akkor szükségesek, ha poszter ülésszakokat szeretnél használni (további részletekért lásd a [időrend oldalt](./timetable.md)).
 
-Új ülésszak-típus létrehozásához navigáljon egy esemény kezelési területére, és válassza a _Organizáció_ alatt az _Sessions_ menüpontot.
+Új ülésszak típus létrehozásához navigálj egy esemény kezelőterületére, és válaszd ki az _Ülésszakokat_ a _Szervezés_ alatt.
 
 ![](../assets/conferences/sessions/sessions_management.png)
 
-Kattintson felül a _Settings_ (Beállítások) gombra, és válassza ki a legördülő menüből a _Session types_ (Üléstípusok) menüpontot.
+A tetején kattints a _Beállítások_-ra és válaszd ki az _Ülésszak típusok_-at a legördülő menüből.
 
 ![](../assets/conferences/sessions/session_settings.png)
 
-Az új párbeszédpanelben kattintson az _Új munkamenet típus_ gombra, és válasszon ki egy nevet.
+Az új párbeszédablakban kattints az _Új ülésszak típus_-ra és válassz nevet.
 
 ![](../assets/conferences/sessions/add_session_type.png)
 
-Ha bekapcsolja a _Poster_ kapcsolót, akkor minden ülés, amelynek ez az ülés típusa szerepel, poszter üléssé válik. Amikor egy poszterülés ütemtervét hozza létre, az ülésblokkban lévő összes hozzászólás automatikusan párhuzamosan, azonos kezdési időponttal és időtartammal kerül ütemezésre. A [menetrend oldal](./timetable.md) oldalon többet megtudhat az ülésblokkokról és a poszterülésekről.
+Ha bekapcsolod a _Poszter_ funkciót, minden ilyen típusú ülésszak poszter ülésszakká válik. Poszter ülésszak időrendjének készítésekor az összes hozzájárulás automatikusan párhuzamosan lesz ütemezve ugyanazzal a kezdési idővel és időtartammal. További információért a ülésszak blokkokról és poszter ülésszakokról lásd a [időrend oldalt](./timetable.md).
 
-### Ülés létrehozása
+### Ülésszak létrehozása
 
-Ülés létrehozásához navigáljon egy esemény kezelési területére, és válassza az _Organizáció_ alatt az _Ülések_ lehetőséget. Ezen az oldalon megjelenik az összes üléseinek listája. Új ülés létrehozásához kattintson a felső menüben az _Új ülés hozzáadása_ gombra.
+Ülésszak létrehozásához navigálj egy esemény kezelőterületére, és válaszd ki az _Ülésszakokat_ a _Szervezés_ alatt. Ez az oldal mutatja az összes ülésszakod listáját. Új ülésszak létrehozásához kattints az _Új ülésszak hozzáadása_-ra a felső menüben.
 
 ![](../assets/conferences/sessions/create_session.png)
 
-A párbeszédablakban töltse ki a címet és opcionálisan a többi mezőt. A _Típus_ mezőben található legördülő listából kiválaszthatja a munkamenet típusát. Ezek a korábban létrehozott munkamenet-típusok. Az _Default contribution duration_ mező szabályozza az ebben a munkamenetben beütemezett hozzájárulások alapértelmezett időtartamát.
-Ebben a munkamenetben a munkamenetblokkok alapértelmezett helyét is kiválaszthatja. A rendelkezésre álló helyszínek a [Szobafoglalás modul] (../room_booking/about.md) modulból származnak. Ha nem választ ki semmilyen helyszínt, akkor helyette az esemény helyszíne lesz alapértelmezettként használva. Miután kitöltötte a párbeszédpanelt, kattintson a _Mentés_ gombra a munkamenet létrehozásához.
+A párbeszédablakban töltsd ki a címet és opcionálisan a többi mezőt is. A _Típus_ mezőben a legördülő menüből választhatsz az ülésszak típusok közül, amiket korábban hoztál létre. Az _Alapértelmezett hozzájárulás időtartama_ mező szabályozza azoknak a hozzájárulásoknak az alapértelmezett időtartamát, amiket ebbe az ülésszakba ütemezel.
+Választhatsz alapértelmezett helyszínt is az ülésszak blokkjai számára ebben az ülésszakban. A rendelkezésre álló helyszínek a [Helyfoglalási modulból](../room_booking/about.md) származnak. Ha nem választasz helyszínt, az esemény helyszíne lesz az alapértelmezett helyett. Miután kitöltötted a párbeszédablakot, kattints a _Mentés_-re az ülésszak létrehozásához.
 
 ![](../assets/conferences/sessions/create_session_2.png)
 
-A munkamenetet később bármikor szerkesztheti, ha a munkamenet jobb oldalán lévő ceruza ikonra kattint:
+Az ülésszakot később is szerkesztheted a ülésszak jobb oldalán található ceruza ikonra kattintva:
 
 ![](../assets/conferences/sessions/edit_session.png)
 
-### A munkamenet kezelése
+### Ülésszak kezelése
 
-Miután létrehoztunk egy munkamenetet, azt a munkamenetek listájához adjuk hozzá. 
-A listából gyorsan megváltoztathatja a munkamenet típusát. Ha teljesen el szeretne távolítani egy munkamenet típust, egyszerűen kattintson újra a típusra, ami megvonja a kijelölést.
+Miután létrehoztál egy ülésszakot, látni fogod azt hozzáadva az ülésszakok listájához.
+A listából gyorsan megváltoztathatod az ülésszak típusát. Egy ülésszak típus teljes eltávolításához egyszerűen kattints újra a típusra, ami kiválasztatlan állapotba helyezi azt.
 
 ![](../assets/conferences/sessions/set_session_type.png)
 
-Az egyes munkamenetekben a _Blocks_ oszlopban láthatja az ütemezett munkamenetblokkokat. Ha anyagot szeretne feltölteni az üléshez, kattintson a _Material_ nevű oszlopban található linkre. Ekkor megjelenik egy párbeszédablak, ahol fájlokat tölthet fel a munkamenetbe. Vegye figyelembe, hogy ez a fájlokat az egész munkamenethez, nem pedig egy munkamenetblokkhoz adja hozzá.
+Az egyes ülésszakokban ütemezett ülésszak blokkokat a _Blokkok_ oszlopban láthatod. Anyag feltöltéséhez az ülésszakhoz kattints a _Anyag_ oszlopban található linkre. Ez felhoz egy párbeszédablakot, ahol fájlokat tölthetsz fel az ülésszakhoz. Vegyük figyelembe, hogy ez hozzáadja a fájlokat az egész ülésszakhoz, nem egy ülésszak blokkhoz.
 
 ![](../assets/conferences/sessions/blocks_material.png)
 
-A feltöltött fájlok láthatóak lesznek az eseménynaptárban az adott üléshez tartozó minden ülésblokkban. A fájlok az ülés részleteiben is elérhetők a _Prezentációs anyagok_ alatt.
+A feltöltött fájlok láthatók lesznek az esemény időrendjében minden ahhoz az ülésszakhoz tartozó ülésszak blokkban. A fájlok elérhetők lesznek az ülésszak részleteiben is, a _Bemutatási anyagok_ alatt.
 
 ![](../assets/conferences/sessions/material.png)
 
-Egy adott ülésszak menetrendjének megtekintéséhez kattintson a jobb oldali óra ikonra:
+Egy adott ülésszak időrendjének megtekintéséhez kattints a jobb oldalon található óra ikonra:
 
 ![](../assets/conferences/sessions/session_timetable.png)
 
-Egy ülés törléséhez kattintson a kuka ikonra. Vigyázzon, hogy egy munkamenet törlése törli az összes munkamenetblokkját, és az azokban szereplő összes hozzászólás ütemezését.
+Az ülésszak törléséhez kattints a kukára. Figyelembe véve, hogy az ülésszak törlése törli az összes ülésszak blokkját és leveszi az ütemezést minden bennük lévő hozzájárulásról.
 
 ![](../assets/conferences/sessions/delete_session.png)
 
-Alapértelmezés szerint az eseménykezelők a munkamenet minden aspektusát kezelhetik - szerkeszthetik az adatokat, valamint kezelhetik a munkamenetblokkokat és a hozzájárulásokat. Ha azt szeretné, hogy további felhasználók is kezelhessenek egy munkamenetet, kattintson a pajzs ikonra:
+Alapértelmezés szerint az eseménymenedzserek kezelhetik az ülésszak összes aspektusát - szerkeszthetik az adatokat és kezelhetik az ülésszak blokkokat és hozzájárulásokat. Ha szeretnéd, hogy további felhasználók is képesek legyenek egy ülésszak kezelésére, kattints a pajzs ikonra:
 
 ![](../assets/conferences/sessions/protection.png)
 
-Az új párbeszédablakban kiválaszthatja, hogy kik kezelhetik még a munkamenetet. Kiválaszthatja a teljes körű kezelési jogokat, amely teljes ellenőrzést biztosít a munkamenet felett, vagy csak _Coordination_ jogokat adhat.
+Az új párbeszédablakban kiválaszthatod, ki másik képes legyen kezelni az ülésszakot. Választhatsz teljes kezelési jogokat, ami teljes kontrollt ad az ülésszak felett, vagy csak _Koordinációs_ jogokat adhatsz.
 
 ![](../assets/conferences/sessions/coordinate.png)
 
-Az úgynevezett munkamenet-koordinátorok alapértelmezés szerint megtekinthetik a munkamenet adatait, beoszthatják a hozzászólásokat és szüneteket hozhatnak létre. Az üléskoordinátorok további jogokat is kaphatnak az esemény _Védelem_ főoldalán az _Üléskoordinátori jogok_ alatt.
+Az úgynevezett ülésszak koordinátorok alapértelmezés szerint megtekinthetik az ülésszak adatokat, ütemezhetik a hozzájárulásokat és szüneteket hozhatnak létre. Az ülésszak koordinátoroknak további jogok is adhatók az esemény fő _Védelem_ oldaláról az _Ülésszak koordinátori jogok_ alatt.
 
 ![](../assets/conferences/sessions/coordination_rights.png)
 
-A _Contributions_ bekapcsolásával az üléskoordinátorok is módosíthatják az üléseken szereplő hozzájárulásokat. A _Session blocks_ bekapcsolásával az üléskoordinátorok is képesek lesznek az ülésblokkok kezelésére, beleértve az újak létrehozását is.
+A _Hozzájárulások_ kapcsolójának bekapcsolásával az ülésszak koordinátorok képesek lesznek módosítani a hozzájárulásokat az ülésszakaikban. Az _Ülésszak blokkok_ bekapcsolásával az ülésszak koordinátorok képesek lesznek az ülésszak blokkokat kezelni, beleértve újak létrehozását is.
 
-Bármely személy, akit kifejezetten legalább egy munkamenet menedzsereként vagy koordinátoraként jelöltek ki, a rendezvény főoldalán a _Mi munkameneteim_ alatt tudja majd kezelni a munkameneteit:
+Bárki, akit kifejezetten kijelöltek legalább egy ülésszak menedzserének vagy koordinátorának, képes lesz kezelni az ülésszakokat az esemény főoldaláról az _Én ülésszakjaim_ alatt:
 
 ![](../assets/conferences/sessions/my_sessions.png)
 
-### Az ülésszak-koordinátorok és az összehívók megkülönböztetése
+### Az ülésszak koordinátorok és konvenerök közötti különbség
 
-Mind a koordinátorok, mind az összehívók az ülésekhez kapcsolódnak, azonban van különbség a kettő között.
-Az ülésszak-koordinátorok olyan szerepkör, amely extra jogokkal jár. Ők kezelhetik az üléseiket, és jogaik terjedelme a korábban ismertetett _Üléskoordinátori jogok_tól függ.
+Bár az ülésszak koordinátorok és konvenerök mind az ülésszakokkal állnak kapcsolatban, van közöttük egy különbség.
+Az ülésszak koordinátorok olyan szerepkört töltenek be, amely extra jogokkal jár. Kezelhetik az ülésszakaikat, és jogosultságaik mértéke a korábban említett _Ülésszak koordinátori jogok_-tól függ.
 
-Ezzel szemben az ülésszak összehívói inkább a hozzászólás előadóihoz hasonlítanak, mivel nem kapnak extra jogokat az ülésszak felett. Az ülésszakok összehívói csupán az egyes ülésblokkok jobb felső sarkában lévő órarendben megjelenő személyek:
+Másrészt, az ülésszak konvenerök inkább hasonlítanak a hozzájárulások előadóihoz abban az értelemben, hogy nem szereznek extra jogokat az ülésszak felett. Az ülésszak konvenerök egyszerűen csak azok az emberek, akik megjelennek az időrendben az ülésszak blokkok jobb felső sarkában:
 
 ![](../assets/conferences/sessions/conveners.png)
 
-A [menetrend oldal](./timetable.md) segítségével megtudhatja, hogyan rendelheti az összehívókat az ülésblokkokhoz.
+Lásd a [időrend oldalt](./timetable.md), hogy megtanuld, hogyan rendelj konveneröket az ülésszak blokkokhoz.
+

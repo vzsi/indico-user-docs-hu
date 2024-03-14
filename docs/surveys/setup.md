@@ -1,74 +1,71 @@
-# Felmérés felállítása
+# Felmérés Beállítása
 
-Először is be kell jelentkeznie az Indico-ba, és létre kell hoznia egy **eseményt**, amely megfelel az igényeinek (értekezlet, előadás vagy konferencia). Ennek módját a dokumentáció megfelelő szakaszaiban találja.
+Először be kell jelentkezned az Indico rendszerbe és létre kell hoznod egy **eseményt**, amely megfelel az igényeidnek (megbeszélés, előadás vagy konferencia). Hogyan kell ezt megtenni, arról az erre vonatkozó szakaszokban olvashatsz ebben a dokumentációban.
 
-Az eseménykezelő oldalon, amelyet az eseménymegjelenítő oldal tetején lévő **ceruzára** kattintva érhet el, válassza ki a _Felmérések_ menüpontot, amely a bal oldali bannerben a _Organizáció_ alatt található.
+Az eseménykezelő oldaladon, amely elérhető a eseménymegjelenítő oldal tetején található **ceruza** ikonra kattintva, válaszd a _Felmérések_ opciót, amely az _Szervezés_ alatt található a bal oldali sávban.
 
-Kattintson a _Felmérés létrehozása_ gombra a felmérés meghatározásának elindításához.
+Kattints a _Felmérés Létrehozása_ gombra, hogy elkezdd a felmérés meghatározását.
 
-Válasszon egy _Címet_ a felmérés számára, és töltse ki a bevezető mezőt valamilyen szöveggel, amelyet leírásként szeretne megjeleníteni.
+Válassz egy _Címet_ a felmérésedhez, és töltsd ki a bevezető mezőt néhány szöveggel, amelyet leírásként szeretnél megjeleníteni.
 
 ![](../assets/survey_create_1.png)
 
-Döntse el, hogy engedélyezi-e az _Anonim beküldéseket_ vagy sem,
-ha _limitet_ akarsz-e szabni a _elfogadott beadványok_ számára,
-hogy a felmérést _nyilvánosnak_ vagy csak néhány kiválasztott számára fenntartottnak kívánja-e tenni,
-és engedélyezi-e a felmérés _részleges kitöltését_,
+Döntsd el, hogy engedélyezed-e az _Anonim beküldéseket_, 
+szeretnél-e _limitet_ beállítani az elfogadott _beküldések_ számára,
+szeretnéd-e a felmérést _nyilvánossá_ tenni vagy csak egy kiválasztott csoport számára elérhetővé tenni,
+és engedélyezed-e a felmérés _részleges kitöltését_,
 
-Döntse el, hogy engedélyezni kívánja-e a felméréssel kapcsolatos _E-mail értesítések_ küldését.
-Ha az _YES_ lehetőséget választja, akkor írja be a megfelelő mezőkbe azoknak a felhasználóknak az e-mail címét, akik ezeket az értesítéseket kapják, az első mezőbe a felmérés **kezdésekor**, a másodikba pedig minden olyan alkalommal, amikor a felmérést egy résztvevő **kitöltötte**. Soronként egy e-mail címet írjon, elválasztójeleket nem fogadunk el.
+Döntsd el, hogy engedélyezed-e az e-mail _Értesítéseket_ a felméréssel kapcsolatban.
+Ha a _IGEN_ opciót választod, akkor írd be azoknak a felhasználóknak az e-mail címeit, akik ezeket az értesítéseket meg fogják kapni, az első mezőbe, amikor a felmérés **elkezdődik**, és a másodikba minden egyes alkalommal, amikor a felmérés **kitöltésre kerül** egy résztvevő által. Írj egy e-mail címet soronként, elválasztójelek nem elfogadottak.
 
-Ha végzett, kattintson a _Mentés_ gombra.
+Ha befejezted, kattints a _Mentés_ gombra.
 
 ![](../assets/survey_create_2.png)
 
-## A kérdőív létrehozása
+## Kérdőív Létrehozása
 
-Ehhez kattintson a _Manage_, majd a _Prepare questionnaire_ gombra.
+Ehhez kattints a _Kezelés_ gombra, majd a _Kérdőív Előkészítése_ lehetőségre.
 
-Vagy importálhat egy meglévő kérdőívet, vagy definiálhat egy újat.
+Importálhatsz egy meglévő kérdőívet, vagy definiálhatsz egy újat.
 
-A kérdőívet szakaszokra oszthatja. A _Szekciók_ a következőket tartalmazzák
-_kérdéseket_, és a kérdések a megfelelő szakaszon belül jelennek meg, kivéve a "_Standalone szakasz_" kérdéseit, amelyek a legfelső szinten jelennek meg.
+Feloszthatod a kérdőívedet szakaszokra. A _Szakaszok_ tartalmazzák a _kérdéseket_, és a kérdések a megfelelő szakaszban jelennek meg, kivéve azokat, amelyek az "_Önálló szakaszban_" találhatók, ezek a felső szinten jelennek meg.
 
-Minden egyes kérdéshez választhat különböző módozatot, például feleletválasztást, "igen" vagy "nem" választ stb.
+Minden kérdéshez különböző módot választhatsz, mint például többszörös választás, egy "igen" vagy "nem" válasz és így tovább.
 
-Új szekció létrehozása során a _Add section_ gombra kattintva döntse el, hogy szabványos szekciót vagy önálló szekciót szeretne.
+Új szakasz létrehozásakor, a _Szakasz Hozzáadása_ gombra kattintva döntheted el, hogy standard szakaszt vagy önálló szakaszt szeretnél.
 
-Írja be a szakasz _Címét_ és egy leírást, amely megmagyarázza, hogy mit kér a felhasználóktól.
+Írd be a szakasz _Címét_ és egy Leírást, amely magyarázatot ad arra, hogy mit kérsz a felhasználóktól.
 
-Kattintson a _Mentés_ gombra, és a szakasz megjelenik.
-
+Kattints a _Mentés_ gombra, és a szakasz megjelenik.
 
 ![](../assets/survey_questionnaire_1.png)
 
+Ideje néhány elemet hozzáadni a szakaszodhoz.
 
-Ideje hozzáadni néhány elemet a szakaszhoz.
+Kattinthatsz a _Szöveges elem hozzáadása_ gombra, ha szeretnél belefoglalni egy olyan elemet, amely csak a tájékoztató szöveget tartalmazza.
+Egyébként hozzáadhatsz egy valódi kérdést is, amelyre a felmérés résztvevőjének válaszolnia kell.
 
-A _Szöveges elem hozzáadása_ gombra kattinthat, ha olyan elemet szeretne felvenni, amely csak az Ön tájékoztató szövegét tartalmazza.
-Ellenkező esetben hozzáadhatsz egyet a tényleges kérdések közül, amelyekre a felmérés résztvevőjének válaszolnia kell.
-
-A _Szöveges elem hozzáadása_ felugró ablakban írja be a kérdőív szövegét a mezőbe. Kattintson a _Mentés_ gombra, hogy a szöveges elem megjelenjen a szekciójában.
+A _Szöveges elem hozzáadása_ felugró ablakban írd be a kérdést. Kattints a _Mentés_ gombra a szöveges elem szakaszodban történő megjelenítéséhez.
 
 ![](../assets/survey_questionnaire_2.png)
 
-Kattintson a _Add question_ fülre, és válassza ki az igényeinek megfelelő kérdezési módot, például _Single choice_ kérdést, az ábra szerint:
+Kattints a _Kérdés hozzáadása_ fülre és válaszd ki a számodra megfelelő kérdéstípust, például a _Egyszerű választás_ kérdést, ahogy az alábbi ábrán látható:
 
 ![](../assets/survey_questionnaire_3.png)
 
-Ez azt jelenti, hogy a felhasználó csak **egyet** választhat a rendelkezésre álló lehetőségek közül.
+Ez azt jelenti, hogy a felhasználó csak **egy** lehetőséget választhat a rendelkezésre álló opciók közül.
 
-Írja be a kérdést a _Cím_ mezőbe, például "Használja-e az Indico-t saját felmérésének elkészítéséhez?", és ha szükséges, adjon hozzá egy _leírást_, például: "Válasszon ki egyet az alábbi válaszlehetőségek közül", majd adja meg, hogy a kérdésre adott válasz _Követelményes_ legyen-e a felmérés hatékony elküldéséhez.
+Írd be a kérdést a _Cím_ mezőbe, például "Fogsz az Indico-val saját felmérést készíteni?" és adhatsz hozzá egy _Leírást_ is, ha szükséges, például: "Válassz egyet a lehetséges válaszok közül", majd jelöld meg, hogy szeretnéd-e, ha ennek a kérdésnek a megválaszolása _Kötelező_ lenne a felmérés hatékony beküldéséhez.
 
-Válassza ki, hogy a választási lehetőségeket _Rádiógombok_ vagy _leereszkedő lista_ formájában kívánja-e megjeleníteni.
-Ha a rádiógombokat választja, adja meg, hogy _Vertikálisan_ vagy _Horizontálisan_ szeretné-e megjeleníteni őket.
+Válaszd ki, hogy szeretnéd-e, ha az opcióid _Rádiógombokként_ vagy _Legördülő listaként_ jelenjenek meg.
+Ha rádiógombokat választasz, jelöld meg, hogy _Függőlegesen_ vagy _Vízszintesen_ szeretnéd-e megjeleníteni őket.
 
-Írja be azokat az opciókat, amelyeket a résztvevő választani kíván, és kattintson a _Mentés_ gombra, ha befejezte. Az alábbi ábra a fenti opciókat mutatja be kiválasztva:
+Írd be azokat az Opciókat, amelyek közül szeretnéd, hogy a résztvevő válasszon, és amikor befejezted, kattints a _Mentés_ gombra. Az alábbi ábra mutatja a fent választott opciókat:
 
 ![](../assets/survey_questionnaire_4.png)
 
-Most, hogy létrehozta a _Section_-t, megváltoztathatja a kérdés és a tételek bemutatásának sorrendjét. Ehhez a kérdését vagy elemét a bal oldalon megjelenő szürke téglalap segítségével húzza el.
+Most, hogy létrehoztad a _Szakaszod_, megváltoztathatod a kérdéseid és elemeid bemutatási sorrendjét. Ezt úgy teheted meg, hogy a szürke téglalapot használva húzod a kérdésedet vagy elemetedet.
 
-Ugyanezt megteheti az egész szekciójával is, ha a felül megjelenő szürke téglalap segítségével húzza el.
+Ugyanezt megteheted az egész szakaszoddal is, a tetején található szürke téglalap segítségével húzva azt.
 
 ![](../assets/survey_sections.png)

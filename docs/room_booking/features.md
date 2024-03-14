@@ -1,64 +1,57 @@
-# A funkciókészlet összefoglalása
+# Funkciók Összefoglalása
 
 ## Általános
 
-Általános jellemzők:
+Az általános funkciók:
 
-* Önálló üzemmód vagy Indico **eseményhez** kötve.
-  * Az önálló mód lehetővé teszi a foglalást, a foglalások kezelését és az adminisztrációs dolgok elvégzését. Nem kell Indico eseményt létrehoznia \(a foglalások nem lesznek hozzárendelve semmilyen Indico eseményhez\).
-  * Az Indico eseményhez kötött mód lehetővé teszi, hogy szobákat foglaljon le az eseményhez. A lefoglalt termeket hozzárendelheti konferenciákhoz, előadásokhoz, megbeszélésekhez, ülésekhez, hozzászólásokhoz vagy szünetekhez.
-* Ismétlődő foglalások, pl. _Napi_, _Heti_, _Havi_ foglalások.
-* E-mail értesítések \(a felhasználóknak és a teremfelelősöknek, minden fontos eseményről\).
-* Három felhasználói szerepkör: \(1\) Indico adminisztrátor, \(2\) szobafenntartó és \(3\) szobafenntartó.
-  \(3\) közönséges felhasználó.
-* Opcionális foglalási moderáció. Minden szoba a következő módok egyikében működhet:
-  * A foglalásokhoz a szobafenntartó kifejezett megerősítése szükséges, _vagy_ a szobafoglalásokhoz a szobafenntartó kifejezett megerősítése.
+* Önálló módban vagy egy Indico **eseményhez** kötve.
+  * Az önálló mód lehetővé teszi a foglalást, foglalások kezelését és az adminisztrációs feladatokat. Nem kell létrehoznod egy Indico eseményt \(a foglalások nem lesznek hozzárendelve semmilyen Indico eseményhez\).
+  * Az Indico eseményhez kötött mód lehetővé teszi, hogy helyiségeket foglalj az eseményedhez. A foglalt helyiségeket konferenciákhoz, előadásokhoz, megbeszélésekhez, ülésszakokhoz, hozzájárulásokhoz vagy szünetekhez rendelheted.
+* Ismétlődő foglalások, pl. _Napi_, _Heti_, _Havi_.
+* E-mail értesítések \(felhasználóknak és helyiség menedzsereknek, minden fontos tevékenységről\).
+* Három felhasználói szerep: \(1\) Indico adminisztrátor, \(2\) helyiség menedzser és \(3\) átlagos felhasználó.
+* Opcionális foglalás moderálás. Minden helyiség az alábbi módban működhet:
+  * A foglalásokat a helyiség menedzserének explicit megerősítése szükséges, _vagy_
   * A foglalások automatikusan elfogadásra kerülnek.
-
 
 ## Felhasználó
 
-A rendszeres felhasználók számára elérhető lehetőségek:
+Az átlagos felhasználók számára elérhető opciók:
 
-* Szobafoglalás
-* Saját foglalások kezelése \(követés, módosítás, klónozás, törlés\)
-* Szobák keresése
-* Foglalások keresése \(beleértve az archiválást is\)
-* Meglévő szobafoglalások megtekintése
+* Helyiség foglalása
+* Saját foglalások kezelése \(követés, módosítás, klónozás, lemondás\)
+* Helyiségek keresése
+* Foglalások keresése \(archiváltakat is beleértve\)
+* Meglévő helyiség blokkolások megtekintése
 
+## Helyiség Menedzser
 
+A felhasználókhoz képest, a helyiség menedzser további hozzáféréssel rendelkezik:
 
-## Szobakezelő
+* Előfoglalások elfogadása és elutasítása \(a saját helyiség\(ei\)hez\)
+* Foglalások elutasítása \(a saját helyiség\(ei\)hez\)
+* Helyiségek blokkolása a foglalás elől \(a helyiség tulajdonosának jóváhagyásával\)
+* Blokkolási kérelmek elfogadása \(a saját helyiség\(ei\)hez\)
 
-Azon túlmenően, amihez a felhasználó hozzáférhet, a szobamenedzser a következőket teheti:
+## Indico Adminisztrátor
 
-* Elfogadhatja és elutasíthatja az előzetes foglalásokat \(a saját szobájára\(s\)\)
-* Visszautasítani a foglalásokat \(a szobájára\(s\)\)
-* Szobafoglalások blokkolása \(a szoba tulajdonosának megerősítésével\)
-* Blokkolási kérelmek elfogadása \(a szobájára\(s\)\)
+A helyiség menedzserhez képest, az Indico Adminisztrátor további hozzáféréssel rendelkezik:
 
-
-## Indico adminisztrátor
-
-Azon túlmenően, amihez a szobafenntartónak hozzáférése van, az Indico adminisztrátor a következőkre is képes:
-
-
-* Be- és kikapcsolhatja a szobafoglalási modult
-* Szobafoglalási pluginok konfigurálása az admin szekcióban
+* A Helyiségek Foglalási Modul be-/kikapcsolása
+* Helyiség foglalási pluginok konfigurálása az admin szekcióban
 * Helyszín hozzáadása/eltávolítása
-* Meghatározhatja a helységre jellemző szobaattribútumokat.
-* Meghatározhatja a helyiség lehetséges felszerelését a helyszínre jellemzően.
-* Tárgyalótermek kezelése \(hozzáadás/módosítás/eltávolítás\)
-
+* A helyszínre specifikus helyiség attribútumok meghatározása
+* A helyszínre specifikus lehetséges helyiség felszereltség meghatározása
+* Tárgyalók kezelése \(hozzáadás/módosítás/eltávolítás\)
 
 ## Korlátozások
 
-A teremnek rendelkeznie kell kezelővel. Egy teremhez nem lehet több menedzsert definiálni \(ezt megkerülheti egy több ember által megosztott Indico fiók létrehozásával).
+A helyiségnek rendelkeznie kell menedzserével. Nem lehetséges több menedzsert megadni egyetlen helyiséghez \(megkerülhető egy több ember által megosztott Indico fiók létrehozásával\).
 
-A szobának rendelkeznie kell egy meghatározott épülettel, amelynek egy számnak kell lennie. Ez kötelező. Ha nincs szükség épületre, akkor bármilyen számot megadhat \(például '0'\). Ha az Ön épület elnevezési rendszere betűket tartalmaz, sajnáljuk - a szoftver nem elég rugalmas az Ön számára.
+A helyiségnek rendelkeznie kell meghatározott épülettel, amely számnak kell lennie. Ez kötelező. Ha nem szükséges az épület, írj be bármilyen számot \(mint '0'\). Ha az épület nevei betűket tartalmaznak, sajnáljuk - a szoftver nem elég rugalmas az Ön számára.
 
-A szobának meghatározott emelettel \(alfanumerikus \) és a szoba 'számával' \(alfanumerikus \) kell rendelkeznie.
+A helyiségnek rendelkeznie kell meghatározott emelettel \(alfanumerikus\) és helyiség 'számmal' \(valójában alfanumerikus\).
 
-Korlátozások vonatkozhatnak arra az időtartamra, amelyre időszakos foglalást definiálhat, pl. ugyanazt a szobát minden nap ugyanabban az időpontban foglalhatja, de legfeljebb X hétre/hónapra.
+Korlátozások vonatkozhatnak az időszakra, amelyre periódikus foglalást definiálhatsz, pl. lefoglalhatod ugyanazt a helyiséget minden nap ugyanabban az időben, de nem több mint X hét/hónap.
 
 ---

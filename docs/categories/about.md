@@ -2,24 +2,23 @@
 
 ## Mi az Indico kategória
 
-A kategória az események vagy más kategóriák csoportosításának eszköze. Az Indico-ban a *Home* a legfelső szintű kategória, ahonnan indul.
+A Kategória egy olyan eszköz, amely segítségével csoportosíthatod az eseményeidet vagy más kategóriáidat. Az Indico-ban a *Kezdőlap* a legfelső szintű kategória, ahonnan indulhatsz.
 
 ![](../assets/home_with_categories.png)
 
-Egy kategórián belül a következőkre van lehetőséged:
+Egy kategória belül:
 
-- események vagy más alkategóriák hozzáadása/törlése,
-- hozzáférési jogokat állíthat be, hogy ki férhet hozzá vagy módosíthatja,
-- az alkategóriák újrakiosztása,
-- eltávolíthatja az alkategóriákat,
-- törölheti az aktuális kategóriát és mindent, ami benne van,
-- valamint logót és leírást is beilleszthet a saját kategóriájába.
+-   hozzáadhatsz/törölhetsz eseményeket vagy más al-kategóriákat,
+-   beállíthatod a hozzáférési jogokat, hogy ki férhet hozzá vagy módosíthat,
+-   újraoszthatod az al-kategóriákat,
+-   eltávolíthatod az al-kategóriákat,
+-   törölheted az aktuális kategóriát és mindent benne,
+-   valamint beilleszthetsz egy logót és egy leírást a saját kategóriádba.
 
-Nem lehet olyan kategóriája, amely alkategóriákat és eseményeket is tartalmaz. A kategória tartalmának egy vagy több alkategóriába való áthelyezéséhez az "osztás" funkciót kell használnia (a "kettévágott" nyíllal ellátott gomb).
+Nem lehet olyan kategóriád, amely tartalmaz mind al-kategóriákat, mind eseményeket. A kategória tartalmának áthelyezéséhez egy vagy több al-kategóriába a "felosztás" funkciót kell használnod (a "bifurkált" nyíl gomb).
 
-Ezek a funkciók a kategória kezelési menüjén keresztül érhetők el (ehhez be kell jelentkeznie és kezelési jogokkal kell rendelkeznie a kategóriában), amelyet a saját kategóriája címétől jobbra talál. A kategória kezeléséhez a ceruzára kattintás után a kategória kezelési területére lép.
+Ezek a funkciók elérhetők a kategória kezelőmenüjén keresztül (be kell jelentkezned és rendelkezned kell kezelési jogokkal a kategóriában ahhoz, hogy láthasd), amelyet a saját kategóriád címének jobb oldalán találsz. A kategória kezelése gombra kattintva, miután kezdeni szeretnéd a kategória kezelését, a Kezelési területre fogsz átnavigálni.
 
 ![](../assets/category_edit_button.png)
-
 
 ------------------------------------------------------------------------

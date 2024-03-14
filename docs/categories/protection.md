@@ -1,33 +1,33 @@
 # Védelem
 
-A Kezelési területről megvédheti a kategóriáját a tekintetben, hogy ki láthatja, ki a kezelője, és ki hozhat létre eseményeket a kategóriában.
+A Kezelő Területen védelmet állíthatsz be a kategóriádra vonatkozóan azzal kapcsolatban, hogy ki láthatja, ki a menedzsere és ki hozhat létre eseményeket a kategóriában.
 
 ![](../assets/category_protection.png)
 
-Felhasználók és csoportok adhatók hozzá egy kategóriához, hogy a Kezelési területhez hozzáférést biztosítsanak a módosításhoz. A kategória kezelői azok, akik a *Manage* jogosultsággal szerepelnek, az Indico adminisztrátorok és a kategória létrehozója.
-A felhasználók és csoportok mellett lehetőség van egyéni szerepkörök hozzáadására is, az [Egyéni szerepkörök használata](../custom_roles.md) című fejezetben leírtak szerint.
+Felhasználókat és csoportokat adhatsz hozzá a kategóriához, hogy hozzáférjenek a Kezelő Területhez a módosítások elvégzéséhez. A kategória menedzserei azok, akik a *Kezel* engedéllyel vannak felsorolva, az Indico adminisztrátorai, és a kategória létrehozója.
+A felhasználókon és csoportokon kívül lehetséges egyéni szerepköröket is hozzáadni, ahogy az a [Egyéni szerepkörök használata](../custom_roles.md) részben le van írva.
 
 ![](../assets/category_protection_edit_permissions.png)
 
-Egy felhasználó vagy csoport jogosultságainak szerkesztéséhez kattintson a ceruzára. A rendelkezésre álló jogosultságok lehetővé teszik:
+Egy felhasználó vagy csoport engedélyeinek szerkesztéséhez kattints a ceruzára. Az elérhető engedélyek lehetővé teszik:
 
-- * Hozzáférés*: a kategóriához tartozó események megtekintése;
-- *Manage*: a kezelési terület elérése, az összes beállítás módosítása és az esemény áthelyezési kérelmek moderálása.
-- *Esemény létrehozása*: a kategóriába tartozó események létrehozása;
-- *Esemény áthelyezésének kérése*: esemény áthelyezésének kérése a kategóriába.
+- *Hozzáférés*: a kategóriához tartozó események megtekintése;
+- *Kezelés*: a kezelő terület elérése, az összes beállítás módosítása és az eseménymozgatási kérelmek moderálása.
+- *Esemény létrehozása*: események létrehozása a kategóriában;
+- *Esemény mozgatásának kérése*: egy esemény áthelyezésének kérése a kategóriába.
 
-Ezen túlmenően a *Manage* jogosultság megadja a *Event creation* és *Request event move* jogosultságokat a felhasználónak/csoportnak.
+Ezenkívül a *Kezelés* engedély magában foglalja az *Esemény létrehozása* és *Esemény mozgatásának kérése* engedélyeket is a felhasználó/csoport számára.
 
 *Védelmi mód*: egy kategória lehet:
 
-- *nyilvános*: bárki megtekintheti a benne lévő eseményeket, vagy
-- *Öröklés*: a szülő kategória védelmi módja érvényes (lásd a morzsákat az oldal tetején lévő banner alatt), vagy
-- *Védett*: csak a *Jogosultságok* listában szereplő felhasználók vagy az adminisztrátorok férhetnek hozzá a kategóriához.
+- *Nyilvános*: bárki megtekintheti benne az eseményeket, vagy
+- *Öröklődő*: az őskategória védelmi módja (lásd az oldal tetején lévő morzsamenüt) érvényes, vagy
+- *Védett*: csak a *Jogosultságok* listáján szereplő felhasználók vagy az adminisztrátorok férhetnek hozzá a kategóriához.
 
-Ha egy kategória _Öröklés_ vagy _Védett_ módban van, a kezelő(k) meghatározhatják a nem jogosult nézők számára megjelenítendő elérhetőségeket, hogy a hozzáféréssel nem rendelkező felhasználók tudják, kihez kell fordulniuk a hozzáférés kérése érdekében.
+Amikor egy Kategória _Öröklődő_ vagy _Védett_ módban van, a menedzser(ek) megadhatnak kapcsolati információkat, amelyek megjelennek a nem jogosult nézők számára, így azok, akiknek nincs hozzáférésük, tudni fogják, kit kell megkeresniük a hozzáférés kéréséhez.
 
-Fontos megjegyzés az _Öröklődő_ védelmi móddal kapcsolatban - a szülői védelem megváltoztatása az alkategóriák védelmét is megváltoztatja.
+Fontos megjegyzés az _Öröklődő_ védelmi módhoz - az szülőkategória védelmének megváltoztatása megváltoztatja az alárendelt kategóriák védelmét is.
 
-*Esemény láthatósága*: ez **nem** kapcsolódik a kategóriák megtekintési jogaihoz - azokat a fentebb ismertetett *Védelmi mód* szabályozza.  A felkínált választási lehetőség lehetővé teszi annak eldöntését, hogy az adott kategóriába tartozó események mindenhonnan vagy csak egyes szülő kategóriákból jelenjenek meg a *Napi események* és a *Naptár* között.
+*Esemény láthatósága*: ez **nem** kapcsolódik a kategória megtekintési jogaihoz - ezeket a fentebb magyarázott *Védelmi mód* szabályozza. A kínált választási lehetőségekkel eldöntheted, hogy az események megjelenjenek-e a *Mai események* és a *Naptár* részben mindenhol vagy csak néhány őskategóriában.
 
-*Esemény létrehozási mód*: korlátozhatja, hogy ki adhat hozzá eseményeket a kategóriához. Ha így tesz, akkor a jogosultságok listájához hozzá kell adnia felhasználókat vagy csoportokat, hogy engedélyezze számukra az események létrehozását, illetve az események áthelyezési kérelmeinek moderálását.
+*Esemény létrehozási mód*: korlátozhatod, hogy ki

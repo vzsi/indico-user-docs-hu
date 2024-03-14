@@ -1,98 +1,98 @@
-# Privacy
+# Adatvédelem
 
-Az Indico számos adatvédelmi funkciót tartalmaz, amelyek segítenek a résztvevők regisztrációs adatainak kezelésében, és tájékoztatják a résztvevőket személyes adataik kezeléséről.
+Az Indico számos adatvédelmi funkciót tartalmaz, amelyek segítenek kezelni a résztvevők regisztrációs adatait, és tájékoztatni a résztvevőket arról, hogyan kezeljük személyes adataikat.
 
 ### Az esemény adatvédelmi beállításainak kezelése
-Az esemény adatvédelmi beállításai a kezelési területről egy külön fülön, a _Privátus_ nevű lapon érhetők el.
-Innen kezelheti az eseménye összes adatvédelmi vonatkozású beállítását.
+Az esemény adatvédelmi beállításai a menedzsment területen érhetők el, egy külön _Adatvédelem_ fülön.
+Innen kezelhető az esemény összes adatvédelemmel kapcsolatos beállítása.
 
-![Adatvédelmi műszerfal](assets/privacy/privacy_dashboard.png)
+![Adatvédelmi irányítópult](assets/privacy/privacy_dashboard.png)
 
 #### Adatkezelő
-Az adatvédelmi műszerfal első szakasza az _Adatok vezérlőjét_ határozza meg.
+Az adatvédelmi irányítópult első szakasza az _Adatkezelőt_ határozza meg.
 
-Ha az Ön rendezvényén személyes adatokat gyűjt, és a GDPR vagy egy hasonló adatvédelmi jogszabály hatálya alá tartozik,
-megadhatja a nevet és az elérhetőséget
-kijelölt adatkezelőjének adatait itt.
+Ha az eseményed során személyes adatokat gyűjtesz és az GDPR vagy hasonló adatvédelmi törvény hatálya alá tartozol,
+megadhatod itt a kijelölt Adatkezelő nevét és kapcsolattartási adatait.
 
 ![Adatkezelő](assets/privacy/data_controller.png)
 
 #### Adatvédelmi tájékoztató
-A következő szakaszban beállíthatja az eseményére vonatkozó adatvédelmi nyilatkozatot.
-Választhat, hogy az adatvédelmi nyilatkozatot tartalmazó külső oldalra hivatkozik-e, vagy
-vagy beírja az adatvédelmi nyilatkozatot a szövegmezőbe.
+A következő szakaszban adhatod meg az esemény adatvédelmi tájékoztatóját.
+Választhatsz, hogy egy külső oldalra mutató linket adsz meg, amely tartalmazza az adatvédelmi tájékoztatót, vagy
+beírod a tájékoztató szövegét egy szövegmezőbe.
 
-Szükség esetén többszörös
-külső értesítést a *Add* gombra kattintva, és hozzáadva a címet és a külső url-t.
+Szükség esetén több
+külső tájékoztatót is megadhatsz a *Hozzáadás* gombra kattintva, címet és a külső URL-t hozzáadva.
 
-![Adatvédelmi közlemény](assets/privacy/privacy_notice.png)
+![Adatvédelmi tájékoztató](assets/privacy/privacy_notice.png)
 
-Az adatvédelmi tájékoztató mind az értekezletek, mind a konferenciák résztvevői számára elérhető.
-Az értekezletek esetében az adatvédelmi információk az esemény fejlécének jobb felső sarkában található felugró ablakból érhetők el, míg a konferenciák esetében egy új menüpont külön oldalt tartalmaz.
+Az adatvédelmi információk elérhetők a résztvevők számára mind a találkozók, mind a konferenciák esetén.
+A találkozóknál az adatvédelmi információk egy felugró ablakból érhetők el az esemény fejlécének jobb felső sarkában, míg a konferenciáknál egy új menüpontban, egy külön oldalon.
 
-![Adatvédelmi tájékoztató értekezletek](assets/privacy/privacy_meeting.png)
-![Adatvédelmi tájékoztató konferenciák](assets/privacy/privacy_conference.png)
+![Adatvédelmi tájékoztató találkozókhoz](assets/privacy/privacy_meeting.png)
+![Adatvédelmi tájékoztató konferenciákhoz](assets/privacy/privacy_conference.png)
 
-### Résztvevők láthatósága
-Az Indico alapértelmezés szerint az esemény oldalán az összes regisztrált résztvevőt megjeleníti.
-Néhány résztvevő azonban jobban szeretné, ha ez az információ nem lenne mindenki számára látható.
+### A résztvevők láthatósága
+Alapértelmezés szerint az Indico minden regisztrált résztvevőt megjelenít az esemény oldalán.
+Azonban egyes résztvevők előnyben részesíthetik, ha ez az információ nem látható mindenki számára.
 
-Ebből a célból az Indico lehetővé teszi, hogy az esemény minden egyes regisztrációs űrlapjánál beállítsa a résztvevők láthatóságának beállításait.
-A láthatósági beállításokat külön-külön lehet beállítani a regisztrált résztvevők és a nagyközönség számára.
+E célból az Indico lehetővé teszi, hogy beállíthasd a résztvevők láthatóságának beállításait minden regisztrációs űrlap esetén az eseményeden belül.
+A láthatósági beállítások külön-külön állíthatók be a regisztrált résztvevők és az általános nyilvánosság számára.
 
-A láthatósági beállítások a következők:
+A láthatósági opciók:
 
 - Rejtett
 
 - Látható, ha a résztvevő beleegyezését adja
 
-- Mindig látható a hozzájárulástól függetlenül
+- Mindig látható, beleegyezés függetlenül
 
-A regisztráció során a résztvevőknek lehetőségük van arra, hogy hozzájáruljanak ahhoz, hogy a résztvevők listáján megjelenjenek. Ez a fenti listából a második lehetőségnek felel meg.
+A regisztráció során a résztvevők választhatják az opciót, hogy beleegyeznek-e a résztvevői listán való megjelenítésbe. Ez felel meg a fenti listán szereplő második opciónak.
 
-Az utolsó lehetőség, amely a résztvevőt mindig láthatóvá teszi, nem javasolt, és nem szabad használni, kivéve, ha jogos érdeke fűződik a résztvevők listájának láthatóságához. Ráadásul ez az opció csak addig választható, amíg nincsenek regisztrált résztvevők.
+Az utolsó opció, amely a résztvevőt mindig láthatóvá teszi, nem ajánlott, és csak akkor használható, ha jogos érdek fűződik a résztvevői lista láthatóságához. Ezenkívül, ezt az opciót csak akkor lehet kiválasztani, ha még nincs regisztrált résztvevő.
 
-Az adatvédelmi műszerfal utolsó szakasza az adott esemény összes regisztrációs űrlapjának aktuális láthatósági beállításait mutatja.
+Az adatvédelmi irányítópult utolsó szakasza az adott esemény összes regisztrációs űrlapjának jelenlegi láthatósági beállításait mutatja.
 
 ![Adatkezelő](assets/privacy/participant_visibility.png)
 
-A láthatósági beállítások a regisztrációs űrlaphoz tartozó fogaskerék ikonra kattintva kezelhetők.
-amelyet frissíteni kíván. Ez megnyitja a regisztráció adatvédelmi beállításait, amelyek szintén elérhetők a regisztrációs űrlap beállításai és a _Adatvédelmi beállítások_ menüpont kiválasztásával.
+A láthatósági beállítások kezelhetők az adott regisztrációs űrlaphoz tartozó fogaskerék ikonra kattintva
+ezzel megnyílik a regisztrációs adatvédelmi beállítások ablak, amely a regisztrációs űrlap beállításaiból is elérhető, kiválasztva az _Adatvédelmi beállítások_ opciót.
 
 ![Adatkezelő](assets/privacy/privacy_settings.png)
 
-Ezen az oldalon módosíthatja a résztvevők láthatóságának beállításait és a láthatóság időtartamát, amely beállítása esetén
-a résztvevők listáját egy megadott számú hónap után automatikusan elrejti. 
+Ezen az oldalon módosíthatod a résztvevők láthatósági beállításait és a láthatósági időtartamot, amely beállítás után
+automatikusan elrejti a résztvevői listát egy adott hónapszám után.
 
 ![Adatkezelő](assets/privacy/visibility_settings.png)
 
 
-### Adatmegőrzési időtartam
-Az Indico lehetővé teszi a regisztrációs adatok automatikus törlését egy meghatározott idő elteltével a megőrzési időszak beállításával.
+### Adatmegőrzési időszak
+Az Indico lehetővé teszi, hogy automatikusan törölj a regisztrációs adatokat egy meghatározott idő elteltével, adatmegőrzési időszak beállításával.
 
-A megőrzési időszak beállítható a regisztráció egészére vonatkozóan, ami az egész regisztrációs űrlapra vonatkozik. Ha ez az időszak lejár, 
-az összes regisztráció automatikusan törlődik az adatokkal együtt, beleértve a résztvevők listáját is.
+Az adatmegőőrzési időszak regisztrációs szinten állítható be, amely aztán az egész regisztrációs űrlapra vonatkozik. Amint ez az időszak lejár,
+automatikusan töröljük az összes regisztrációt, beleértve az adatokat és a résztvevői listát is.
 
-Ezzel együtt az egyes regisztrációs mezőkre is beállítható megőrzési időszak. Ez a részletesség hasznos abban az esetben, ha egyes mezőket meg kell tartani, míg másokat törölni lehet. A megőrzési időszak lejárta után csak annak a mezőnek az adatai törlődnek, ahol a megőrzési időszakot beállítottuk.
+Ezzel együtt lehetőség van egyedi regisztrációs mezők adatmegőrzési időszakának beállítására is. Ez a részletesség akkor hasznos, ha néhány mezőt meg kell tartani, míg másokat törölni lehet. Amint az adatmegőrzési időszak lejár, csak azon mezők adatai törlődnek, amelyeknél beállították az adatmegőrzési időszakot.
 
-A megőrzési időszakot az esemény befejezési dátumához viszonyítva kell számolni.
+Az adatmegőrzési időszak az esemény befejezési dátumához képest számított.
 
-A regisztráció egészére vonatkozó megőrzési időszakot a regisztráció adatvédelmi beállítások oldalán lehet beállítani, közvetlenül a láthatósági beállítások alatt:
+Az egész regisztrációra vonatkozó adatmegőrzési időszak beállítható a regisztrációs adatvédelmi beállítások oldalon, rögtön a láthatósági beállítások alatt:
 
 ![Adatkezelő](assets/privacy/visibility_settings_retention.png)
 
-A regisztrációs mezőn való megőrzési időszak beállításához először nyissa meg a regisztrációs űrlap tervezőjét a _Regisztráció_ -> _Kezelés_ -> _Regisztrációs űrlap_ menüpontban.
+Egy regisztrációs mező adatmegőrzési időszakának beállításához először nyisd meg a regisztrációs űrlap tervezőjét a _Regisztráció_ -> _Kezelés_ -> _Regisztrációs Űrlap_ menüpont alatt.
 
 ![Adatkezelő](assets/privacy/regform_designer.png)
 
-Ezután nyissa meg a mező beállításait a szerkeszteni kívánt mező melletti fogaskerék ikonra kattintva.
+Ezután nyisd meg a mező beállításait a szerkeszteni kívánt mező melletti fogaskerék ikonra kattintva.
 
 ![Adatkezelő](assets/privacy/retention_period_field.png)
 
-A megőrzési időszakot a beállítások párbeszédpanel alján állíthatja be:
+Az adatmegőrzési időszak a beállítások párbeszédablakának alján állítható be:
 
-![Data controller](assets/privacy/retention_period_settings.png)
+![Adatkezelő](assets/privacy/retention_period_settings.png)
 
-Ezenkívül a megőrzési időszakkal rendelkező mezők neve mellett egy óra ikon jelenik meg.
+Továbbá, az adatmegőrzési időszakkal rendelkező mezők mellett egy óra ikon jelenik meg.
 
-![Data controller](assets/privacy/retention_period_icon.png)
+![Adatkezelő](assets/privacy/retention_period_icon.png)
+

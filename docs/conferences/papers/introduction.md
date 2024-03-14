@@ -1,24 +1,24 @@
-# Paper Reviewing
+# Cikk Lektorálás
 
-A [Call for Abstracts](../cfa.md) modulon kívül az Indico két modult kínál a papírok bírálati munkafolyamatainak támogatására:
+Az [Absztrakt Felhívás](../cfa.md) modul mellett az Indico két modult kínál a cikkek lektorálási munkafolyamatainak támogatására:
 
-- [Peer Reviewing](./peer_reviewing.md)
+- [Kéziratlektorálás](./peer_reviewing.md)
 - [Szerkesztés](./editing.md)
 
-Mindegyik modul lehetővé teszi az elfogadott dolgozatok benyújtását, bírálatát és közzétételét.
-A két modul igényeitől függően külön-külön vagy együtt is használható.
+Mindkét modul lehetővé teszi cikkek beküldését, áttekintését és az elfogadott cikkek közzétételét.
+A két modult külön-külön vagy együttesen is használhatod az igényeidnek megfelelően.
 
-A **Peer reviewing** a dolgozat tartalmával és tudományos helyességével foglalkozik, míg a **editing** az anyag elrendezésére, a bírálati megjegyzésekre és a szerkesztői javaslatokra összpontosít.
-A Peer Reviewing modulban egy dolgozatot több bíráló (peer) is véleményezhet. Ezzel szemben a Szerkesztés modulban minden egyes dolgozatot egyetlen szerkesztőhöz rendelnek felülvizsgálatra.
-A Szerkesztési modul azt is lehetővé teszi, hogy a szerzők többféle anyagot nyújtsanak be - azaz a dolgozatok mellett a szerzők posztereket és diákat is benyújthatnak (ezeket együttesen _editables_-nek nevezzük).
-A Szerkesztési modul továbbá nagyobb ellenőrzést biztosít a beküldhető fájlok típusát illetően.
+A **Kéziratlektorálás** a cikk tartalmával és tudományos helyességével foglalkozik, míg a **Szerkesztés** a anyag elrendezésére, a lektorálási megjegyzésekre és a szerkesztői javaslatokra összpontosít.
+A Kéziratlektorálás modulban több lektor (peer) is áttekinthet egy cikket. Ezzel szemben a Szerkesztés modulban minden cikk egyetlen szerkesztőhöz van rendelve áttekintés céljából.
+A Szerkesztés modul lehetővé teszi a szerzők számára, hogy többféle anyagot is beküldjenek — vagyis a cikkek mellett a szerzők posztereket és diákat is beküldhetnek (ezeket együtt _szerkeszthetőknek_ nevezzük).
+Ráadásul a Szerkesztés modul több kontrollt ad a beküldhető fájltípusok felett.
 
-!!! Megjegyzés
-    Ha Ön először szervez konferenciát, vagy a papírmunkamenete nem túl bonyolult, javasoljuk, hogy a **Peer Reviewing modullal** kezdje.
+!!! megjegyzés
+    Ha ez az első alkalom, hogy konferenciát szervezel, vagy a cikk munkafolyamatod nem túl bonyolult, javasoljuk, hogy kezdd a **Kéziratlektorálás modullal**.
 
-Ez a két modul együttesen is használható összetett konferencia-munkafolyamatok esetén, ahol több felülvizsgálati lépésre van szükség.
-Ha mindkét modul engedélyezve van, akkor a szakértői értékelés történik először. Ha a szakértői értékelés befejeződött, a dokumentum átadható a szerkesztési modulnak.
+Ezt a két modult együtt is lehet használni bonyolult konferencia munkafolyamatok esetén, ahol több lektorálási lépés szükséges.
+Amikor mindkét modul engedélyezve van, először a kéziratlektorálás történik. Miután a kéziratlektorálás befejeződött, a cikket át lehet adni a szerkesztési modulnak.
 
-Az alábbi ábra a modulok különböző konfigurációi esetén alkalmazott munkafolyamatokat mutatja be. A pirossal jelölt műveleteket a dolgozat szerzői, a kékkel jelölt műveleteket a bírálók, a bírálók és a szerkesztők, a zölddel jelölt műveleteket pedig az Indico automatikusan végzi.
+Az alábbi diagram a modulok különböző konfigurációinak munkafolyamatait mutatja. A piros tevékenységeket a cikk szerzői, a kék tevékenységeket a lektorok, bírák és szerkesztők végzik, a zöld tevékenységeket pedig automatikusan végzi az Indico.
 
 ![](../../assets/papers/reviewing_editing.png)

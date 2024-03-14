@@ -1,75 +1,75 @@
-# A regisztrációs folyamat konfigurálása
+# A Regisztrációs Folyamat Konfigurálása
 
-Ez a rövid videó egy bemutató arról, hogyan kell definiálni a regisztrációs űrlapokat az Indicóban:
+Ez a rövid videó egy útmutató arról, hogyan lehet meghatározni a regisztrációs űrlapokat az Indicóban:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275648?showTitle=true" allowfullscreen></iframe>
 
-Ezek a lépések részletesen:
+Részletesen a lépések:
 
 ### Fizetések engedélyezése
 
-Rendezvényszervezőként lépjen be az eseménykezelő területre, és kattintson a bal oldali bannerben a _Regisztráció_ gombra. Amint az alábbi képen látható, a fizetések alapértelmezés szerint ki vannak kapcsolva.
+Mint esemény menedzser, lépj be az eseménykezelési területre és kattints a _Regisztráció_ gombra a bal oldali sávon. Ahogy az alábbi képen látható, a fizetések alapértelmezés szerint ki vannak kapcsolva.
 
 ![](../assets/Conference_Reg_Config_1.png)
 
-Ennek megváltoztatásához egyszerűen kattintson a _Enable payments_ (Fizetések engedélyezése), majd a _confirm_ (Megerősítés) gombra.
-Ekkor a bal oldali bannerben megjelenik a _Fizetések_ nevű gomb. Erre a gombra kattintva több fizetési lehetőség is megjelenik. Kattintson a rendelkezésre álló fizetési lehetőségek egyikére annak engedélyezéséhez, pl. válassza a _Banki átutalás_ opciót, ebben az esetben a _Engedélyezés_ lehetőséget kell kiválasztania, és be kell írnia annak a bankszámlának az IBAN kódját, ahová a fizetést be kell fizetni.
-Ugyanezt megteheti más opciók, például a _PayPal_ esetében is, a Konferencia-fizetéshez szükséges PayPal-azonosítót használva.
+Ennek megváltoztatásához egyszerűen kattints az _Engedélyezés_ gombra, majd _Erősítsd meg_.
+Ekkor egy gomb, amely a _Fizetések_ feliratot viseli, megjelenik a bal oldali sávon. Kattints erre a gombra, hogy több fizetési opciót láthass. Kattints az egyik elérhető fizetési opcióra annak engedélyezéséhez, például válaszd a _Banki átutalás_ opciót, amely esetben ki kell választanod az _Engedélyezés_ lehetőséget, és be kell írnod az IBAN kódot azon a banki számlán, ahová a fizetést befizetik.
+Ugyanezt megteheted más opciókkal is, mint például a _PayPal_, a Konferencia fizetéséhez szükséges PayPal ID használatával.
 
 ![](../assets/Conference_Reg_Config_2.png)
 
 ### Kapcsolódó regisztrációs konfigurációs lépések
 
-Az eseménykezelő terület _Regisztráció_ oldalán kattintson az _Create form_ gombra.
+A _Regisztráció_ oldalon az eseménykezelési területen kattints a _Űrlap létrehozása_ gombra.
 
-Adjon _Nevet_ a regisztrációs űrlapnak. A rendelkezésre álló lehetőségek közül a legfontosabb a _Moderált_ munkafolyamat opció. Ha a Konferencia esemény menedzsereként a _Moderált_ opciót választja, ez azt jelenti, hogy a menedzsernek először jóvá kell hagynia minden felhasználói regisztrációt.
+Adj egy _Nevet_ a regisztrációs űrlapodnak. A rendelkezésre álló opciók közül a legfontosabb a _Moderált_ munkafolyamat opció. Ha, mint Konferencia esemény menedzser, kiválasztod a _Moderált_ opciót, ez azt jelenti, hogy a menedzsernek először jóvá kell hagynia minden felhasználói regisztrációt.
 
 ![](../assets/Conference_Reg_Config_3.png)
 
-Legyen óvatos a Regisztráció _Módosítás megengedett_ opcióval, az elektronikus fizetési funkciók miatt. Bölcs dolog, ha csak **a fizetés megtörténtéig** engedélyezi a módosításokat, vagy egyszerűen csak válassza a _Never_ lehetőséget. Ennek oka, hogy az ilyen _beállítások_ módosítása a fizetés után a teljes esedékes összeg módosítását vonhatja maga után!
+Vigyázz a Regisztráció _Módosítás engedélyezése_ opciójával, az elektronikus fizetési funkciók miatt. Bölcs dolog csak **addig** engedélyezni a módosításokat, amíg a fizetés meg nem történt, vagy egyszerűen válaszd a _Soha_ opciót. Ez azért van, mert a _Beállítások_ megváltoztatása a fizetés után változást okozhat a teljes esedékes összegben!
 
-Az _Árbeállítások_ pontban válassza ki a pénznemet, és adja meg a díjat.
+A _Ár opciók_ területen válaszd ki a pénznemet és írd be a díjat.
 
-Ugyanezen az oldalon lejjebb beállíthatja az _Elértesítés_ fejléceket és szöveget a regisztrálóknak és az eseménykezelőknek küldendő e-mailekhez. Kattintson a _Mentés_ gombra, ha végzett!
+Ugyanazon az oldalon tovább lejjebb konfigurálhatod az _Értesítés_ fejléceit és szövegét az e-mailekhez, amelyeket a Regisztráltaknak és az esemény menedzsereinek küldenek. Kattints a _Mentés_ gombra, amikor befejezted!
 
-Kattintson a _Regisztrációs űrlap_ sor jobb oldalán a _Konfigurálás_ gombra.
+Kattints a _Konfigurálás_ gombra a _Regisztrációs űrlap_ sor jobb oldalán.
 
 ![](../assets/Conference_Reg_Config_4.png)
 
-Alapértelmezés szerint egy űrlapot kínálunk fel Önnek, amelyet a _Add section_ gombra kattintva szekciókkal bővíthet. Ekkor egy új párbeszédpanel nyílik meg, amelyben kiválaszthatja a szekció címét, leírását és azt, hogy a szekció _manager-only_ legyen-e, azaz csak a rendezvényszervezők számára legyen-e látható.
+Alapértelmezés szerint egy űrlapot kapsz, és hozzáadhatsz hozzá szakaszokat az _Új szakasz hozzáadása_ gombra kattintva. Ez egy új párbeszédablakot nyit meg, amelyben kiválaszthatod a szakasz címét, leírását és azt, hogy a szakasz csak _menedzsernek_ látható-e, azaz csak az esemény menedzserei láthatják-e.
 
-Ha mezőt szeretne hozzáadni az új szekcióhoz, kattintson a szekció címétől jobbra található _+_ jelre.
-Itt lehetőséget kap arra, hogy több mezőtípus közül válasszon. Ebben a példában a _Szállás_ mezőt választjuk, azonban bátran fedezze fel az Indico által kínált összes különböző mezőtípust.
-
+Az új szakaszodhoz mező hozzáadásához kattints a szakaszcím jobb oldalán található _+_ jelre.
+Itt többféle mezőtípus közül választhatsz. Ebben a példában a _Szállás_ mezőt választjuk, de szívesen felfedezheted az Indico által kínált összes különböző mezőtípust.
 
 ![](../assets/Conference_Reg_Config_5.png)
 
-A _Accommodation_ mező kiválasztása után egy beállítási párbeszédpanel jelenik meg.
-Itt kiválaszthatja a lehetséges érkezési és távozási dátumokat. A _Choices_ alatt láthatja a szálláslehetőségeket, az alapértelmezett a _No accommodation_ (Nincs szállás).
+A _Szállás_ mező kiválasztása után egy beállítási párbeszédablak jelenik meg.
+Itt kiválaszthatod a lehetséges érkezési és távozási dátumokat. A _Választási lehetőségek_ alatt láthatod a szálláslehetőségeket, az alapértelmezett _Nincs szállás_.
 
-Új szálláslehetőség hozzáadásához kattintson a _Új_ hozzáadása gombra a szálláshelyek listája alatt, és töltse ki az adatokat, beleértve a szobaárat és a rendelkezésre álló helyek számát.
+Új szálláslehetőség hozzáadásához kattints az _Új hozzáadása_ gombra a szállások listája alatt, és töltsd ki az információkat, beleértve a szoba árát és az elérhető helyek számát.
 
-Mind a szakaszok, mind a mezők támogatják a drag and drop funkciót, ha módosítani szeretné a sorrendet. A húzókar a szakasz és a mező címétől balra található.
+Mind a szakaszok, mind a mezők támogatják a húzást és ejtést, ha meg szeretnéd változtatni a sorrendjüket. A húzófogantyú a szakasz- és mezőcímek bal oldalán található.
 
-Ha végzett a konfigurációval, kattintson a _Back_ gombra a jobb oldali oldal alján.
+A konfiguráció befejezése után kattints a jobb alsó sarokban található _Vissza_ gombra.
 
-### Meghívók kezelése
+### Meghívások kezelése
 
-Az eseménykezelő oldalon kattintson a _Kezelés_ gombra a _Meghívások_ sorban.
+Az eseménykezelő oldalról kattints a _Meghívások_ sor _Kezelése_ gombjára.
 
 ![](../assets/Conference_Reg_Config_6.png)
 
-Itt lehet meghatározni azoknak a személyeknek a listáját, akik e-mail meghívót kapnak az eseményre. Az e-mail tartalmazni fog egy linket az esemény Indico regisztrációs űrlapjára. Az érintettek _elfogadhatják_ vagy _visszautasíthatják_ a meghívást.
+Itt meghatározhatod azoknak a személyeknek a listáját, akik e-mail meghívót kapnak az eseményre. Az e-mail tartalmazni fog egy linket az Indico regisztrációs űrlapjához az eseményhez. Elfogadhatják vagy elutasíthatják a meghívást.
 
-Kattintson a _Hívás_ gombra, meghívhat Indico felhasználókat (kereséssel és hozzáadással) vagy külső személyeket.
+Kattints az _Meghívás_ gombra, meghívhatod az Indico felhasználókat (kereséssel és hozzáadással) vagy külső személyeket.
 
 ![](../assets/Conference_Reg_Config_7.png)
 
-Ha a meghívókat elküldött felhasználók regisztrációját azonnal el szeretné fogadni, anélkül, hogy előbb visszaigazolást kérne, válassza az _Yes_, a _Moderáció kihagyása_ lehetőséget. Kattintson a _Send_ gombra, amikor a meghívó elkészült.
+Ha azonnal elfogadni szeretnéd a meghívott felhasználók regisztrációját anélkül, hogy először megerősítésre lenne szükség, válaszd az _Igen_ opciót a _Moderálás kihagyása_ mezőben. Kattints a _Küldés_ gombra, amikor a meghívásod kész.
 
 ![](../assets/Conference_Reg_Config_8.png)
 
-Térjen vissza a regisztrációs oldalra, a bal oldali banner _Regisztráció_ gombjára kattintva. Kattintson a _Regisztrációk_ mellett található _Manage_ gombra.
-Kattintson a _Start now_ gombra a regisztrációs folyamat megnyitásához.
+Visszatérés a regisztrációs oldalra, kattints a bal oldali sávon a _Regisztráció_ gombra. Kattints a _Regisztrációk_ melletti _Kezelése_ gombra.
+Kattints a _Most indítás_ gombra a regisztrációs folyamat megnyitásához.
 
 ![](../assets/Conference_Reg_Config_9.png)
+

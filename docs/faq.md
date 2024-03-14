@@ -1,6 +1,6 @@
 # Gyakran ismételt kérdések
 
-!!!!
+!!!! megjegyzés
     Ez a rész még aktív fejlesztés alatt áll
 
 

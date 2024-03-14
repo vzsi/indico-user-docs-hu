@@ -1,23 +1,23 @@
-# A program meghatározása
+# A Program Meghatározása
 
-Ez a rövid videó lépésről lépésre vezeti Önt az Indico konferencia programjának meghatározásához:
+Ez a rövid videó lépésről lépésre vezet végig az Indico Konferencia programjának meghatározásán:
 
 <iframe width="576" height="360" frameborder="0" src="https://cds.cern.ch/video/2275411?showTitle=true" allowfullscreen></iframe>
 
-Ezek a lépések részletesen:
-Lépjen be az esemény **kezelő** felületére a megjelenítési nézet oldal tetején lévő ceruzára kattintva.
-Kattintson a _Program_ gombra, balra a _Organizáció_ alatt.
+Részletesen a lépések:
+Lépj be az esemény **kezelői** felületére a megjelenítési nézet oldalának tetején lévő ceruza ikonra kattintva.
+Kattints a _Program_ gombra a bal oldalon az _Szervezés_ alatt.
 
-A konferencia Programja különböző sávokra van felosztva.
-A trackek a konferencián bemutatott témákat fedik le.
-Például az első track címe "Online számítástechnika", a második track címe "Offline számítástechnika", és így tovább.
+A konferencia programja különböző nyomvonalakban (tracks) van felosztva.
+A nyomvonalak a konferencián bemutatott témákat fedik le.
+Például egy első nyomvonal „Online számítástechnika” címmel, egy második nyomvonal „Offline számítástechnika” címmel, és így tovább.
 
-Kattintson a _Add track_ gombra, és válassza ki a track címét, valamint egy rövid leírást.
+Kattints az _Új nyomvonal hozzáadása_ gombra, és add meg a nyomvonal címét, valamint egy rövid leírást.
 
 ![](../assets/conference_track.png)
 
-Kattintson a _Mentés_ gombra az első pálya hozzáadásához, és ismételje meg a folyamatot az összes pálya esetében.
+Kattints a _Mentés_ gombra az első nyomvonal hozzáadásához és ismételd meg a folyamatot az összes nyomvonaladhoz.
 
-A sávokat áthúzhatja, és megváltoztathatja a sorrendjüket az egyes sávok tetején található szürke téglalap segítségével.
+A nyomvonalaidat húzhatod és ejtheted, és megváltoztathatod a sorrendjüket a mindegyik nyomvonal tetején lévő szürke téglalap segítségével.
 
-A pályákat **kell** meghatározni, mielőtt megnyitja a _Közlemény-kérést_, hogy a benyújtók kiválaszthassák, melyik pályához tartoznak az absztraktjaik.
+A nyomvonalakat **meg kell határozni** az _Absztraktok Felhívása_ megnyitása előtt, hogy a beküldők kiválaszthassák, melyik nyomvonalba tartoznak az absztraktjaik.

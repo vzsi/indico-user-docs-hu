@@ -1,55 +1,45 @@
-# Keresés és foglalás
+# Keresés és Foglalás
 
-Most nézzük meg, hogyan kereshetünk szabad szobát konkrétabb kritériumok alapján.
-Ehhez kattintson a vízszintes menüben a *Szobák listája* menüpontra.
+Nézzük meg, hogyan lehet elérhető helyiséget keresni specifikusabb kritériumok alapján.
+Ehhez kattints a vízszintes menüben a *Helyiségek Listája* menüpontra.
 
-![Szobák listája](../assets/room_booking/list_of_rooms.png)
+![Helyiségek listája](../assets/room_booking/list_of_rooms.png)
 
-Az oldal tetején néhány kritériumot választhat a szobák szűréséhez:
+Az oldal tetején néhány kritériumot választhatsz a helyiségek szűrésére:
 
 ![Szűrők](../assets/room_booking/list_of_rooms_filters.png)
 
+Válaszd ki az épületet, ahol a helyiséget keresed és azt, hogy hány ülőhely legyen a helyiségben. Ezután válaszd ki a kritériumokat a felszerelések hosszú listájából. Minden egyes kiválasztott kritérium alkalmazásakor ne felejts el a *alkalmaz* gombra kattintani, különben a kritériumok nem lesznek figyelembe véve.
 
-Válassza ki a kívánt épületet és a helyiségek számát. Ezután válassza ki a kívánt kritériumokat a felszerelések széles listájából. Minden alkalommal, amikor kiválaszt egy kritériumot, ne felejtsen el az *alkalmazás* gombra kattintani, különben a kritériumai nem lesznek figyelembe véve.
+Ha csak azokat a helyiségeket szeretnéd látni, amelyeket lefoglalhatsz vagy a kedvenceidet, kattints a *Csak megjelenítés* gombra, és válaszd ki a kritériumokat.
 
-Ha csak az Ön által lefoglalni engedélyezett termeket vagy a kedvenceit szeretné látni, kattintson a *Kizárólag megjelenítése* gombra, és válassza ki a kritériumokat.
-
-
-Ha ezt befejezte, a következő oldalon megjelenik a kritériumoknak megfelelő szobák listája.
+Miután befejezted, a következő oldal megmutatja a kritériumaidnak megfelelő helyiségek listáját.
 
 ![Kedvencek](../assets/room_booking/favourite.png)
 
-Vigye az egeret az Önt érdeklő szoba képe fölé, és kattintson a * részletek megtekintése* gombra, hogy további részleteket tudjon meg a szobáról.
+Vidd az egérmutatót az érdeklődésedre számot tartó helyiség képe fölé, és kattints a *részletek megtekintése* gombra további információkért a helyiségről.
 
+![Helyiség Részletei](../assets/room_booking/list_of_room_room_detail.png)
 
-![Szoba részletei](../assets/room_booking/list_of_room_room_detail.png)
-
-
-
-
-Ott is elindíthatja a foglalást vagy az előfoglalás (ha a szoba megerősítést igényel), és átirányítjuk arra az oldalra, amely lehetővé teszi a szoba lefoglalását. Komplett, ahogyan azt már korábban is láttuk.
+Itt kezdheted meg a foglalást vagy előfoglalást (ha a helyiség megerősítést igényel), és átirányítanak az oldalra, ahol lefoglalhatod a helyiséget. Töltsd ki úgy, mint korábban láttuk.
 
 ![Előfoglalás](../assets/room_booking/list_of_room_pre_booking.png)
 
+## Foglalási Konfliktusok
 
+A keresés után, ha egy már lefoglalt helyiséget választasz, hibaüzenetet fogsz látni, és nem tudod megtenni a foglalásodat. Ennek megoldására két lehetőséged van:
 
+1. Menj vissza az előző oldalra és válassz másik helyiséget a kritériumaid szerint.
+2. Változtasd meg a foglalás dátumát vagy/és óráit.
 
-## Foglalási konfliktusok
+![Helyiségfoglalási Konfliktus](../assets/room_booking/list_of_rooms_room_detail_pre_booking_room_conflict.png)
 
-A keresés után, ha olyan szobát választasz, amely már foglalt, akkor egy hibaüzenetet tartalmazó ablak jelenik meg, és nem tudod elvégezni a foglalást. A probléma megoldására két lehetősége van:
+Ha napi foglalást végzel, és a választott helyiség egy vagy több napon nem érhető el, figyelmeztető üzenetet fogsz látni:
 
-1. Menjen vissza az előző oldalra, és válasszon ki egy másik szobát az Ön szempontjainak megfelelően.
-2. Módosítsa a foglalás dátumát és/vagy óráját.
+![Több előfordulású foglalás konfliktusai](../assets/room_booking/pre_book_room_conflict.png)
 
-![Szobafoglalás konfliktus](../assets/room_booking/list_of_rooms_room_detail_pre_booking_room_conflict.png)
+Ha úgy döntesz, hogy mindenképpen ezt a helyiséget foglalod le, átirányítanak az előfoglalási/foglalási oldalra. Itt egy másik figyelmeztető üzenetet fogsz látni, amely tájékoztat a konfliktusban álló előfordulásaid számáról. Az előfoglalás/foglalás véglegesítéséhez be kell jelölnöd a **"Tudomásul veszem, kérlek hagyjuk figyelmen kívül azokat a napokat, amelyek konfliktusban állnak"** mezőt. Ez azt jelenti, hogy másik helyiséget kell találnod a konfliktusban álló napokra.
 
-Ha napi foglalást készít, és az Ön által kiválasztott szoba egy vagy több napon nem elérhető, akkor egy figyelmeztető üzenet jelenik meg:
-
-(../assets/room_booking/pre_book_room_conflict.png)
-
-
-Ha úgy dönt, hogy mégis lefoglalja ezt a szobát, akkor az előfoglalás/foglalás oldalra kerül. Egy másik figyelmeztető üzenetet fog látni, amely megmondja, hogy hány olyan előfordulása van, amely konfliktusban van a meglévő foglalásokkal. Az előfoglalás/foglalás véglegesítéséhez be kell jelölnie a **"Értem, kérem, hagyja ki az ütköző napokat "** jelölőnégyzetet. Ez azt jelenti, hogy az ütköző napokra másik szobát kell keresnie.
-
-![Accept Booking Conflicts](../assets/room_booking/pre_booking_conflicting_occurrences.png)
+![Foglalási Konfliktusok Elfogadása](../assets/room_booking/pre_booking_conflicting_occurrences.png)
 
 ---

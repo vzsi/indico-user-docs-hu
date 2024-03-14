@@ -1,5 +1,5 @@
 # Naplózás
 
-A napló mutatja a kategória védelmi beállításainak minden változását, valamint az esemény áthelyezési kérelmeket és jóváhagyásokat/elutasításokat.
+A napló minden változást mutat a kategória védelmi beállításaiban, valamint az események áthelyezésére vonatkozó kéréseket és azok jóváhagyását/elutasítását.
 
 ![](../assets/category_logging.png)

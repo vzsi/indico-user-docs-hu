@@ -1,38 +1,38 @@
-Az esemény egyes részein szükség lehet más felhasználók összekapcsolására.
-Ezek lehetnek a hozzászólások és összefoglalók szerzői és/vagy előadói, az esemény elnökei, az ülésszakok összehívói vagy
-előadók.
+Egyes esemény részekben szükség lehet más felhasználók linkelésére.
+Ezek lehetnek szerzők és/vagy előadók a hozzájárulásokban és absztraktokban, esemény elnökök, munkacsoport-vezetők vagy
+előadások előadói.
 
 ![](../assets/conferences/people/person-link.png)
 
-Egy meglévő felhasználó hozzáadásához használja a keresési funkciót a _Keresés_ gombra kattintva.
-A felhasználókat név, e-mail cím és hovatartozás alapján keresheti:
+Meglévő felhasználó hozzáadásához használd a keresési funkciót a _Keresés_ gombra kattintva.
+Kereshetsz felhasználókat név, e-mail és hovatartozás alapján:
 
 ![](../assets/conferences/people/search.png)
 
-Amikor egy felhasználó egy eseményhez kapcsolódik, az Indico tárolja a felhasználó adatainak másolatát, például a nevét, címét és hovatartozását az eseményben.
-Ez megőrzi a személyes adatokat az esemény időpontjában. Ha a jövőben a felhasználó megváltoztatja pl. a hovatartozását,
-az esemény továbbra is az esemény időpontjában meglévő hovatartozását fogja megjeleníteni.
+Amikor egy felhasználó hozzá van kapcsolva egy eseményhez, az Indico tárolja a felhasználó adatainak egy másolatát, mint például a nevet, címet és hovatartozást az eseményben.
+Ez megőrzi a személyes adatokat az esemény idején. Ha a jövőben a felhasználó megváltoztatja például a hovatartozását,
+az esemény még mindig azt a hovatartozást fogja megjeleníteni, amely az esemény idején volt.
 
-A felhasználó adatai a szerkesztés ikonra kattintva szerkeszthetők. Vegye azonban figyelembe, hogy mivel az esemény csak a felhasználó adatainak egy másolatát tárolja,
-a felhasználói adatok szerkesztése csak az eseményen belül lesz hatással. Nem lesz hatással sem az Indico felhasználóra, sem más olyan eseményre, amelyben a felhasználó részt vesz.
+Egy felhasználó adatainak szerkesztéséhez kattints a szerkesztés ikonra. Vegyél azonban tudomásul, hogy mivel az esemény csak a felhasználó adatainak egy másolatát tárolja,
+a felhasználó adatainak szerkesztése csak az eseményen belül lesz hatással. Ez nem befolyásolja az Indico felhasználót, sem bármely más eseményt, ahol a felhasználó részt vesz.
 
 ![](../assets/conferences/people/edit-person.png)
 
-Lehetőség van olyan személyek hozzáadására is, akik nem rendelkeznek Indico fiókkal, akiknek az adatai csak az eseményben lesznek tárolva.
-A személyt ily módon a _Kézi bevitel_ gombra kattintva adhatja hozzá.
-Vegye figyelembe, hogy az így hozzáadott személyeknek továbbra is létre kell hozniuk egy Indico-fiókot ahhoz, hogy pl. anyagokat küldhessenek be.
+Lehetőség van olyan személyek hozzáadására is, akiknek nincs Indico fiókjuk, és az adataik csak az eseményben lesznek tárolva.
+Egy személyt így adhatsz hozzá a _Manuális bevitele_ gombra kattintva.
+Vedd figyelembe, hogy így hozzáadott személyeknek továbbra is létre kell hozniuk egy Indico fiókot, ha például anyagokat szeretnének beküldeni.
 
 ![](../assets/conferences/people/manual-entry.png)
 
-Itt töltheti ki a személyes adatokat. Ha kitölti az e-mail címét, az Indico automatikusan ellenőrzi a meglévő felhasználókat, és értesíti a
-Önt abban az esetben, ha már van egy személy ezzel az e-mail címmel az eseményen, legyen az egy Indico felhasználó vagy egy másik, kézzel hozzáadott személy.
+Itt megadhatod a személyes adatokat. Ha megadod az e-mail címet, az Indico automatikusan ellenőrzi a meglévő felhasználókat és értesít,
+ha már van a rendezvényben az adott e-mail címmel rendelkező személy, legyen az Indico felhasználó vagy manuálisan hozzáadott személy.
 
 ![](../assets/conferences/people/add-update.png)
 
-Ha már létezik az adott e-mail címmel rendelkező személy, akkor a _Update_ gombra kattintva kitöltheti az űrlapot a személy adataival.
+Ha már létezik egy személy az adott e-mail címmel, kattinthatsz a _Frissítés_ gombra, ami kitölti az űrlapot a személy adataival.
 
-Az űrlap frissítése után tovább finomíthat az adatokon, mielőtt a _Mentés_ gombra kattintva megerősítené. Ezzel a személyt felveszi a listára, és frissíti az adatait az eseményben.
+Az űrlap frissítése után tovább finomíthatod az adatokat a _Mentés_ gombra kattintva, mielőtt megerősítenéd. Ez hozzáadja a személyt a listához és frissíti az adatait az eseményben.
 
-A _Add_ gomb egyszerűen egy gyorsbillentyű, amely kitölti az űrlapot, felváltva mindent, amit korábban írt, és automatikusan megerősíti.
+A _Hozzáad_ gomb egyszerűen egy gyorsító, amely kitölti az űrlapot, helyettesítve mindent, amit korábban írtál, és automatikusan megerősít.
 
-Ne feledje, hogy az adatokat később bármikor szerkesztheti a _Szerkesztés_ ikonra kattintva.
+Vedd figyelembe, hogy később mindig szerkesztheted az adatokat a _Szerkesztés_ ikonra kattintva.

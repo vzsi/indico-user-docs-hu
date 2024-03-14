@@ -1,32 +1,31 @@
-Ez a rész gyors útmutatót nyújt az első találkozó menetrendjének elkészítéséhez. A legalapvetőbb műveletekkel és beállításokkal foglalkozunk annak érdekében, hogy egy alapvető tárgyalási menetrendet létrehozhasson és működtethessen. Ha meg szeretné ismerni az összes lehetséges opciót és funkciót, javasoljuk, hogy nézzen végig egy átfogóbb oktatóanyagot, amely a konferenciákról szóló részben [itt] található (../conferences/timetable.md).
+Ez a rész gyorsan elindít az első megbeszélés időrendjének létrehozásában. A legfontosabb műveleteket és beállításokat fogjuk áttekinteni annak érdekében, hogy egy alapvető megbeszélési időrendet létrehozhassunk. Ha minden lehetséges opcióról és funkcióról többet szeretnél tudni, javasoljuk, hogy nézd meg a konferenciákkal kapcsolatos részletesebb útmutatót [itt](../conferences/timetable.md).
 
-### Egy alapvető tárgyalási menetrend
+### Egy alapvető megbeszélés időrendje
 
-Egy tipikus értekezlet-menetrend valahogy így nézhet ki:
+Egy tipikus megbeszélés időrendje valahogy így nézhet ki:
 
 ![](../assets/meetings/timetable/finished_timetable.png)
 
-Az ütemterv minden egyes bejegyzése egy úgynevezett hozzájárulás. A hozzájárulás a menetrend legalapvetőbb eleme. Úgy is felfogható, mint egy előadás vagy egy vitaelem egy vagy több előadóval. Bár az ülések gyakran csak hozzászólásokból állnak, lehetséges más bejegyzéseket is hozzáadni, mint például szüneteket és ülésblokkokat (részletesen [itt](../conferences/timetable.md)).
+Az időrend minden egyes bejegyzése úgynevezett hozzájárulás. A hozzájárulás az időrend legfontosabb eleme. Úgy lehet rá gondolni, mint egy beszédre vagy egy megvitatandó témára egy vagy több előadóval. Bár a megbeszélések gyakran csak hozzájárulásokból állnak, lehetőség van más bejegyzések, mint szünetek és ülésszak blokkok hozzáadására is (részletesen [itt](../conferences/timetable.md) tárgyalva).
 
-### Hozzászólások
+### Hozzájárulások
 
-Hozzászólás ütemezéséhez először navigáljon az esemény kezelési területén a _Testrend_ menüpontra. Ez megnyitja az órarend felső szintű nézetét, amely jelenleg üres:
+Hozzájárulás ütemezéséhez először navigálj az _Időrend_-hez az eseményed kezelőterületén. Ez megnyitja az időrend felső szintű nézetét, ami jelenleg üres:
 
 ![](../assets/meetings/timetable/timetable_open.png)
 
-Új hozzászólás létrehozásához kattintson a jobb felső sarokban található _Add new_ gombra, és válassza a legördülő menüből a __Contribution_ lehetőséget.
+Új hozzájárulás létrehozásához kattints az _Új hozzáadása_-ra a jobb felső sarokban, és válaszd a _Hozzájárulás_ lehetőséget a legördülő menüből.
 
 ![](../assets/meetings/timetable/contribution_select.png)
 
-Megnyílik egy új párbeszédablak, ahol ki kell töltenie legalább a hozzájárulás címét, kezdési időpontját és időtartamát. A _People_ mezőben hozzáadhat előadókat. Az előadók a hozzászólás alatt jelennek meg az órarendben.
+Egy új párbeszédablak nyílik meg, ahol legalább a címet, a kezdési időt és a hozzájárulás időtartamát kell kitöltened. Az _Emberek_ mezőben hozzáadhatsz előadókat. Az előadók megjelennek a hozzájárulás alatt az időrendben.
 
 ![](../assets/meetings/timetable/contribution_create.png)
 
-Ha engedélyezni szeretné, hogy az előadók [jegyzőkönyveket adjanak hozzá](./minutes.md) vagy [fájlokat töltsenek fel](./material.md), győződjön meg róla, hogy a _Submitter_ engedély be van kapcsolva:
+Ha azt szeretnéd, hogy az előadók [hozzáadhassanak jegyzőkönyvet](./minutes.md) vagy [fájlokat tölthessenek fel](./material.md), győződj meg róla, hogy a _Beküldő_ jogosultság be van kapcsolva:
 
 ![](../assets/meetings/timetable/submitter.png)
 
-Ha végzett az adatok kitöltésével, kattintson a _Mentés_ gombra a hozzájárulás ütemezéséhez. Miután létrehozta, felfelé lefelé húzhatja a hozzájárulást az ütemtervben, hogy megváltoztassa a kezdési időpontját.
+Amikor befejezted az adatok kitöltését, kattints a _Mentés_-re a hozzájárulás ütemezéséhez. Miután létrehoztad, a hozzájárulást fel és le húzhatod az időrendben a kezdési idő megváltoztatásához.
 
-Ezt a lépést megismételheti, ha a megbeszélés minden egyes vitapontjához hozzászólást szeretne létrehozni. Ha többet szeretne megtudni az ütemtervről, akkor folytassa az olvasást [itt](../conferences/timetable.md).
-
+Ezt a lépést megismételheted minden megvitatandó témához a megbeszéléseden. Az időrenddel kapcsolatban többet megtudhatsz [itt](../conferences/timetable.md) olvasva tovább.

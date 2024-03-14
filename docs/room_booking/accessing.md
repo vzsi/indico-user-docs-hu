@@ -1,52 +1,45 @@
-# Hozzáférés a modulhoz
+# Helyiségek Foglalási Moduljának Elérése
 
-## Szobafoglalás modulba való belépés
+## Belépés a Helyiségek Foglalási Moduljába
 
-Kattintson az Indico kezdőlapján, a felső sötét sávban a _Romafoglalás_ gombra. A rendszer megkéri, hogy jelentkezzen be. Használja az Indico bejelentkezési adatait.
+Egyszerűen kattints a _Room Booking_ (Helyiség Foglalás) menüpontra az Indico főoldalán, a felső sötét sávban. Be kell jelentkezned. Használd az Indico bejelentkezési adataidat.
 
 ![](../assets/room_booking/main_room.png)
 
+### Az Első Oldal
 
-### Az első oldal
+A Helyiség Foglalás első oldala egy foglalási területet, egy oldalsó menüt és egy vízszintes menüt mutat.
 
-A Szobafoglalás első oldalán egy foglalási terület, egy oldalmenü és egy vízszintes menü látható.
-
-![Szobafoglalás](../assets/room_booking/first_page.png)
-
+![Helyiség foglalása](../assets/room_booking/first_page.png)
 
 #### A foglalási terület
 
-![Foglalás területe](../assets/room_booking/booking_area.png)
-
+![Foglalási terület](../assets/room_booking/booking_area.png)
 
 #### A vízszintes menü
 
 ![Vízszintes menü](../assets/room_booking/horizontal_menu.png)
 
+##### Helyiség Foglalása
 
-##### Szobafoglalás
+Ez az Indico Helyiségek Foglalási moduljának főoldala és az a hely, ahová menned kell, ha könnyen szeretnél foglalni egy helyiséget.
 
-Ez az Indico szobafoglalás főoldala, és az az oldal, ahová akkor kell menni, ha egyszerűen szeretne szobát foglalni.
+![Helyiség foglalása](../assets/room_booking/first_page.png)
 
-![Szobafoglalás](../assets/room_booking/first_page.png)
+##### Helyiségek Listája
 
+Ez az oldal mutatja az összes, a CERN-nél elérhető helyiséget a konferenciádhoz, megbeszélésedhez vagy előadásodhoz. Ha egy adott területen szeretnél helyiséget találni a CERN-nél, van térkép is.
 
-##### Szobák listája
-
-Ezen az oldalon a CERN összes rendelkezésre álló termét megtalálja az Ön konferenciájához, megbeszéléséhez vagy előadásához. Egy térképet is talál, ha a CERN egy adott területén szeretne termet találni.
-
-![List of rooms](../assets/room_booking/list_of_rooms.png)
-
+![Helyiségek listája](../assets/room_booking/list_of_rooms.png)
 
 ##### Foglalások
 
-Ezen az oldalon az összes szoba foglalásait láthatja napra, hétre és hónapra lebontva.
+Ez az oldal mutatja az összes helyiség foglalásait nap, hét és hónap szerint.
 
 ![Foglalások](../assets/room_booking/bookings.png)
 
+#### Az oldalsó menü
 
-#### Az oldalmenü
-
-![Oldalmenü](../assets/room_booking/side_menu.png)
+![Oldalsó menü](../assets/room_booking/side_menu.png)
 
 ---

@@ -4,7 +4,7 @@
 
 Az Indico három alapvető eseménytípus kezelését teszi lehetővé:
 
-* [**előadások**](lectures/about.md) egyetlen előadásnak tekinthető, egy vagy több előadóval;
+* [**Előadások**](lectures/about.md) egyetlen előadásnak tekinthető, egy vagy több előadóval;
 * [**Egyeztetések**](meetings/about.md) általában több előadásból állnak. Van menetrendjük, és több napig is tarthatnak, bár a
 leggyakrabban egyetlen napon zajlanak. A hozzászólások (előadások) szekciókba szerveződhetnek;
 * [**Konferenciák**](conferences/about.md) általában több napig tartanak, és az ülésekkel szemben az az előnyük, hogy több ülésszakot is lehetővé tesznek.
