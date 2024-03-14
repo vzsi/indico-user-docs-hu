@@ -2,6 +2,7 @@ site_name: Indico tanulása
 theme:
     language: hu
     name: material
+    custom_dir: overrides
     font: false
     features:
         - content.code.copy
@@ -35,7 +36,7 @@ extra_css:
 nav:
     - Bevezetés: index.md
     - Kategóriák:
-        - Bevezetés: categories/about.md
+        - Bevezető: categories/about.md
         - Kategória létrehozása: categories/creating.md
         - Áttekintés: categories/overview.md
         - Egy kategória kezelése:
