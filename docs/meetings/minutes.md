@@ -1,7 +1,7 @@
-# Jegyzőkönyv Hozzáadása Egy Megbeszéléshez
+# Jegyzőkönyv Hozzáadása Egy Találkozóhoz
 
 Az egész eseményhez jegyzőkönyv hozzáadásához kattints a jobb felső sarokban lévő ceruzára, majd válaszd az _add minutes_ (jegyzőkönyv hozzáadása) lehetőséget.
-Itt hozzáadhatod a megbeszélésed jegyzőkönyvének szövegét, formázási segítséget kapsz (fejlécek, pontozott vagy számozott listák stb.).
+Itt hozzáadhatod a Találkozóed jegyzőkönyvének szövegét, formázási segítséget kapsz (fejlécek, pontozott vagy számozott listák stb.).
 Kattints a mentésre, majd a Bezárásra.
 
 ![](../assets/add-minutes-meeting.png)
@@ -12,7 +12,7 @@ Lásd egy példát az alábbi képen, ahol a _Leírás_, a _Jegyzőkönyvek_ és
 
 ![](../assets/material-meeting.png)
 
-Ha a megbeszéléseidben alcímeket használsz, megfontolhatod, hogy beküldői jogokat adsz az alcímek előadóinak. Ez lehetővé teszi az előadók számára, hogy saját jegyzőkönyveiket és anyagaikat töltsék fel az alcímhez anélkül, hogy beküldői jogokkal rendelkeznének a szülő hozzájárulásban.
+Ha a találkozóeidban alcímeket használsz, megfontolhatod, hogy beküldői jogokat adsz az alcímek előadóinak. Ez lehetővé teszi az előadók számára, hogy saját jegyzőkönyveiket és anyagaikat töltsék fel az alcímhez anélkül, hogy beküldői jogokkal rendelkeznének a szülő hozzájárulásban.
 
 Ez a beállítás elérhető a _Védelem_ oldalon az _Alcím jogok_ alatt:
 

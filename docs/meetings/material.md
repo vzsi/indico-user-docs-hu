@@ -1,4 +1,4 @@
-# Anyag Hozzáadása Egy Megbeszéléshez
+# Anyag Hozzáadása Egy Találkozóhoz
 
 Kattints a képernyő jobb felső sarkában található ceruzára, majd válaszd a _Material Editor_ (Anyagszerkesztő) opciót.
 
@@ -9,6 +9,6 @@ Itt dönthetsz úgy is, hogy a fájlt automatikusan PDF formátumra konvertálod
 
 Ha befejezted, kattints az _Upload_ (Feltöltés) gombra és zárd be az ablakot.
 
-Lásd egy példát egy olyan megbeszélésre, amelyhez közvetlenül az eseményhez csatolt anyagok tartoznak, valamint anyagok, amelyek _Mappákban_ vannak elhelyezve.
+Lásd egy példát egy olyan Találkozóra, amelyhez közvetlenül az eseményhez csatolt anyagok tartoznak, valamint anyagok, amelyek _Mappákban_ vannak elhelyezve.
 
 ![](../assets/with-folders-material-meeting.png)

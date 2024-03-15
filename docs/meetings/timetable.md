@@ -1,12 +1,12 @@
-Ez a rész gyorsan elindít az első megbeszélés időrendjének létrehozásában. A legfontosabb műveleteket és beállításokat fogjuk áttekinteni annak érdekében, hogy egy alapvető megbeszélési időrendet létrehozhassunk. Ha minden lehetséges opcióról és funkcióról többet szeretnél tudni, javasoljuk, hogy nézd meg a konferenciákkal kapcsolatos részletesebb útmutatót [itt](../conferences/timetable.md).
+Ez a rész gyorsan elindít az első találkozó időrendjének létrehozásában. A legfontosabb műveleteket és beállításokat fogjuk áttekinteni annak érdekében, hogy egy alapvető találkozói időrendet létrehozhassunk. Ha minden lehetséges opcióról és funkcióról többet szeretnél tudni, javasoljuk, hogy nézd meg a konferenciákkal kapcsolatos részletesebb útmutatót [itt](../conferences/timetable.md).
 
-### Egy alapvető megbeszélés időrendje
+### Egy alapvető találkozó időrendje
 
-Egy tipikus megbeszélés időrendje valahogy így nézhet ki:
+Egy tipikus találkozó időrendje valahogy így nézhet ki:
 
 ![](../assets/meetings/timetable/finished_timetable.png)
 
-Az időrend minden egyes bejegyzése úgynevezett hozzájárulás. A hozzájárulás az időrend legfontosabb eleme. Úgy lehet rá gondolni, mint egy beszédre vagy egy megvitatandó témára egy vagy több előadóval. Bár a megbeszélések gyakran csak hozzájárulásokból állnak, lehetőség van más bejegyzések, mint szünetek és ülésszak blokkok hozzáadására is (részletesen [itt](../conferences/timetable.md) tárgyalva).
+Az időrend minden egyes bejegyzése úgynevezett hozzájárulás. A hozzájárulás az időrend legfontosabb eleme. Úgy lehet rá gondolni, mint egy beszédre vagy egy megvitatandó témára egy vagy több előadóval. Bár a találkozók gyakran csak hozzájárulásokból állnak, lehetőség van más bejegyzések, mint szünetek és ülésszak blokkok hozzáadására is (részletesen [itt](../conferences/timetable.md) tárgyalva).
 
 ### Hozzájárulások
 
@@ -28,4 +28,4 @@ Ha azt szeretnéd, hogy az előadók [hozzáadhassanak jegyzőkönyvet](./minute
 
 Amikor befejezted az adatok kitöltését, kattints a _Mentés_-re a hozzájárulás ütemezéséhez. Miután létrehoztad, a hozzájárulást fel és le húzhatod az időrendben a kezdési idő megváltoztatásához.
 
-Ezt a lépést megismételheted minden megvitatandó témához a megbeszéléseden. Az időrenddel kapcsolatban többet megtudhatsz [itt](../conferences/timetable.md) olvasva tovább.
+Ezt a lépést megismételheted minden megvitatandó témához a találkozóidon. Az időrenddel kapcsolatban többet megtudhatsz [itt](../conferences/timetable.md) olvasva tovább.
